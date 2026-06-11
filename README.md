@@ -27,15 +27,15 @@ GitHub Pages
 
 | Source | Coverage | Status |
 |---|---|---|
-| huggingface/ai-deadlines | All major AI/ML conferences + deadlines | ✅ tested |
-| CADC International Astronomy Meetings | Worldwide astronomy meetings list | ⚠️ verify after first Action run |
-| ICTS Bengaluru | Programs, schools, discussion meetings | ⚠️ verify after first Action run |
+| huggingface/ai-deadlines | All major AI/ML conferences + deadlines | ✅ tested live |
+| CADC International Astronomy Meetings | Worldwide astronomy meetings (via official iCal/RSS feeds) | ✅ parser tested on real feed data |
+| ICTS Bengaluru | Programs, schools, discussion meetings, lecture series | ✅ parser tested on real page structure |
 | `scraper/manual_events.yaml` | Anything you add by hand | ✅ tested |
 
-The CADC and ICTS scrapers could not be network-tested in the build
-environment; they run inside `try/except`, so if either site changed its
-HTML the rest of the pipeline is unaffected. Check the Action log after the
-first run and adjust the parser if needed.
+CADC's HTML pages are JavaScript-rendered, so the scraper uses CADC's
+official structured feeds instead (complete iCal, falling back to RSS) —
+far more robust than HTML parsing. Every scraper runs inside `try/except`,
+so one broken site never kills the pipeline.
 
 ## Customizing
 
@@ -55,3 +55,20 @@ pip install -r requirements.txt
 python scraper/scrape.py
 cd docs && python -m http.server 8000   # open http://localhost:8000
 ```
+
+## Background
+
+Use the **Appearance** control in the filter rail: Cosmic poster (default,
+`docs/bg-cosmos.svg` — spacetime grid, black hole, galaxy, supernova,
+satellite, and landmark equations of Einstein, Friedmann, Schrödinger,
+Hardy–Ramanujan, FLRW and CPL), Starfield only, **My own image** (picked
+from your device, stored locally in your browser only — never uploaded),
+or Plain dark. To change the default poster, edit/replace `docs/bg-cosmos.svg`.
+
+## Install as an app (Android / iOS / desktop)
+
+The site is a PWA. On Android Chrome: open the site → ⋮ menu →
+**Add to Home screen** → Install. It opens fullscreen with the black-hole
+icon and works offline with the last fetched events. For a real `.apk`
+(like DG Lab), feed the site URL to https://www.pwabuilder.com → Android
+→ download the generated package.

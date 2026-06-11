@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Event Horizon — research event radar</title>
+<meta name="theme-color" content="#0C0A16">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -18,6 +22,10 @@ body{
   background:var(--bg); color:var(--text);
   font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.55;
 }
+#bgLayer{position:fixed;inset:0;z-index:-2;background-size:cover;
+  background-position:center;background-repeat:no-repeat}
+#bgLayer.custom::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,#0C0A16AA,#0C0A16E6)}
 canvas#sky{position:fixed;inset:0;z-index:-1;opacity:.6}
 a{color:var(--cyan)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 18px}
@@ -115,6 +123,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
 </style>
 </head>
 <body>
+<div id="bgLayer" aria-hidden="true"></div>
 <canvas id="sky" aria-hidden="true"></canvas>
 
 <header><div class="wrap">
@@ -165,6 +174,16 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
 
     <h2>Source</h2>
     <div id="fSource"></div>
+
+    <h2>Appearance</h2>
+    <select id="bgMode" aria-label="Background style">
+      <option value="poster">Cosmic poster (default)</option>
+      <option value="starfield">Starfield only</option>
+      <option value="custom">My own image</option>
+      <option value="plain">Plain dark</option>
+    </select>
+    <input type="file" id="bgFile" accept="image/*" hidden>
+    <button class="reset" id="bgPick" style="margin-top:8px" hidden>Choose image from this device</button>
 
     <button class="reset" id="reset">Reset all filters</button>
   </aside>
@@ -308,6 +327,53 @@ fetch("events.json").then(r=>{
   $("empty").textContent="Could not load events.json — run the scraper once "+
     "(python scraper/scrape.py) and push, or trigger the Action. ["+err.message+"]";
 });
+
+/* ---------- background manager (choice persists on this device) ---------- */
+(()=>{
+const layer=document.getElementById("bgLayer"),
+      modeSel=document.getElementById("bgMode"),
+      pick=document.getElementById("bgPick"),
+      file=document.getElementById("bgFile");
+function apply(){
+  const mode=localStorage.getItem("eh-bg-mode")||"poster";
+  modeSel.value=mode; pick.hidden=mode!=="custom";
+  layer.classList.toggle("custom",mode==="custom");
+  const sky=document.getElementById("sky");
+  if(sky)sky.style.display=(mode==="plain")?"none":"";
+  if(mode==="poster")layer.style.backgroundImage="url(bg-cosmos.svg)";
+  else if(mode==="custom"){
+    const img=localStorage.getItem("eh-bg-img");
+    layer.style.backgroundImage=img?`url(${img})`:"url(bg-cosmos.svg)";
+  } else layer.style.backgroundImage="none";
+}
+modeSel.addEventListener("input",()=>{
+  localStorage.setItem("eh-bg-mode",modeSel.value);
+  if(modeSel.value==="custom"&&!localStorage.getItem("eh-bg-img"))file.click();
+  apply();
+});
+pick.addEventListener("click",()=>file.click());
+file.addEventListener("change",()=>{
+  const f=file.files[0]; if(!f)return;
+  const img=new Image(),rd=new FileReader();
+  rd.onload=()=>{img.src=rd.result};
+  img.onload=()=>{ // downscale so it fits in localStorage (~5MB limit)
+    const k=Math.min(1,1600/Math.max(img.width,img.height)),
+          c=document.createElement("canvas");
+    c.width=img.width*k; c.height=img.height*k;
+    c.getContext("2d").drawImage(img,0,0,c.width,c.height);
+    try{
+      localStorage.setItem("eh-bg-img",c.toDataURL("image/jpeg",.82));
+      localStorage.setItem("eh-bg-mode","custom"); apply();
+    }catch(e){alert("Image too large to store — please pick a smaller one.");}
+  };
+  rd.readAsDataURL(f);
+});
+apply();
+})();
+
+/* ---------- install as app ---------- */
+if("serviceWorker" in navigator)
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
 
 /* sparse drifting starfield */
 (()=>{const c=$("sky");if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;

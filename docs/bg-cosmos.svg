@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" font-family="'IBM Plex Mono',monospace">
+  <!-- Event Horizon cosmic poster background. Duotone, low opacity so UI stays readable. -->
+  <defs>
+    <radialGradient id="bh" cx="50%" cy="50%" r="50%">
+      <stop offset="55%" stop-color="#000000"/>
+      <stop offset="72%" stop-color="#F2B544" stop-opacity=".55"/>
+      <stop offset="82%" stop-color="#F2B544" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#F2B544" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".8"/>
+      <stop offset="30%" stop-color="#74D7E4" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#74D7E4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C0A16" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0C0A16" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- spacetime grid warping toward the black hole (bottom right) -->
+  <g stroke="#74D7E4" stroke-width="1" fill="none" opacity=".14">
+    <path d="M0,560 C400,560 900,560 1100,620 C1180,650 1230,700 1250,750"/>
+    <path d="M0,640 C380,640 860,645 1080,690 C1170,712 1215,740 1235,775"/>
+    <path d="M0,720 C360,720 840,728 1060,756 C1150,770 1200,786 1222,805"/>
+    <path d="M0,800 C400,800 900,805 1200,825"/>
+    <path d="M200,520 C200,640 210,760 230,900"/>
+    <path d="M420,520 C420,640 432,760 455,900"/>
+    <path d="M640,525 C640,645 656,765 685,900"/>
+    <path d="M860,535 C862,650 885,770 925,890"/>
+    <path d="M1050,560 C1060,660 1095,760 1150,850"/>
+  </g>
+
+  <!-- black hole with photon ring + lensing arcs -->
+  <g transform="translate(1265,765)">
+    <circle r="118" fill="url(#bh)"/>
+    <circle r="64" fill="#000"/>
+    <ellipse rx="150" ry="34" fill="none" stroke="#F2B544" stroke-width="2" opacity=".4"/>
+    <path d="M-150,0 A150,60 0 0 1 150,0" fill="none" stroke="#F2B544" stroke-width="1.4" opacity=".55"/>
+    <path d="M-95,-86 A128,128 0 0 1 95,-86" fill="none" stroke="#74D7E4" stroke-width="1" opacity=".35"/>
+  </g>
+
+  <!-- spiral galaxy (top left) -->
+  <g transform="translate(220,170) rotate(-18)" stroke-width="1.6" fill="none" opacity=".30">
+    <circle r="7" fill="#F2B544" stroke="none" opacity=".9"/>
+    <path d="M0,0 C40,-8 78,12 86,52 C92,86 70,118 34,128" stroke="#C792EA"/>
+    <path d="M0,0 C-40,8 -78,-12 -86,-52 C-92,-86 -70,-118 -34,-128" stroke="#C792EA"/>
+    <path d="M0,0 C10,-44 52,-66 92,-54" stroke="#74D7E4"/>
+    <path d="M0,0 C-10,44 -52,66 -92,54" stroke="#74D7E4"/>
+  </g>
+
+  <!-- supernova (upper middle-right) -->
+  <g transform="translate(1080,150)">
+    <circle r="60" fill="url(#sn)"/>
+    <g stroke="#EDEAF7" stroke-width="1.4" opacity=".5">
+      <path d="M0,-78 L0,-30 M0,30 L0,78 M-78,0 L-30,0 M30,0 L78,0"/>
+      <path d="M-50,-50 L-22,-22 M22,22 L50,50 M50,-50 L22,-22 M-22,22 L-50,50" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- white dwarf with thin shell -->
+  <g transform="translate(560,120)" opacity=".55">
+    <circle r="9" fill="#EDEAF7"/>
+    <circle r="17" fill="none" stroke="#74D7E4" stroke-width="1" opacity=".6"/>
+  </g>
+
+  <!-- satellite line art (left middle) with dish toward black hole -->
+  <g transform="translate(170,560) rotate(20)" stroke="#8E89A6" stroke-width="2" fill="none" opacity=".45">
+    <rect x="-16" y="-12" width="32" height="24" rx="3"/>
+    <path d="M-16,0 H-58 M16,0 H58"/>
+    <rect x="-58" y="-10" width="26" height="20" fill="#8E89A6" opacity=".35" stroke="none"/>
+    <rect x="32" y="-10" width="26" height="20" fill="#8E89A6" opacity=".35" stroke="none"/>
+    <path d="M10,-12 Q26,-34 44,-36" />
+    <circle cx="46" cy="-37" r="4"/>
+  </g>
+
+  <!-- scattered stars -->
+  <g fill="#EDEAF7" opacity=".5">
+    <circle cx="90" cy="80" r="1.4"/><circle cx="340" cy="60" r="1"/>
+    <circle cx="760" cy="90" r="1.6"/><circle cx="930" cy="240" r="1"/>
+    <circle cx="1320" cy="120" r="1.3"/><circle cx="1500" cy="300" r="1"/>
+    <circle cx="80" cy="380" r="1"/><circle cx="480" cy="330" r="1.2"/>
+    <circle cx="1430" cy="520" r="1.4"/><circle cx="700" cy="480" r="1"/>
+    <circle cx="280" cy="840" r="1.2"/><circle cx="640" cy="860" r="1"/>
+  </g>
+
+  <!-- the equations, with attributions: Einstein, Friedmann, Schrödinger, Hardy–Ramanujan, FLRW, CPL -->
+  <g fill="#EDEAF7" opacity=".34" font-size="21">
+    <text x="430" y="225">G&#956;&#957; + &#923;g&#956;&#957; = (8&#960;G/c&#8308;) T&#956;&#957;</text>
+    <text x="430" y="250" font-size="12" fill="#8E89A6">Einstein 1915</text>
+
+    <text x="1130" y="330">H&#178;(a) = (8&#960;G/3)&#961; &#8722; kc&#178;/a&#178; + &#923;c&#178;/3</text>
+    <text x="1130" y="355" font-size="12" fill="#8E89A6">Friedmann 1922</text>
+
+    <text x="120" y="465">i&#8463; &#8706;&#968;/&#8706;t = &#293;&#968;</text>
+    <text x="120" y="490" font-size="12" fill="#8E89A6">Schr&#246;dinger 1926</text>
+
+    <text x="620" y="640">p(n) ~ e^(&#960;&#8730;(2n/3)) / (4n&#8730;3)</text>
+    <text x="620" y="665" font-size="12" fill="#8E89A6">Hardy &#183; Ramanujan 1918</text>
+
+    <text x="380" y="835">ds&#178; = &#8722;c&#178;dt&#178; + a&#178;(t)[ dr&#178;/(1&#8722;kr&#178;) + r&#178;d&#937;&#178; ]</text>
+    <text x="380" y="858" font-size="12" fill="#8E89A6">FLRW metric</text>
+
+    <text x="1180" y="555">w(a) = w&#8320; + w&#8336;(1&#8722;a)</text>
+    <text x="1180" y="580" font-size="12" fill="#8E89A6">CPL dark energy</text>
+  </g>
+
+  <!-- readability fade toward the content area -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#fade)"/>
+</svg>

@@ -84,45 +84,50 @@ def scrape_ai_deadlines():
 
 # ---------------------------------------------------------------------------
 # 2. CADC International Astronomy Meetings List — the canonical worldwide
-#    astronomy meetings list, maintained since the 1990s.
-#    Page is a year-by-year list of lines like:
-#    "5-9 Jan: <a href=...>AAS 245th Meeting</a>, National Harbor, MD, USA"
+#    astronomy meetings list. The HTML pages are JavaScript-rendered (so
+#    plain requests sees nothing), but CADC publishes structured feeds:
+#    a complete iCal and an RSS of recent additions. We try iCal first,
+#    then fall back to RSS. No HTML parsing needed.
 # ---------------------------------------------------------------------------
-def scrape_cadc_meetings():
-    base = "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/"
-    soup = BeautifulSoup(_get(base).text, "html.parser")
+CADC_ICS = "https://ws-cadc.canfar.net/vault/files/dbohlender/CADC/astroMeetings.ics"
+CADC_RSS = "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed"
+
+
+def _parse_cadc_ics(text):
+    """Minimal tolerant iCal parser: unfold lines, read VEVENT blocks."""
+    lines, out = [], []
+    for raw in text.splitlines():
+        if raw[:1] in (" ", "\t") and lines:      # folded continuation line
+            lines[-1] += raw[1:]
+        else:
+            lines.append(raw.rstrip("\r"))
+    ev = None
+    for ln in lines:
+        if ln == "BEGIN:VEVENT":
+            ev = {}
+        elif ln == "END:VEVENT" and ev is not None:
+            out.append(ev)
+            ev = None
+        elif ev is not None and ":" in ln:
+            key, val = ln.split(":", 1)
+            key = key.split(";")[0].upper()
+            ev[key] = val.replace("\\,", ",").replace("\\n", " ").strip()
     events = []
-    year = dt.date.today().year
-    # Tolerant parse: walk every link; use surrounding line text for date/place.
-    for a in soup.find_all("a", href=True):
-        line = a.find_parent(["li", "p", "tr", "div"])
-        if line is None:
+    for ev in out:
+        title = ev.get("SUMMARY")
+        if not title:
             continue
-        text = " ".join(line.get_text(" ", strip=True).split())
-        title = a.get_text(" ", strip=True)
-        if not title or len(title) < 6:
-            continue
-        # Look for a leading date pattern e.g. "5-9 Jan" / "12 Feb - 3 Mar"
-        m = re.match(r"^(\d{1,2})\s*[-–]?\s*(\d{1,2})?\s+([A-Za-z]{3,9})", text)
-        ym = re.search(r"\b(20\d\d)\b", text)
-        if ym:
-            year = int(ym.group(1))
-        start = end = None
-        if m:
-            day1, day2, month = m.group(1), m.group(2), m.group(3)
-            start = _iso(f"{day1} {month} {year}")
-            end = _iso(f"{day2} {month} {year}") if day2 else start
-        if not start:
-            continue
-        # Location: text after the link
-        after = text.split(title, 1)[-1].strip(" ,:;-")
+        url = ev.get("URL")
+        if not url:  # often the link hides in DESCRIPTION
+            m = re.search(r"https?://\S+", ev.get("DESCRIPTION", ""))
+            url = m.group(0).rstrip(").,") if m else None
         events.append({
             "title": title,
-            "url": requests.compat.urljoin(base, a["href"]),
-            "start_date": start,
-            "end_date": end,
+            "url": url or CADC_RSS,
+            "start_date": _iso(ev.get("DTSTART", "")[:8]),
+            "end_date": _iso(ev.get("DTEND", "")[:8]),
             "deadline": None,
-            "location": after or None,
+            "location": ev.get("LOCATION"),
             "source": "CADC Astronomy Meetings",
             "raw_type": None,
             "extra_tags": ["astro"],
@@ -130,36 +135,108 @@ def scrape_cadc_meetings():
     return events
 
 
-# ---------------------------------------------------------------------------
-# 3. ICTS Bengaluru — programs/discussion meetings/schools
-# ---------------------------------------------------------------------------
-def scrape_icts():
-    base = "https://www.icts.res.in"
-    soup = BeautifulSoup(_get(base + "/program").text, "html.parser")
+def _parse_cadc_rss(text):
+    """RSS items carry an HTML table in <description> with Date/Location."""
+    import html
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(text)
     events = []
-    for a in soup.select("a[href*='/program/'], a[href*='/discussion-meeting/'], a[href*='/school/']"):
-        title = a.get_text(" ", strip=True)
-        if not title or len(title) < 8:
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        desc = html.unescape(item.findtext("description") or "")
+        if not title:
             continue
-        block = a.find_parent(["div", "li", "article", "tr"])
-        text = block.get_text(" ", strip=True) if block else ""
         m = re.search(
-            r"(\d{1,2}\s+[A-Za-z]{3,9}\s+20\d\d)\s*(?:to|–|-)\s*(\d{1,2}\s+[A-Za-z]{3,9}\s+20\d\d)?",
-            text,
+            r"Date.*?(\w+ \d{1,2}, \w+ \d{4})(?:\s*to\s*(\w+ \d{1,2}, \w+ \d{4}))?",
+            desc,
         )
         start = _iso(m.group(1)) if m else None
         end = _iso(m.group(2)) if (m and m.group(2)) else start
+        lm = re.search(r"Location</TD><TD>([^<]*)", desc, re.I)
         events.append({
             "title": title,
-            "url": requests.compat.urljoin(base, a["href"]),
+            "url": link or CADC_RSS,
             "start_date": start,
             "end_date": end,
             "deadline": None,
-            "location": "ICTS, Bengaluru, India",
-            "source": "ICTS Bengaluru",
+            "location": lm.group(1).strip() if lm else None,
+            "source": "CADC Astronomy Meetings",
             "raw_type": None,
-            "extra_tags": ["astro", "physics", "math"],
+            "extra_tags": ["astro"],
         })
+    return events
+
+
+def scrape_cadc_meetings():
+    try:
+        events = _parse_cadc_ics(_get(CADC_ICS).text)
+        if events:
+            return events
+    except Exception as exc:
+        print(f"  CADC iCal unavailable ({exc}); falling back to RSS")
+    return _parse_cadc_rss(_get(CADC_RSS).text)
+
+
+# ---------------------------------------------------------------------------
+# 3. ICTS Bengaluru — programs/discussion meetings/schools/lecture series.
+#    Correct listing pages (verified June 2026): /programs/upcoming and
+#    /current-and-upcoming-events. Event links live under /program/,
+#    /discussion-meeting/, /event/, /lectures/, /school/. Dates appear as
+#    "06 July 2026 to 10 July 2026".
+# ---------------------------------------------------------------------------
+ICTS_URLS = [
+    "https://www.icts.res.in/programs/upcoming",
+    "https://www.icts.res.in/current-and-upcoming-events",
+]
+ICTS_HREF = re.compile(
+    r"/(program|discussion-meeting|event|lectures|school|summer-course)", re.I)
+ICTS_DATE = re.compile(
+    r"(\d{1,2}\s+[A-Za-z]{3,9}\s+20\d\d)\s*(?:to|–|-)?\s*(\d{1,2}\s+[A-Za-z]{3,9}\s+20\d\d)?")
+ICTS_TYPE = {"program": "workshop", "discussion-meeting": "workshop",
+             "lectures": "lecture series", "school": "school",
+             "summer-course": "lecture series", "event": "conference"}
+
+
+def scrape_icts():
+    base = "https://www.icts.res.in"
+    events, seen_urls = [], set()
+    for list_url in ICTS_URLS:
+        try:
+            soup = BeautifulSoup(_get(list_url).text, "html.parser")
+        except Exception as exc:
+            print(f"  ICTS list {list_url} failed ({exc})")
+            continue
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            m = ICTS_HREF.search(href)
+            title = a.get_text(" ", strip=True)
+            if not m or not title or len(title) < 8:
+                continue
+            url = requests.compat.urljoin(base, href)
+            if url in seen_urls:
+                continue
+            block = a.find_parent(["div", "li", "article", "tr", "td"])
+            text = block.get_text(" ", strip=True) if block else ""
+            dm = ICTS_DATE.search(text)
+            if not dm:  # try one level higher before giving up on dates
+                parent = block.parent if block is not None else None
+                if parent is not None:
+                    dm = ICTS_DATE.search(parent.get_text(" ", strip=True))
+            start = _iso(dm.group(1)) if dm else None
+            end = _iso(dm.group(2)) if (dm and dm.group(2)) else start
+            seen_urls.add(url)
+            events.append({
+                "title": title,
+                "url": url,
+                "start_date": start,
+                "end_date": end,
+                "deadline": None,
+                "location": "ICTS, Bengaluru, India",
+                "source": "ICTS Bengaluru",
+                "raw_type": ICTS_TYPE.get(m.group(1).lower(), None),
+                "extra_tags": ["astro", "physics", "math"],
+            })
     return events
 
 
