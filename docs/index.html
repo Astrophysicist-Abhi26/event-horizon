@@ -16,8 +16,14 @@
   --text:#EDEAF7; --muted:#8E89A8; --amber:#F2B544; --cyan:#74D7E4;
   --astro:#F2B544; --aiml:#74D7E4; --physics:#C792EA; --math:#8BE9A8;
 }
+html[data-theme="light"]{
+  --bg:#F7F5FB; --panel:#FFFFFFCC; --panel-solid:#FFFFFF; --line:#DCD7EA;
+  --text:#1B1730; --muted:#5C5775; --amber:#B97712; --cyan:#0E7C8C;
+  --astro:#B97712; --aiml:#0E7C8C; --physics:#7C4DA8; --math:#1E7A4A;
+}
 *{box-sizing:border-box;margin:0;padding:0}
 html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light;--field:#FFFFFF}
 body{
   background:var(--bg); color:var(--text);
   font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.55;
@@ -26,6 +32,8 @@ body{
   background-position:center;background-repeat:no-repeat}
 #bgLayer.custom::after{content:"";position:absolute;inset:0;
   background:linear-gradient(180deg,#0C0A16AA,#0C0A16E6)}
+html[data-theme="light"] #bgLayer.custom::after{
+  background:linear-gradient(180deg,#F7F5FBB8,#F7F5FBEE)}
 canvas#sky{position:fixed;inset:0;z-index:-1;opacity:.6}
 a{color:var(--cyan)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 18px}
@@ -33,6 +41,8 @@ a{color:var(--cyan)}
 /* ---------- header ---------- */
 header{padding:42px 0 26px;border-bottom:1px solid var(--line);
   background:radial-gradient(1100px 320px at 18% -40%,#2b1f4d66,transparent 70%)}
+html[data-theme="light"] header{
+  background:radial-gradient(1100px 320px at 18% -40%,#C9B9F022,transparent 70%)}
 h1{font-family:"Space Grotesk";font-weight:700;font-size:clamp(28px,5vw,44px);
   letter-spacing:-.02em;line-height:1.05}
 h1 .h{color:var(--amber)}
@@ -59,7 +69,7 @@ label.ck{display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer;co
 label.ck input{accent-color:var(--amber)}
 label.ck .n{color:var(--muted);font-family:"IBM Plex Mono";font-size:11.5px;margin-left:auto}
 input[type=date],input[type=search],select{
-  width:100%;background:#0F0C1D;border:1px solid var(--line);color:var(--text);
+  width:100%;background:var(--field,#0F0C1D);border:1px solid var(--line);color:var(--text);
   border-radius:7px;padding:7px 9px;font:inherit;font-size:13.5px;margin-top:4px}
 input:focus-visible,select:focus-visible,button:focus-visible,label.ck input:focus-visible{
   outline:2px solid var(--amber);outline-offset:2px}
@@ -90,6 +100,7 @@ button.reset:hover{border-color:var(--amber);color:var(--amber)}
   padding:16px 16px 13px;display:flex;flex-direction:column;gap:8px;
   backdrop-filter:blur(6px);transition:border-color .15s,transform .15s}
 .card:hover{border-color:#4a3f78;transform:translateY(-2px)}
+html[data-theme="light"] .card:hover{border-color:#B5A8E0}
 .card .dt{font-family:"IBM Plex Mono";font-size:12px;color:var(--amber);letter-spacing:.02em}
 .card h3{font-family:"Space Grotesk";font-size:16.5px;font-weight:500;line-height:1.3}
 .card h3 a{color:var(--text);text-decoration:none}
@@ -111,6 +122,7 @@ button.reset:hover{border-color:var(--amber);color:var(--amber)}
   font-size:11px;color:var(--muted);margin-bottom:4px}
 .spec .lab b{color:var(--amber);font-weight:500}
 .spec .bar{height:4px;border-radius:2px;background:#241e3c;position:relative;overflow:hidden}
+html[data-theme="light"] .spec .bar{background:#E4DFF2}
 .spec .bar i{position:absolute;inset:0;width:var(--w);border-radius:2px;
   background:linear-gradient(90deg,#3b6ff2,var(--cyan) 45%,var(--amber) 80%,#F28B82)}
 
@@ -176,6 +188,11 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
     <div id="fSource"></div>
 
     <h2>Appearance</h2>
+    <select id="themeMode" aria-label="Theme" style="margin-bottom:8px">
+      <option value="auto">Auto — light by day, dark by night</option>
+      <option value="dark">Always dark</option>
+      <option value="light">Always light</option>
+    </select>
     <select id="bgMode" aria-label="Background style">
       <option value="poster">Cosmic poster (default)</option>
       <option value="starfield">Starfield only</option>
@@ -328,6 +345,27 @@ fetch("events.json").then(r=>{
     "(python scraper/scrape.py) and push, or trigger the Action. ["+err.message+"]";
 });
 
+/* ---------- theme manager: auto follows the device day/night setting ---------- */
+const themeSel=document.getElementById("themeMode");
+const sysLight=matchMedia("(prefers-color-scheme: light)");
+function resolvedTheme(){
+  const m=localStorage.getItem("eh-theme")||"auto";
+  return m==="auto" ? (sysLight.matches?"light":"dark") : m;
+}
+function applyTheme(){
+  themeSel.value=localStorage.getItem("eh-theme")||"auto";
+  const t=resolvedTheme();
+  document.documentElement.dataset.theme=t;
+  const meta=document.querySelector('meta[name=theme-color]');
+  if(meta)meta.content=(t==="light")?"#F7F5FB":"#0C0A16";
+  if(window.__applyBg)window.__applyBg();   // poster variant follows theme
+}
+themeSel.addEventListener("input",()=>{
+  localStorage.setItem("eh-theme",themeSel.value);applyTheme();
+});
+if(sysLight.addEventListener)sysLight.addEventListener("change",applyTheme);
+applyTheme();
+
 /* ---------- background manager (choice persists on this device) ---------- */
 (()=>{
 const layer=document.getElementById("bgLayer"),
@@ -340,10 +378,12 @@ function apply(){
   layer.classList.toggle("custom",mode==="custom");
   const sky=document.getElementById("sky");
   if(sky)sky.style.display=(mode==="plain")?"none":"";
-  if(mode==="poster")layer.style.backgroundImage="url(bg-cosmos.svg)";
+  const poster=(document.documentElement.dataset.theme==="light")
+    ? "url(bg-cosmos-light.svg)" : "url(bg-cosmos.svg)";
+  if(mode==="poster")layer.style.backgroundImage=poster;
   else if(mode==="custom"){
     const img=localStorage.getItem("eh-bg-img");
-    layer.style.backgroundImage=img?`url(${img})`:"url(bg-cosmos.svg)";
+    layer.style.backgroundImage=img?`url(${img})`:poster;
   } else layer.style.backgroundImage="none";
 }
 modeSel.addEventListener("input",()=>{
@@ -368,7 +408,7 @@ file.addEventListener("change",()=>{
   };
   rd.readAsDataURL(f);
 });
-apply();
+window.__applyBg=apply;apply();
 })();
 
 /* ---------- install as app ---------- */
@@ -377,7 +417,7 @@ if("serviceWorker" in navigator)
 
 /* sparse drifting starfield */
 (()=>{const c=$("sky");if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
-const x=c.getContext("2d");let W,H,stars;
+const x=c.getContext("2d");if(!x)return;let W,H,stars;
 function size(){W=c.width=innerWidth;H=c.height=innerHeight;
   stars=Array.from({length:Math.min(140,W*H/14000)},()=>({
     x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.3+.2,
@@ -386,7 +426,8 @@ size();addEventListener("resize",size);
 (function loop(t){x.clearRect(0,0,W,H);
   for(const s of stars){s.y-=s.v;if(s.y<0)s.y=H;
     const a=.35+.3*Math.sin(t/900+s.tw);
-    x.fillStyle=`rgba(237,234,247,${a})`;
+    x.fillStyle=(document.documentElement.dataset.theme==="light")
+      ?`rgba(42,35,66,${a*.7})`:`rgba(237,234,247,${a})`;
     x.beginPath();x.arc(s.x,s.y,s.r,0,6.28);x.fill();}
   requestAnimationFrame(loop);})(0);})();
 </script>

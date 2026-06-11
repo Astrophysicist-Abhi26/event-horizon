@@ -1,8 +1,8 @@
 /* Event Horizon service worker.
    Static assets: cache-first. Pages + events.json: network-first with
    cache fallback, so the app opens offline with the last known events. */
-const VERSION = "eh-v1";
-const SHELL = ["./", "index.html", "bg-cosmos.svg", "manifest.webmanifest",
+const VERSION = "eh-v2";
+const SHELL = ["./", "index.html", "bg-cosmos.svg", "bg-cosmos-light.svg", "manifest.webmanifest",
                "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
