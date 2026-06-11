@@ -1,0 +1,43 @@
+name: Update events
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # daily at 08:00 IST
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name "event-horizon-bot"
+          git config user.email "actions@github.com"
+          git add docs/events.json
+          git diff --cached --quiet || git commit -m "Update events $(date -u +%F)"
+          git push
+
+      - name: Notify about new events (opens an Issue -> GitHub emails you)
+        if: ${{ hashFiles('new_events.md') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "New events found — $(date -u +%F)" \
+            --body-file new_events.md

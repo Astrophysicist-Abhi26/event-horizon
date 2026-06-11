@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Horizon — research event radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0C0A16; --panel:#15122388; --panel-solid:#151223; --line:#2A2440;
+  --text:#EDEAF7; --muted:#8E89A8; --amber:#F2B544; --cyan:#74D7E4;
+  --astro:#F2B544; --aiml:#74D7E4; --physics:#C792EA; --math:#8BE9A8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.55;
+}
+canvas#sky{position:fixed;inset:0;z-index:-1;opacity:.6}
+a{color:var(--cyan)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+
+/* ---------- header ---------- */
+header{padding:42px 0 26px;border-bottom:1px solid var(--line);
+  background:radial-gradient(1100px 320px at 18% -40%,#2b1f4d66,transparent 70%)}
+h1{font-family:"Space Grotesk";font-weight:700;font-size:clamp(28px,5vw,44px);
+  letter-spacing:-.02em;line-height:1.05}
+h1 .h{color:var(--amber)}
+.tagline{color:var(--muted);margin-top:8px;max-width:54ch}
+.stats{display:flex;gap:22px;margin-top:18px;font-family:"IBM Plex Mono";font-size:13px}
+.stats b{color:var(--amber);font-size:18px;display:block;font-weight:500}
+.stats span{color:var(--muted)}
+.gen{font-family:"IBM Plex Mono";font-size:11.5px;color:var(--muted);margin-top:14px}
+
+/* ---------- layout ---------- */
+main{display:grid;grid-template-columns:268px 1fr;gap:26px;padding:26px 0 70px}
+@media(max-width:840px){main{grid-template-columns:1fr}}
+
+/* ---------- filter rail ---------- */
+aside{position:sticky;top:14px;align-self:start;max-height:calc(100vh - 28px);
+  overflow-y:auto;background:var(--panel);border:1px solid var(--line);
+  border-radius:10px;padding:16px;backdrop-filter:blur(6px)}
+@media(max-width:840px){aside{position:static;max-height:none}}
+aside h2{font-family:"Space Grotesk";font-size:13px;text-transform:uppercase;
+  letter-spacing:.14em;color:var(--muted);font-weight:500;
+  margin:18px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+aside h2:first-of-type{margin-top:0;padding-top:0;border-top:0}
+label.ck{display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer;color:var(--text)}
+label.ck input{accent-color:var(--amber)}
+label.ck .n{color:var(--muted);font-family:"IBM Plex Mono";font-size:11.5px;margin-left:auto}
+input[type=date],input[type=search],select{
+  width:100%;background:#0F0C1D;border:1px solid var(--line);color:var(--text);
+  border-radius:7px;padding:7px 9px;font:inherit;font-size:13.5px;margin-top:4px}
+input:focus-visible,select:focus-visible,button:focus-visible,label.ck input:focus-visible{
+  outline:2px solid var(--amber);outline-offset:2px}
+.daterow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.daterow small{color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--amber)}
+.minrel{display:flex;justify-content:space-between;font-family:"IBM Plex Mono";
+  font-size:12px;color:var(--muted)}
+.minrel b{color:var(--amber);font-weight:500}
+button.reset{width:100%;margin-top:18px;background:transparent;border:1px solid var(--line);
+  color:var(--muted);border-radius:7px;padding:8px;font:inherit;font-size:13px;cursor:pointer}
+button.reset:hover{border-color:var(--amber);color:var(--amber)}
+#fToggle{display:none;width:100%;margin:0 0 14px;background:var(--panel-solid);
+  border:1px solid var(--line);color:var(--text);border-radius:8px;padding:10px;
+  font-family:"Space Grotesk";font-size:14px;cursor:pointer}
+@media(max-width:840px){
+  #fToggle{display:block}
+  aside.hide{display:none}
+}
+
+/* ---------- toolbar + cards ---------- */
+.toolbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+.toolbar .count{font-family:"IBM Plex Mono";font-size:13px;color:var(--muted)}
+.toolbar .count b{color:var(--amber);font-weight:500}
+.toolbar select{width:auto;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:16px 16px 13px;display:flex;flex-direction:column;gap:8px;
+  backdrop-filter:blur(6px);transition:border-color .15s,transform .15s}
+.card:hover{border-color:#4a3f78;transform:translateY(-2px)}
+.card .dt{font-family:"IBM Plex Mono";font-size:12px;color:var(--amber);letter-spacing:.02em}
+.card h3{font-family:"Space Grotesk";font-size:16.5px;font-weight:500;line-height:1.3}
+.card h3 a{color:var(--text);text-decoration:none}
+.card h3 a:hover{color:var(--cyan)}
+.card .loc{color:var(--muted);font-size:13.5px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;font-family:"IBM Plex Mono";font-size:11px}
+.chip{border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.chip.t-astro{color:var(--astro);border-color:var(--astro)}
+.chip.t-aiml{color:var(--aiml);border-color:var(--aiml)}
+.chip.t-physics{color:var(--physics);border-color:var(--physics)}
+.chip.t-math{color:var(--math);border-color:var(--math)}
+.chip.india{color:var(--amber);border-color:var(--amber)}
+.deadline{font-family:"IBM Plex Mono";font-size:12px;color:var(--cyan)}
+.deadline.soon{color:#F28B82}
+
+/* signature: relevance as a spectral line */
+.spec{margin-top:auto;padding-top:10px}
+.spec .lab{display:flex;justify-content:space-between;font-family:"IBM Plex Mono";
+  font-size:11px;color:var(--muted);margin-bottom:4px}
+.spec .lab b{color:var(--amber);font-weight:500}
+.spec .bar{height:4px;border-radius:2px;background:#241e3c;position:relative;overflow:hidden}
+.spec .bar i{position:absolute;inset:0;width:var(--w);border-radius:2px;
+  background:linear-gradient(90deg,#3b6ff2,var(--cyan) 45%,var(--amber) 80%,#F28B82)}
+
+.empty{border:1px dashed var(--line);border-radius:10px;padding:40px;
+  text-align:center;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:13px}
+@media(prefers-reduced-motion:reduce){
+  .card{transition:none}.card:hover{transform:none}canvas#sky{display:none}
+}
+</style>
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<header><div class="wrap">
+  <h1>Event <span class="h">Horizon</span></h1>
+  <p class="tagline">Conferences, workshops, schools and talks in astrophysics, cosmology,
+  physics, mathematics and AI/ML — collected daily, scored against your research interests,
+  so nothing in Bengaluru or beyond escapes you again.</p>
+  <div class="stats">
+    <div><b id="sTotal">–</b><span>upcoming events</span></div>
+    <div><b id="sMatch">–</b><span>match ≥ 30%</span></div>
+    <div><b id="sIndia">–</b><span>in India</span></div>
+  </div>
+  <p class="gen" id="gen"></p>
+</div></header>
+
+<div class="wrap"><main>
+  <div style="grid-column:1/-1;display:contents">
+  <div>
+  <button id="fToggle" aria-expanded="true">Show / hide filters</button>
+  <aside id="filters">
+    <h2>Search</h2>
+    <input type="search" id="q" placeholder="title, place, keyword…" aria-label="Search events">
+
+    <h2>Dates</h2>
+    <div class="daterow">
+      <label><small>From</small><input type="date" id="dFrom"></label>
+      <label><small>To</small><input type="date" id="dTo"></label>
+    </div>
+
+    <h2>Minimum relevance</h2>
+    <input type="range" id="minScore" min="0" max="100" step="5" value="30"
+      aria-label="Minimum relevance score">
+    <div class="minrel"><span>overlap with your interests</span><b id="minScoreV">30%</b></div>
+
+    <h2>Event type</h2>
+    <div id="fType"></div>
+
+    <h2>Field</h2>
+    <div id="fField"></div>
+
+    <h2>Region</h2>
+    <label class="ck"><input type="radio" name="region" value="all" checked> Everywhere</label>
+    <label class="ck"><input type="radio" name="region" value="india"> India only</label>
+    <label class="ck"><input type="radio" name="region" value="abroad"> Abroad only</label>
+
+    <h2>Country</h2>
+    <div id="fCountry"></div>
+
+    <h2>Source</h2>
+    <div id="fSource"></div>
+
+    <button class="reset" id="reset">Reset all filters</button>
+  </aside>
+  </div>
+
+  <section>
+    <div class="toolbar">
+      <span class="count">showing <b id="count">0</b> events</span>
+      <label style="margin-left:auto">Sort by
+        <select id="sort">
+          <option value="date">start date</option>
+          <option value="score">relevance</option>
+          <option value="deadline">application deadline</option>
+        </select>
+      </label>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>
+      No events match these filters. Widen the date range or lower the minimum relevance.
+    </div>
+  </section>
+  </div>
+</main></div>
+
+<footer><div class="wrap">
+  Data refreshes daily via GitHub Actions. Sources: huggingface/ai-deadlines, CADC
+  International Astronomy Meetings, ICTS Bengaluru, plus manually added events.
+  Add sources or events in the <a href="https://github.com/" id="repoLink">repository</a>.
+</div></footer>
+
+<script>
+"use strict";
+const FIELD_LABEL={astro:"Astro / Cosmo","ai-ml":"AI / ML",physics:"Physics",math:"Mathematics"};
+let EVENTS=[];
+
+const $=id=>document.getElementById(id);
+const fmt=d=>d?new Date(d+"T00:00:00").toLocaleDateString("en-GB",
+  {day:"numeric",month:"short",year:"numeric"}):"date TBA";
+
+function buildChecks(container,values,counts,cls){
+  container.innerHTML=values.map(v=>`
+    <label class="ck"><input type="checkbox" value="${v}" data-group="${cls}" checked>
+    ${FIELD_LABEL[v]||v}<span class="n">${counts[v]||""}</span></label>`).join("");
+}
+
+function init(data){
+  EVENTS=data.events||[];
+  $("gen").textContent="Last scan: "+new Date(data.generated).toLocaleString();
+  $("sTotal").textContent=EVENTS.length;
+  $("sMatch").textContent=EVENTS.filter(e=>e.score>=30).length;
+  $("sIndia").textContent=EVENTS.filter(e=>e.in_india).length;
+
+  const cnt=(key,f)=>EVENTS.reduce((m,e)=>{const v=f(e);if(v)m[v]=(m[v]||0)+1;return m},{});
+  const types=cnt("type",e=>e.type), fields={}, countries=cnt("c",e=>e.country||"Unknown"),
+        sources=cnt("s",e=>e.source);
+  EVENTS.forEach(e=>(e.tags||[]).forEach(t=>fields[t]=(fields[t]||0)+1));
+
+  buildChecks($("fType"),Object.keys(types).sort(),types,"type");
+  buildChecks($("fField"),Object.keys(FIELD_LABEL).filter(f=>fields[f]),fields,"field");
+  buildChecks($("fCountry"),Object.keys(countries).sort(),countries,"country");
+  buildChecks($("fSource"),Object.keys(sources).sort(),sources,"source");
+
+  document.querySelectorAll("#filters input,#sort").forEach(el=>
+    el.addEventListener("input",render));
+  $("reset").addEventListener("click",()=>{
+    $("q").value="";$("dFrom").value="";$("dTo").value="";
+    $("minScore").value=30;
+    document.querySelectorAll("#filters input[type=checkbox]").forEach(c=>c.checked=true);
+    document.querySelector('input[name=region][value=all]').checked=true;
+    render();
+  });
+  $("fToggle").addEventListener("click",()=>{
+    const a=$("filters");a.classList.toggle("hide");
+    $("fToggle").setAttribute("aria-expanded",String(!a.classList.contains("hide")));
+  });
+  render();
+}
+
+function checked(group){
+  return new Set([...document.querySelectorAll(
+    `input[data-group=${group}]:checked`)].map(c=>c.value));
+}
+
+function render(){
+  $("minScoreV").textContent=$("minScore").value+"%";
+  const q=$("q").value.trim().toLowerCase(),
+        from=$("dFrom").value, to=$("dTo").value,
+        minS=+$("minScore").value,
+        region=document.querySelector("input[name=region]:checked").value,
+        T=checked("type"),F=checked("field"),C=checked("country"),S=checked("source");
+
+  let rows=EVENTS.filter(e=>{
+    if(e.score<minS)return false;
+    if(q&&!((e.title+" "+(e.location||"")).toLowerCase().includes(q)))return false;
+    if(from&&(e.end_date||e.start_date||"9999")<from)return false;
+    if(to&&(e.start_date||"0000")>to)return false;
+    if(!T.has(e.type))return false;
+    if(e.tags&&e.tags.length&&!e.tags.some(t=>F.has(t)))return false;
+    if(region==="india"&&!e.in_india)return false;
+    if(region==="abroad"&&e.in_india)return false;
+    if(!C.has(e.country||"Unknown"))return false;
+    if(!S.has(e.source))return false;
+    return true;
+  });
+
+  const sort=$("sort").value;
+  rows.sort((a,b)=>sort==="score"?b.score-a.score
+    :sort==="deadline"?(a.deadline||"9999").localeCompare(b.deadline||"9999")
+    :(a.start_date||"9999").localeCompare(b.start_date||"9999")||b.score-a.score);
+
+  $("count").textContent=rows.length;
+  $("empty").hidden=rows.length>0;
+  const today=new Date(),soon=new Date(Date.now()+21*864e5);
+  $("grid").innerHTML=rows.map(e=>{
+    const range=e.start_date?(fmt(e.start_date)+
+      (e.end_date&&e.end_date!==e.start_date?" → "+fmt(e.end_date):"")):"date TBA";
+    const dl=e.deadline?new Date(e.deadline+"T00:00:00"):null;
+    const dlHtml=dl&&dl>=today?`<div class="deadline ${dl<=soon?"soon":""}">
+      submit by ${fmt(e.deadline)}</div>`:"";
+    const tagChips=(e.tags||[]).map(t=>
+      `<span class="chip t-${t.replace("ai-ml","aiml")}">${FIELD_LABEL[t]||t}</span>`).join("");
+    return `<article class="card">
+      <div class="dt">${range}</div>
+      <h3><a href="${e.url}" target="_blank" rel="noopener">${e.title}</a></h3>
+      <div class="loc">${e.location||"location TBA"}${e.country?" · "+e.country:""}</div>
+      <div class="chips"><span class="chip">${e.type}</span>${tagChips}
+        ${e.in_india?'<span class="chip india">India</span>':""}
+        <span class="chip">${e.source}</span></div>
+      ${dlHtml}
+      <div class="spec"><div class="lab"><span>relevance</span><b>${e.score}%</b></div>
+        <div class="bar"><i style="--w:${e.score}%"></i></div></div>
+    </article>`;
+  }).join("");
+}
+
+fetch("events.json").then(r=>{
+  if(!r.ok)throw new Error("events.json not found ("+r.status+")");
+  return r.json();
+}).then(init).catch(err=>{
+  $("grid").innerHTML="";$("empty").hidden=false;
+  $("empty").textContent="Could not load events.json — run the scraper once "+
+    "(python scraper/scrape.py) and push, or trigger the Action. ["+err.message+"]";
+});
+
+/* sparse drifting starfield */
+(()=>{const c=$("sky");if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+const x=c.getContext("2d");let W,H,stars;
+function size(){W=c.width=innerWidth;H=c.height=innerHeight;
+  stars=Array.from({length:Math.min(140,W*H/14000)},()=>({
+    x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.3+.2,
+    v:Math.random()*.05+.01,tw:Math.random()*6.28}));}
+size();addEventListener("resize",size);
+(function loop(t){x.clearRect(0,0,W,H);
+  for(const s of stars){s.y-=s.v;if(s.y<0)s.y=H;
+    const a=.35+.3*Math.sin(t/900+s.tw);
+    x.fillStyle=`rgba(237,234,247,${a})`;
+    x.beginPath();x.arc(s.x,s.y,s.r,0,6.28);x.fill();}
+  requestAnimationFrame(loop);})(0);})();
+</script>
+</body>
+</html>

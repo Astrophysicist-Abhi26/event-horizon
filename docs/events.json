@@ -1,0 +1,982 @@
+{
+ "generated": "2026-06-11T04:02:14.412048+00:00",
+ "errors": [
+  "CADC Astronomy Meetings: 403 Client Error: Forbidden for url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/",
+  "ICTS Bengaluru: 403 Client Error: Forbidden for url: https://www.icts.res.in/program"
+ ],
+ "events": [
+  {
+   "id": "05f065d12bb2",
+   "title": "Symphony of Spacetime",
+   "url": "https://www.rri.res.in/",
+   "start_date": "2026-06-10",
+   "end_date": "2026-06-12",
+   "deadline": null,
+   "location": "Raman Research Institute, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Conference",
+   "source": "RRI",
+   "score": 70,
+   "tags": [
+    "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "14a3deeadda5",
+   "title": "BIS 2026 \u2014 International Conference on Business Information Systems",
+   "url": "https://bisconf.org/2026",
+   "start_date": "2026-06-10",
+   "end_date": "2026-06-12",
+   "deadline": null,
+   "location": "Prague University of Economics and Business, N\u00e1m. W. Churchilla 4, Prague 130 67, Czech Republic",
+   "country": "Czech",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "7f9f5ab8525d",
+   "title": "IJCNN 2026 \u2014 International Joint Conference on Neural Networks",
+   "url": "https://attend.ieee.org/wcci-2026/",
+   "start_date": "2026-06-21",
+   "end_date": "2026-06-26",
+   "deadline": null,
+   "location": "MECC Maastricht",
+   "country": "Netherlands",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "2fe0cc1213e5",
+   "title": "CEC 2026 \u2014 IEEE Congress on Evolutionary Computation",
+   "url": "https://attend.ieee.org/wcci-2026/",
+   "start_date": "2026-06-21",
+   "end_date": "2026-06-26",
+   "deadline": "2026-01-31",
+   "location": "Maastricht Exhibition & Congress Centre (MECC)",
+   "country": "Netherlands",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "c8d90fe18b73",
+   "title": "FAccT 2026 \u2014 ACM Conference on Fairness, Accountability, and Transparency",
+   "url": "https://facctconference.org/2026/index.html",
+   "start_date": "2026-06-25",
+   "end_date": "2026-06-28",
+   "deadline": "2026-01-08",
+   "location": "Le Centre Sheraton Montr\u00e9al, Montreal, QC, Canada",
+   "country": "Canada",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "c6df49d341c8",
+   "title": "CHIL 2026 \u2014 AHLI Conference on Health, Inference, and Learning",
+   "url": "https://chil.ahli.cc/submit/call-for-papers/",
+   "start_date": "2026-06-28",
+   "end_date": "2026-06-30",
+   "deadline": "2026-02-04",
+   "location": "Seattle Children's Research Institute, B. Wayne Hughes Building",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "eb2d90341e5f",
+   "title": "COLT 2026 \u2014 Annual Conference on Learning Theory",
+   "url": "https://learningtheory.org/colt2026/",
+   "start_date": "2026-06-29",
+   "end_date": "2026-07-03",
+   "deadline": null,
+   "location": "Bahia Resort Hotel",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "9b8989de77d4",
+   "title": "SGP 2026 \u2014 Symposium on Geometry Processing",
+   "url": "https://sgp26.org/",
+   "start_date": "2026-07-01",
+   "end_date": "2026-07-03",
+   "deadline": "2026-02-02",
+   "location": "University of Bern, Switzerland",
+   "country": "Switzerland",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "f2b5a19a674c",
+   "title": "ACL 2026 \u2014 Annual Meeting of the Association for Computational Linguistics",
+   "url": "https://2026.aclweb.org/",
+   "start_date": "2026-07-02",
+   "end_date": "2026-07-07",
+   "deadline": "2026-01-05",
+   "location": "Grand Hyatt Manchester San Diego, 1 Market Place, San Diego, CA 92101",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "4daf867f17b7",
+   "title": "CoNLL 2026 \u2014 The SIGNLL Conference on Computational Natural Language Learning",
+   "url": "https://conll.org/",
+   "start_date": "2026-07-03",
+   "end_date": "2026-07-04",
+   "deadline": "2026-02-19",
+   "location": "San Diego, California, USA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "d34dbf53f21c",
+   "title": "ICML 2026 \u2014 International Conference on Machine Learning",
+   "url": "https://icml.cc/Conferences/2026/CallForPapers",
+   "start_date": "2026-07-06",
+   "end_date": "2026-07-11",
+   "deadline": "2026-01-23",
+   "location": "Coex Convention & Exhibition Center",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "2a5a74777dd4",
+   "title": "IUI 2026 \u2014 ACM Conference on Intelligent User Interfaces",
+   "url": "https://iui.acm.org/2026/",
+   "start_date": "2026-07-13",
+   "end_date": "2026-07-16",
+   "deadline": "2025-10-03",
+   "location": "St. Raphael Resort & Marina",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "46ce1bfa46c9",
+   "title": "RSS 2026 \u2014 Robotics Science and Systems",
+   "url": "https://roboticsconference.org",
+   "start_date": "2026-07-13",
+   "end_date": "2026-07-17",
+   "deadline": "2026-01-23",
+   "location": "University of Technology Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "0c9b19497c84",
+   "title": "SIGGRAPH 2026 \u2014 Conference on Computer Graphics and Interactive Techniques",
+   "url": "https://s2026.siggraph.org/",
+   "start_date": "2026-07-19",
+   "end_date": "2026-07-23",
+   "deadline": "2026-01-22",
+   "location": "Los Angeles Convention Center, Los Angeles, California",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "8f577bd83bb5",
+   "title": "SIGIR 2026 \u2014 International ACM SIGIR Conference on Research and Development in Information Retrieval",
+   "url": "https://sigir2026.org/en-AU",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-24",
+   "deadline": "2026-01-15",
+   "location": "Melbourne Convention and Exhibition Centre (MCEC)",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "f7e91f91aba1",
+   "title": "KDD 2026 \u2014 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "url": "https://kdd2026.kdd.org/",
+   "start_date": "2026-08-09",
+   "end_date": "2026-08-13",
+   "deadline": "2025-07-24",
+   "location": "International Convention Center Jeju",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "236a7e9f4d71",
+   "title": "ECAI 2026 \u2014 European Conference on Artificial Intelligence",
+   "url": "https://2026.ijcai.org/",
+   "start_date": "2026-08-15",
+   "end_date": "2026-08-21",
+   "deadline": "2026-01-12",
+   "location": "University of Bremen and Bremen Exhibition Center",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "8deee0009238",
+   "title": "IJCAI 2026 \u2014 International Joint Conference on Artificial Intelligence",
+   "url": "https://2026.ijcai.org/",
+   "start_date": "2026-08-15",
+   "end_date": "2026-08-21",
+   "deadline": "2026-01-12",
+   "location": "Bremen Exhibition Center",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "a866c0dc0a5b",
+   "title": "RLC 2026 \u2014 Reinforcement Learning Conference",
+   "url": "https://rl-conference.cc/",
+   "start_date": "2026-08-15",
+   "end_date": "2026-08-18",
+   "deadline": "2026-03-01",
+   "location": "Montreal",
+   "country": "Canada",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "936d90221c6a",
+   "title": "RuleML+RR 2026 \u2014 International Joint Conference on Rules and Reasoning",
+   "url": "https://2026.declarativeai.net/events/ruleml-rr",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-26",
+   "deadline": "2026-05-08",
+   "location": "Vilnius",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "170f78db8545",
+   "title": "ICDAR 2026 \u2014 International Conference on Document Analysis and Recognition",
+   "url": "https://icdar2026.org/",
+   "start_date": "2026-08-30",
+   "end_date": "2026-09-04",
+   "deadline": "2026-02-13",
+   "location": "TU Wien, Campus Gu\u00dfhaus",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "e5c3ae0b2970",
+   "title": "ECML PKDD 2026 \u2014 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+   "url": "https://ecmlpkdd.org/2026/",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-11",
+   "deadline": "2026-03-05",
+   "location": "University of Naples Federico II & Mostra d'Oltremare",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "ccda14635a1d",
+   "title": "ECCV 2026 \u2014 European Conference on Computer Vision",
+   "url": "https://eccv.ecva.net/Conferences/2026",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-12",
+   "deadline": "2026-03-05",
+   "location": "Malm\u00f6 Arena and Malm\u00f6m\u00e4ssan",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "d23e8f52e84a",
+   "title": "ICOMP 2026 \u2014 International Conference on Computational Optimization",
+   "url": "https://icomp.cc/",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-13",
+   "deadline": null,
+   "location": "Yerevan",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "db28049293ca",
+   "title": "ICANN 2026 \u2014 35th International Conference on Artificial Neural Networks",
+   "url": "https://e-nns.org/icann2026/",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-17",
+   "deadline": "2026-03-30",
+   "location": "Conference center of the School of Psychology, University of Padua, Padua, Italy",
+   "country": "Italy",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "33382b428094",
+   "title": "CoLLAs 2026 \u2014 Fifth Conference on Lifelong Learning Agents",
+   "url": "https://lifelong-ml.cc",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-17",
+   "deadline": "2026-04-10",
+   "location": "National University of Science and Technology Politehnica Bucharest",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "27bc7cdb2cc1",
+   "title": "IROS 2026 \u2014 IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+   "url": "https://2026.ieee-iros.org/",
+   "start_date": "2026-09-27",
+   "end_date": "2026-10-01",
+   "deadline": "2026-03-02",
+   "location": "David L. Lawrence Convention Center",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "84d87b5d5667",
+   "title": "MICCAI 2026 \u2014 International Conference on Medical Image Computing and Computer-Assisted Intervention",
+   "url": "https://conferences.miccai.org/2026/",
+   "start_date": "2026-09-27",
+   "end_date": "2026-10-01",
+   "deadline": "2026-02-12",
+   "location": "Strasbourg Convention Center",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "2d67839c84b1",
+   "title": "EUVIP 2026 \u2014 European Conference on Visual Information Processing",
+   "url": "https://euvip2026.github.io/",
+   "start_date": "2026-09-28",
+   "end_date": "2026-10-01",
+   "deadline": null,
+   "location": "Parc Hotel Alvisse, 120 Rte d'Echternach, 1453 Dommeldange, Luxembourg",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "6c6b465f8135",
+   "title": "Interspeech 2026 \u2014 Interspeech",
+   "url": "https://interspeech2026.org",
+   "start_date": "2026-09-28",
+   "end_date": "2026-10-01",
+   "deadline": null,
+   "location": "International Convention Centre (ICC) Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "f50d7ce54d9f",
+   "title": "SIBGRAPI 2026 \u2014 Conference on Graphics, Patterns and Images",
+   "url": "https://sibgrapi.sbc.org.br/2026/",
+   "start_date": "2026-09-29",
+   "end_date": "2026-10-02",
+   "deadline": "2026-05-30",
+   "location": "Federal University of Goi\u00e1s (UFG)",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "acd8852ad175",
+   "title": "COLM 2026 \u2014 Conference on Language Modeling",
+   "url": "https://colmweb.org/",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-09",
+   "deadline": "2026-03-26",
+   "location": "Hilton San Francisco Union Square, USA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "8483702dca7f",
+   "title": "EMNLP 2026 \u2014 The annual Conference on Empirical Methods in Natural Language Processing",
+   "url": "https://2026.emnlp.org/",
+   "start_date": "2026-10-24",
+   "end_date": "2026-10-29",
+   "deadline": "2026-05-25",
+   "location": "TBA",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "5c799b0761c2",
+   "title": "EMNLP (System Demonstrations Track) 2026 \u2014 The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations Track)",
+   "url": "https://2026.emnlp.org/",
+   "start_date": "2026-10-24",
+   "end_date": "2026-10-29",
+   "deadline": null,
+   "location": "Budapest, Hungary",
+   "country": "Hungary",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "e86d2a5d1cdc",
+   "title": "CIKM 2026 \u2014 Conference on Information and Knowledge Management",
+   "url": "https://cikm2026.diag.uniroma1.it/",
+   "start_date": "2026-11-07",
+   "end_date": "2026-11-11",
+   "deadline": "2026-05-16",
+   "location": "Rome",
+   "country": "Italy",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "991702e2b394",
+   "title": "CoRL 2026 \u2014 The Conference on Robot Learning",
+   "url": "https://www.corl.org/",
+   "start_date": "2026-11-09",
+   "end_date": "2026-11-12",
+   "deadline": "2026-05-26",
+   "location": "JW Marriott Austin, 110 E 2nd St, Austin, TX 78701",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "f89cbca600eb",
+   "title": "ACM MM 2026 \u2014 ACM Multimedia",
+   "url": "https://2026.acmmm.org/",
+   "start_date": "2026-11-10",
+   "end_date": "2026-11-14",
+   "deadline": "2026-03-25",
+   "location": "Rio de Janeiro",
+   "country": "Brazil",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "062e2d6feba6",
+   "title": "ICDM 2026 \u2014 International Conference on Data Mining",
+   "url": "http://icdm2026.neu.edu.cn/",
+   "start_date": "2026-11-12",
+   "end_date": "2026-11-15",
+   "deadline": "2026-05-30",
+   "location": "Shenyang",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "36b3dcee21cc",
+   "title": "NeurIPS 2026 \u2014 Conference on Neural Information Processing Systems",
+   "url": "https://neurips.cc/",
+   "start_date": "2026-12-06",
+   "end_date": "2026-12-12",
+   "deadline": "2026-05-04",
+   "location": "International Convention Centre, Sydney, Australia (Main venue, Dec 6-12). Satellite events at Georgia World Congress Center, Atlanta, USA (Dec 8-13) and Paris, France (Dec 9-13).",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "77542917c54e",
+   "title": "WACV 2027 \u2014 IEEE/CVF Winter Conference on Applications of Computer Vision",
+   "url": "https://wacv.thecvf.com/",
+   "start_date": "2027-01-05",
+   "end_date": "2027-01-09",
+   "deadline": null,
+   "location": "Disney Springs, Buena Vista, FL",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "3563b89d5c4e",
+   "title": "AAAI 2027 \u2014 AAAI Conference on Artificial Intelligence",
+   "url": "https://aaai.org/conference/aaai/",
+   "start_date": "2027-02-16",
+   "end_date": "2027-02-23",
+   "deadline": null,
+   "location": "Palais des congr\u00e8s de Montr\u00e9al, Montr\u00e9al, Canada",
+   "country": "Canada",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "5f0cdbff88d5",
+   "title": "ECIR 2027 \u2014 European Conference on Information Retrieval",
+   "url": "https://www.ecir2027.co.uk/",
+   "start_date": "2027-03-21",
+   "end_date": "2027-03-25",
+   "deadline": null,
+   "location": "University of Southampton, Southampton, United Kingdom",
+   "country": "UK",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "c094369f4cd9",
+   "title": "CHI 2027 \u2014 The ACM Conference on Human Factors in Computing Systems",
+   "url": "https://chi2027.acm.org/",
+   "start_date": "2027-05-10",
+   "end_date": "2027-05-14",
+   "deadline": null,
+   "location": "David L. Lawrence Convention Center, Pittsburgh, USA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "db5d26c4e4d6",
+   "title": "ICRA 2027 \u2014 IEEE International Conference on Robotics and Automation",
+   "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
+   "start_date": "2027-05-24",
+   "end_date": "2027-05-28",
+   "deadline": null,
+   "location": "COEX, Seoul, South Korea",
+   "country": "South Korea",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "80b9aabc0087",
+   "title": "CVPR 2027 \u2014 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "url": "https://cvpr.thecvf.com/",
+   "start_date": "2027-06-19",
+   "end_date": "2027-06-26",
+   "deadline": null,
+   "location": "Seattle Convention Center, Seattle, USA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "177784751a12",
+   "title": "CEC 2027 \u2014 IEEE Congress on Evolutionary Computation",
+   "url": "http://ieeecec.org",
+   "start_date": "2027-07-25",
+   "end_date": "2027-07-28",
+   "deadline": "2027-01-15",
+   "location": "Edinburgh",
+   "country": "UK",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "af037101d218",
+   "title": "SIGGRAPH 2027 \u2014 Conference on Computer Graphics and Interactive Techniques",
+   "url": "https://www.siggraph.org/",
+   "start_date": "2027-08-08",
+   "end_date": "2027-08-12",
+   "deadline": null,
+   "location": "Anaheim Convention Center, Anaheim, California",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "862d8e5273a1",
+   "title": "ICDAR 2027 \u2014 International Conference on Document Analysis and Recognition",
+   "url": "https://icdar2027.org/",
+   "start_date": "2027-08-18",
+   "end_date": "2027-08-22",
+   "deadline": null,
+   "location": "Kuala Lumpur",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "5ee4062aa59c",
+   "title": "ALT 2025 \u2014 International Conference on Algorithmic Learning Theory",
+   "url": "https://algorithmiclearningtheory.org/alt2025/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Politecnico di Milano, Milan, Italy",
+   "country": "Italy",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "bdbcbfc2e8c5",
+   "title": "COLT 2025 \u2014 Annual Conference on Learning Theory",
+   "url": "https://learningtheory.org/colt2025/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Lyon",
+   "country": "France",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "35581c27a2d9",
+   "title": "CVPR 2025 \u2014 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "url": "https://cvpr.thecvf.com/Conferences/2025/CallForPapers",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Music City Center, Nashville, USA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "d101ae0173c7",
+   "title": "ECAI 2025 \u2014 European Conference on Artificial Intelligence",
+   "url": "https://ecai2025.org/deadlines/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": "2025-04-29",
+   "location": "Bologna Congress Center and The Engineering School (University of Bologna)",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "99d6f49f409a",
+   "title": "UAI 2025 \u2014 Conference on Uncertainty in Artificial Intelligence",
+   "url": "https://www.auai.org/uai2025/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Rio de Janeiro",
+   "country": "Brazil",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "5d484c90e106",
+   "title": "UAI 2026 \u2014 Conference on Uncertainty in Artificial Intelligence",
+   "url": "https://www.auai.org/uai2026/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "db862bdda99c",
+   "title": "Eurographics 2027 \u2014 The 48th Annual Conference of the European Association for Computer Graphics",
+   "url": "https://www.eg.org/wp/eg-events/eurographics-annual-conference/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Pisa, Italy",
+   "country": "Italy",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "96f33cd65127",
+   "title": "HICSS 2027 \u2014 Hawaii International Conference on System Sciences",
+   "url": "https://hicss.hawaii.edu/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Waikoloa",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "0a5fa83133b8",
+   "title": "NAACL 2025 \u2014 The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+   "url": "https://2025.naacl.org/",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "Albuquerque",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  }
+ ]
+}

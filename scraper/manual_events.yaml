@@ -1,0 +1,12 @@
+# Add any event here by hand — department circulars, posters, emails.
+# Fields: title, url, start, end, deadline, location, type, source, tags
+# tags can include: astro, ai-ml, physics, math
+
+- title: "Symphony of Spacetime"
+  url: "https://www.rri.res.in/"
+  start: "2026-06-10"
+  end: "2026-06-12"
+  location: "Raman Research Institute, Bengaluru, India"
+  type: "conference"
+  source: "RRI"
+  tags: [astro, physics]
