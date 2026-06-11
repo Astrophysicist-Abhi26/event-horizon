@@ -241,6 +241,77 @@ def scrape_icts():
 
 
 # ---------------------------------------------------------------------------
+# 5. researchseminars.org — the global registry of academic seminars/talks
+#    (born at MIT, 2020). Clean JSON API; we pull upcoming talks in a
+#    3-week window and keep math/physics/CS/statistics ones.
+# ---------------------------------------------------------------------------
+RS_API = "https://researchseminars.org/api/0/search/talks"
+RS_KEEP_PREFIXES = ("math", "physics", "astro", "cs", "stat")
+RS_WINDOW_DAYS = 21
+RS_MAX_TALKS = 250
+
+
+def _rs_tags(topics):
+    tags = set()
+    for t in topics or []:
+        t = t.lower()
+        if t.startswith("math"):
+            tags.add("math")
+        if t.startswith("physics") or "astro" in t:
+            tags.add("physics")
+        if "astro" in t or "gr-qc" in t or "cosmo" in t:
+            tags.add("astro")
+        if t.startswith(("cs", "stat")) or "machine" in t or "_ml" in t:
+            tags.add("ai-ml")
+    return sorted(tags)
+
+
+def scrape_researchseminars():
+    import json as _json
+    today = dt.date.today()
+    horizon = today + dt.timedelta(days=RS_WINDOW_DAYS)
+    query = {
+        "start_time": {"$gte": today.isoformat(),
+                       "$lte": horizon.isoformat() + "T23:59:59"},
+    }
+    params = {k: _json.dumps(v) for k, v in query.items()}
+    r = requests.get(RS_API, params=params, headers=HEADERS, timeout=TIMEOUT)
+    r.raise_for_status()
+    results = r.json().get("results", [])
+    events = []
+    for t in results:
+        topics = t.get("topics") or []
+        if not any(str(tp).lower().startswith(RS_KEEP_PREFIXES) for tp in topics):
+            continue
+        title = (t.get("title") or "").strip()
+        if not title or title.upper() == "TBA":
+            continue
+        speaker = (t.get("speaker") or "").strip()
+        if speaker:
+            title = f"{title} — {speaker}"
+        sid, ctr = t.get("seminar_id"), t.get("seminar_ctr")
+        url = (f"https://researchseminars.org/talk/{sid}/{ctr}/"
+               if sid and ctr is not None else "https://researchseminars.org/")
+        start = _iso(str(t.get("start_time", ""))[:10])
+        end = _iso(str(t.get("end_time", ""))[:10]) or start
+        loc = "Online" if t.get("online") else (t.get("speaker_affiliation") or None)
+        events.append({
+            "title": title,
+            "url": url,
+            "start_date": start,
+            "end_date": end,
+            "deadline": None,
+            "location": loc,
+            "source": "researchseminars.org",
+            "raw_type": "seminar",
+            "extra_tags": _rs_tags(topics),
+        })
+        if len(events) >= RS_MAX_TALKS:
+            break
+    return events
+
+
+# ---------------------------------------------------------------------------
 # 4. Manual events — anything you add by hand in scraper/manual_events.yaml
 #    (e.g. RRI's "Symphony of Spacetime", department circulars, emails)
 # ---------------------------------------------------------------------------
@@ -272,5 +343,6 @@ SOURCES = [
     ("AI Deadlines", scrape_ai_deadlines),
     ("CADC Astronomy Meetings", scrape_cadc_meetings),
     ("ICTS Bengaluru", scrape_icts),
+    ("researchseminars.org", scrape_researchseminars),
     ("Manual", scrape_manual),
 ]

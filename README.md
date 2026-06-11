@@ -30,6 +30,7 @@ GitHub Pages
 | huggingface/ai-deadlines | All major AI/ML conferences + deadlines | ✅ tested live |
 | CADC International Astronomy Meetings | Worldwide astronomy meetings (via official iCal/RSS feeds) | ✅ parser tested on real feed data |
 | ICTS Bengaluru | Programs, schools, discussion meetings, lecture series | ✅ parser tested on real page structure |
+| researchseminars.org | Seminars & talks worldwide (math/physics/CS/stat), 3-week window | ✅ parser tested on API schema |
 | `scraper/manual_events.yaml` | Anything you add by hand | ✅ tested |
 
 CADC's HTML pages are JavaScript-rendered, so the scraper uses CADC's
