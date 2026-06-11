@@ -1,8 +1,7 @@
 {
- "generated": "2026-06-11T04:02:14.412048+00:00",
+ "generated": "2026-06-11T09:34:25.715796+00:00",
  "errors": [
-  "CADC Astronomy Meetings: 403 Client Error: Forbidden for url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/",
-  "ICTS Bengaluru: 403 Client Error: Forbidden for url: https://www.icts.res.in/program"
+  "ICTS Bengaluru: 404 Client Error: Not Found for url: https://www.icts.res.in/program"
  ],
  "events": [
   {
