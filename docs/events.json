@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-11T17:13:48.421609+00:00",
+ "generated": "2026-06-12T07:05:42.547773+00:00",
  "errors": [],
  "events": [
   {
@@ -55,111 +55,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "255161f50f9e",
-   "title": "Hybrid systems as coalgebras: Lyapunov morphisms for Zeno stability \u2014 Joe Moeller",
-   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/216/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 47,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "ca493ec752e3",
-   "title": "Descending into the Modular Bootstrap \u2014 Jesse Thaler",
-   "url": "https://researchseminars.org/talk/ai-for-science/11/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "2855431501bd",
-   "title": "Chapter 3:Multiple-Qubit Systems \u2014 Eric Dolores-Cuenca",
-   "url": "https://researchseminars.org/talk/QRB/3/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "50bac0d77084",
-   "title": "Boundary attainment conditions for stochastic Volterra equations \u2014 Sergio Pulido",
-   "url": "https://researchseminars.org/talk/BFSOneWorld/80/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "20ab216abf7b",
-   "title": "Angle structures and representations through Dehn surgery space \u2014 Abigail Hollingsworth",
-   "url": "https://researchseminars.org/talk/GaTO/143/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "2996ea91aefe",
-   "title": "Optimal bounds for sums of arithmetic functions \u2014 Harald Andr\u00e9s Helfgott",
-   "url": "https://researchseminars.org/talk/NTWebSeminar/302/",
-   "start_date": "2026-06-11",
-   "end_date": "2026-06-11",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -743,23 +638,6 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "b59efffe0dae",
-   "title": "Experiments and expectations in computational algebra \u2014 John Voight",
-   "url": "https://researchseminars.org/talk/CompAlgSemMagma/27/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Sydney",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
    "tags": [
     "math"
    ]
