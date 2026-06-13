@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-12T07:05:42.547773+00:00",
+ "generated": "2026-06-13T06:38:37.592250+00:00",
  "errors": [],
  "events": [
   {
@@ -23,114 +23,6 @@
    ]
   },
   {
-   "id": "05f065d12bb2",
-   "title": "Symphony of Spacetime",
-   "url": "https://www.rri.res.in/",
-   "start_date": "2026-06-10",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Raman Research Institute, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Conference",
-   "source": "RRI",
-   "score": 70,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "14a3deeadda5",
-   "title": "BIS 2026 \u2014 International Conference on Business Information Systems",
-   "url": "https://bisconf.org/2026",
-   "start_date": "2026-06-10",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Prague University of Economics and Business, N\u00e1m. W. Churchilla 4, Prague 130 67, Czech Republic",
-   "country": "Czech",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "b77aca2a7996",
-   "title": "Statistical Physics of Ecosystems \u2014 Thibaut Arnoulx de Pirey",
-   "url": "https://researchseminars.org/talk/courses_ipht/39/",
-   "start_date": "2026-06-12",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 75,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "0bfb085eaf5e",
-   "title": "Graphical Algebraic Geometry: From Ideals and Varieties to Quantum Calculi \u2014 Dichuan Gao",
-   "url": "https://researchseminars.org/talk/TheoryCSBham/81/",
-   "start_date": "2026-06-12",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 72,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "a18eebceb8a9",
-   "title": "A mixed\u2013hybrid flux\u2013preserving element for the coupled problem of finite-strain poroelasticity \u2014 Simona Lo Franco",
-   "url": "https://researchseminars.org/talk/AnJunSem/26/",
-   "start_date": "2026-06-12",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "ac17e825742b",
-   "title": "Symplectic excision and distance rigidity \u2014 Yoel Groman (HUJI)",
-   "url": "https://researchseminars.org/talk/SympZoominar/186/",
-   "start_date": "2026-06-12",
-   "end_date": "2026-06-12",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
    "id": "b910dafd7902",
    "title": "Strict Equivalence of Multi-Virtual Linkoids \u2014 Louis Kauffman",
    "url": "https://researchseminars.org/talk/knotgraphgroup/153/",
@@ -151,7 +43,7 @@
   {
    "id": "7997e41c4b6b",
    "title": "Cosmological first-order phase transitions: tunneling at finite temperature \u2014 Masahide Yamaguchi",
-   "url": "https://researchseminars.org/talk/NKUA-HEP/56/",
+   "url": "https://researchseminars.org/talk/NKUA-HEP/-56/",
    "start_date": "2026-06-15",
    "end_date": "2026-06-15",
    "deadline": null,
@@ -219,6 +111,23 @@
    ]
   },
   {
+   "id": "0afd0916ca7e",
+   "title": "A Geometric Approach to Ki's L4 Norm Bound \u2014 Trajan Hammonds",
+   "url": "https://researchseminars.org/talk/IntSemAutForms/146/",
+   "start_date": "2026-06-16",
+   "end_date": "2026-06-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "efb6bad670ee",
    "title": "Restricted polynomial roots, reciprocal power series, and finite capture for collinear affine IFS \u2014 Bernat Espigul\u00e9",
    "url": "https://researchseminars.org/talk/OWNS/168/",
@@ -269,6 +178,24 @@
    "score": 30,
    "tags": [
     "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "e2ddaf11f607",
+   "title": "Odd dimensional generalization of symplectic structures and dynamical systems \u2014 Cem Yeti\u015fmi\u015fo\u011flu",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/147/",
+   "start_date": "2026-06-17",
+   "end_date": "2026-06-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
     "physics"
    ]
   },
@@ -692,6 +619,23 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "1391e75a3f59",
+   "title": "Cross-ratio degrees by Triangulations \u2014 Veronika K\u00f6rber (T\u00fcbingen)",
+   "url": "https://researchseminars.org/talk/AlgebraicGeometryTopology/99/",
+   "start_date": "2026-06-25",
+   "end_date": "2026-06-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
