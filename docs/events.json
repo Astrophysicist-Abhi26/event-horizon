@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-16T08:30:39.932113+00:00",
+ "generated": "2026-06-17T07:36:21.605128+00:00",
  "errors": [],
  "events": [
   {
@@ -20,75 +20,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "ed7498f76fb9",
-   "title": "Recovering free-surface profiles for hydroelastic rotational waves \u2014 Sarah Ferguson Briggs",
-   "url": "https://researchseminars.org/talk/UEA_mth/28/",
-   "start_date": "2026-06-16",
-   "end_date": "2026-06-16",
-   "deadline": null,
-   "location": "University of East Anglia",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "0afd0916ca7e",
-   "title": "A Geometric Approach to Ki's L4 Norm Bound \u2014 Trajan Hammonds",
-   "url": "https://researchseminars.org/talk/IntSemAutForms/146/",
-   "start_date": "2026-06-16",
-   "end_date": "2026-06-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "179bd81bf57a",
-   "title": "On the implicit regularization of Langevin dynamics with projected noise \u2014 Austin Stromme",
-   "url": "https://researchseminars.org/talk/NonLocalOperators/132/",
-   "start_date": "2026-06-16",
-   "end_date": "2026-06-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "efb6bad670ee",
-   "title": "Restricted polynomial roots, reciprocal power series, and finite capture for collinear affine IFS \u2014 Bernat Espigul\u00e9",
-   "url": "https://researchseminars.org/talk/OWNS/168/",
-   "start_date": "2026-06-16",
-   "end_date": "2026-06-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -304,6 +235,23 @@
    ]
   },
   {
+   "id": "b0bb417fe32f",
+   "title": "Unique surgery descriptions along knots \u2014 Misha Schmalian",
+   "url": "https://researchseminars.org/talk/GaTO/144/",
+   "start_date": "2026-06-18",
+   "end_date": "2026-06-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "30549979a2c1",
    "title": "Simultaneous non-vanishing of $L$-functions at the central point \u2014 Alexandra Florea",
    "url": "https://researchseminars.org/talk/NTWebSeminar/304/",
@@ -375,6 +323,24 @@
    ]
   },
   {
+   "id": "e29737091716",
+   "title": "About Hyperfunctions \u2014 Ois\u00edn Kidney",
+   "url": "https://researchseminars.org/talk/TheoryCSBham/82/",
+   "start_date": "2026-06-19",
+   "end_date": "2026-06-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "31ea52f6698a",
    "title": "Divergence identity for the scalar curvature and rigidity of Codazzi tensors \u2014 Andr\u00e9s Lipa Carrizales",
    "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/110/",
@@ -389,6 +355,24 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "a7d33422b09b",
+   "title": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043b\u0430\u043d\u0430\u0440\u043d\u044b\u0435 \u0433\u0440\u0430\u0444\u044b. \u2014 \u0421\u0435\u0440\u0433\u0435\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/152/",
+   "start_date": "2026-06-20",
+   "end_date": "2026-06-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -654,6 +638,24 @@
    ]
   },
   {
+   "id": "80a738e9b79a",
+   "title": "Non-smooth dynamics and machine learning \u2014 Chris Budd OBE",
+   "url": "https://researchseminars.org/talk/AppliedMath/93/",
+   "start_date": "2026-06-26",
+   "end_date": "2026-06-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "ebbbf4f6496d",
    "title": "Operadic GPAV: Topologically-Aware Isotonic Regression on Large-Scale Networks \u2014 Jonathan Toledo Toledo",
    "url": "https://researchseminars.org/talk/TropicalmathandML/42/",
@@ -729,6 +731,23 @@
    "url": "https://researchseminars.org/talk/ENAAS/185/",
    "start_date": "2026-06-29",
    "end_date": "2026-06-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "96de50da2262",
+   "title": "On an algebro-geometric approach to the automatic convergence theorem for Shimura varieties \u2014 Haocheng Fan",
+   "url": "https://researchseminars.org/talk/IntSemAutForms/148/",
+   "start_date": "2026-06-30",
+   "end_date": "2026-06-30",
    "deadline": null,
    "location": "Online",
    "country": "Online",
@@ -826,6 +845,23 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "50a3038c6a59",
+   "title": "On Distributed-Order Time-Fractional Telegraph Equations in Higher Dimensions \u2014 Nelson Vieira",
+   "url": "https://researchseminars.org/talk/SeminaronAnalysis/131/",
+   "start_date": "2026-07-02",
+   "end_date": "2026-07-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -1062,6 +1098,74 @@
    "url": "https://researchseminars.org/talk/ams-msc-30c/8/",
    "start_date": "2026-07-07",
    "end_date": "2026-07-07",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "23a49d560453",
+   "title": "Generic Manin\u2013Mumford \u2014 Lior Bary-Soroker",
+   "url": "https://researchseminars.org/talk/LNTS/200/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
+   "deadline": null,
+   "location": "Tel Aviv University",
+   "country": "Israel",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "923403398c71",
+   "title": "on Ch. Bishop's \"Conformal welding and  Koebe's theorem (journal version)\" (theorem 2, up to and possibly including section 6) \u2014 Timur Bakiev",
+   "url": "https://researchseminars.org/talk/ams-msc-30c/9/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9140126e0ed1",
+   "title": "on Ch. Bishop's \"Conformal welding and Koebe's theorem (journal version)\" (theorem 3, mainly section 7) \u2014 Kristina Oganesyan",
+   "url": "https://researchseminars.org/talk/ams-msc-30c/10/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "c98c10754fb3",
+   "title": "on A. Rodriguez's \"Every circle homeomorphism is the composition of two weldings\" \u2014 Katheryn Mennsen",
+   "url": "https://researchseminars.org/talk/ams-msc-30c/11/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
    "deadline": null,
    "location": "Online",
    "country": "Online",
