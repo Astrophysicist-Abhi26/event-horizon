@@ -1,116 +1,7 @@
 {
- "generated": "2026-06-19T07:40:52.369203+00:00",
+ "generated": "2026-06-20T06:48:26.520107+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "cc0bb2ed2978",
-   "title": "Summer School for Women in Mathematics and Statistics",
-   "url": "https://www.icts.res.in/program/swms2026",
-   "start_date": "2026-06-08",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "School",
-   "source": "ICTS Bengaluru",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "0ad484db9c91",
-   "title": "Statistical Physics of Ecosystems \u2014 Thibaut Arnoulx de Pirey",
-   "url": "https://researchseminars.org/talk/courses_ipht/40/",
-   "start_date": "2026-06-19",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 75,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "8d37a5a2691f",
-   "title": "Varieties of left-commutative algebras \u2014 Bekzat Zhakhayev",
-   "url": "https://researchseminars.org/talk/AlgAndLogic/133/",
-   "start_date": "2026-06-19",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0aa8aa7f43b1",
-   "title": "Virtue, Vice, and Socratic Irony: Benevolent LLMs as Tools for Moral Enhancement \u2014 Bart\u0142omiej Skowron and Jaros\u0142aw Chudziak",
-   "url": "https://researchseminars.org/talk/CompMath/32/",
-   "start_date": "2026-06-19",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "e29737091716",
-   "title": "About Hyperfunctions \u2014 Ois\u00edn Kidney",
-   "url": "https://researchseminars.org/talk/TheoryCSBham/82/",
-   "start_date": "2026-06-19",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "31ea52f6698a",
-   "title": "Divergence identity for the scalar curvature and rigidity of Codazzi tensors \u2014 Andr\u00e9s Lipa Carrizales",
-   "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/110/",
-   "start_date": "2026-06-19",
-   "end_date": "2026-06-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
   {
    "id": "a7d33422b09b",
    "title": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043b\u0430\u043d\u0430\u0440\u043d\u044b\u0435 \u0433\u0440\u0430\u0444\u044b. \u2014 \u0421\u0435\u0440\u0433\u0435\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0422\u0438\u0449\u0435\u043d\u043a\u043e",
@@ -355,6 +246,24 @@
    "score": 30,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "ad256115f136",
+   "title": "Double complexes for configuration spaces and hypergraphs on manifolds \u2014 Shiquan Ren",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/149/",
+   "start_date": "2026-06-24",
+   "end_date": "2026-06-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -1903,25 +1812,6 @@
    ]
   },
   {
-   "id": "9a053f1f4527",
-   "title": "Geometry of Sparse Sets",
-   "url": "https://www.icts.res.in/program/geoss",
-   "start_date": "2026-12-21",
-   "end_date": "2027-01-01",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Workshop",
-   "source": "ICTS Bengaluru",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "af2a0e7364f5",
    "title": "Winter School on Biological Physics",
    "url": "https://www.icts.res.in/program/wsbp",
@@ -1932,6 +1822,25 @@
    "country": "India",
    "in_india": true,
    "type": "School",
+   "source": "ICTS Bengaluru",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "9a053f1f4527",
+   "title": "Geometry of Sparse Sets",
+   "url": "https://www.icts.res.in/program/geoss",
+   "start_date": "2026-12-21",
+   "end_date": "2027-01-01",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Workshop",
    "source": "ICTS Bengaluru",
    "score": 60,
    "tags": [
@@ -1970,6 +1879,25 @@
    "type": "Workshop",
    "source": "ICTS Bengaluru",
    "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "ec9176877f3c",
+   "title": "From Richardson\u2019s diffusion to spontaneous stochasticity: A century of chasing unpredictability in turbulent dispersion",
+   "url": "https://www.icts.res.in/program/FRDSS",
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-26",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 40,
    "tags": [
     "astro",
     "math",
