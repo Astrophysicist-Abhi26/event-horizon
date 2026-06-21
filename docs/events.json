@@ -1,25 +1,7 @@
 {
- "generated": "2026-06-20T06:48:26.520107+00:00",
+ "generated": "2026-06-21T07:17:12.396369+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "a7d33422b09b",
-   "title": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u043b\u0430\u043d\u0430\u0440\u043d\u044b\u0435 \u0433\u0440\u0430\u0444\u044b. \u2014 \u0421\u0435\u0440\u0433\u0435\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0422\u0438\u0449\u0435\u043d\u043a\u043e",
-   "url": "https://researchseminars.org/talk/knotgraphgroup/152/",
-   "start_date": "2026-06-20",
-   "end_date": "2026-06-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "7f9f5ab8525d",
    "title": "IJCNN 2026 \u2014 International Joint Conference on Neural Networks",
@@ -411,6 +393,24 @@
    "url": "https://researchseminars.org/talk/SEUYC/48/",
    "start_date": "2026-06-26",
    "end_date": "2026-06-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "0df320ecc6f5",
+   "title": "\u041c\u0435\u0442\u043e\u0434  \u041d\u044c\u044e\u0442\u043e\u043d\u0430 \u0438 \u0442\u0435\u043e\u0440\u0438\u044f \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0443\u043c\u0430 \u2014 \u0413.\u0413. \u041c\u0430\u0433\u0430\u0440\u0438\u043b-\u0418\u043b\u044c\u044f\u0435\u0432",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/154/",
+   "start_date": "2026-06-27",
+   "end_date": "2026-06-27",
    "deadline": null,
    "location": "Online",
    "country": "Online",
