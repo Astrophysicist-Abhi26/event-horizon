@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-25T06:32:39.833235+00:00",
+ "generated": "2026-06-26T06:36:24.739495+00:00",
  "errors": [],
  "events": [
   {
@@ -56,58 +56,6 @@
    ]
   },
   {
-   "id": "d13b11e99277",
-   "title": "Coexact 1-form spectral gaps and three-dimensional topology \u2014 Francesco Lin",
-   "url": "https://researchseminars.org/talk/Geometric_Structures_SISSA/116/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Columbia University",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "6566e56b3c4c",
-   "title": "The metric, topological, and fractal properties of the sets of quasi-normal, partially anormal, and essentially anormal numbers for the factorial expansion \u2014 Yuliya Voloshyn",
-   "url": "https://researchseminars.org/talk/fran/81/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "bdbf6fdb89cf",
-   "title": "Towards higher-dimensional syntax \u2014 Astra Kolomatskaia",
-   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/219/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
    "id": "c8d90fe18b73",
    "title": "FAccT 2026 \u2014 ACM Conference on Fairness, Accountability, and Transparency",
    "url": "https://facctconference.org/2026/index.html",
@@ -122,40 +70,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "1391e75a3f59",
-   "title": "Cross-ratio degrees by Triangulations \u2014 Veronika K\u00f6rber (T\u00fcbingen)",
-   "url": "https://researchseminars.org/talk/AlgebraicGeometryTopology/99/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "c17ced92d6c1",
-   "title": "Potential theory, ultrafilters, and uniform boundedness of rational torsion on abelian varieties \u2014 Nicole Looper",
-   "url": "https://researchseminars.org/talk/NTWebSeminar/306/",
-   "start_date": "2026-06-25",
-   "end_date": "2026-06-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -232,8 +146,8 @@
    ]
   },
   {
-   "id": "0a04f1fe6124",
-   "title": "London Learning Lean \u2014 Various",
+   "id": "effad22e6b9c",
+   "title": "CANCELLED due to hot weather \u2014 CANCELLED",
    "url": "https://researchseminars.org/talk/LondonLearningLean/34/",
    "start_date": "2026-06-26",
    "end_date": "2026-06-26",
@@ -373,6 +287,23 @@
    ]
   },
   {
+   "id": "c76201bcae16",
+   "title": "Oriented graph-links: invariants and classification \u2014 Igor M. Nikonov",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/169/",
+   "start_date": "2026-06-29",
+   "end_date": "2026-06-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "96de50da2262",
    "title": "On an algebro-geometric approach to the automatic convergence theorem for Shimura varieties \u2014 Haocheng Fan",
    "url": "https://researchseminars.org/talk/IntSemAutForms/148/",
@@ -404,6 +335,24 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "85c258d5c31e",
+   "title": "Collectivity from Quantum Diffraction \u2014 Daniel Pablos Alfonso",
+   "url": "https://researchseminars.org/talk/ICCUB_Seminars/96/",
+   "start_date": "2026-07-01",
+   "end_date": "2026-07-01",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "astro",
+    "physics"
    ]
   },
   {
@@ -999,6 +948,25 @@
    "tags": [
     "ai-ml",
     "math"
+   ]
+  },
+  {
+   "id": "47876cb4592c",
+   "title": "Quantum Entanglement in Nature: From Superconductors to Black Holes",
+   "url": "https://www.icts.res.in/lectures/quantum-entanglement-nature",
+   "start_date": "2026-07-13",
+   "end_date": "2026-07-13",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 100,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
    ]
   },
   {
@@ -2527,6 +2495,25 @@
    "id": "2cebf74b9128",
    "title": "Foundation Day Lectures",
    "url": "https://www.icts.res.in/lectures/foundation-day-lectures",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "cac26138fb90",
+   "title": "P. Rajagopalan Memorial Lectures",
+   "url": "https://www.icts.res.in/lectures/rajagopalan",
    "start_date": null,
    "end_date": null,
    "deadline": null,
