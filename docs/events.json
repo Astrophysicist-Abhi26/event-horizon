@@ -1,7 +1,7 @@
 {
- "generated": "2026-06-27T06:09:09.251983+00:00",
+ "generated": "2026-06-28T06:45:05.578306+00:00",
  "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-06-27%22%2C+%22%24lte%22%3A+%222026-07-18T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7f64757274a0>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
+  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-06-28%22%2C+%22%24lte%22%3A+%222026-07-19T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7fe3a8f853d0>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
  ],
  "events": [
   {
