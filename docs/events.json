@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-29T07:13:19.732681+00:00",
+ "generated": "2026-06-30T06:39:00.399761+00:00",
  "errors": [],
  "events": [
   {
@@ -53,76 +53,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "8349de712fea",
-   "title": "An introduction to the Asymptotic Spectra of Preordered Semirings \u2014 Jeong-Hoon Ju",
-   "url": "https://researchseminars.org/talk/TropicalmathandML/43/",
-   "start_date": "2026-06-29",
-   "end_date": "2026-06-29",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "0bc19468b507",
-   "title": "We will meet in October 2026 \u2014 summer break",
-   "url": "https://researchseminars.org/talk/NSCM/218/",
-   "start_date": "2026-06-29",
-   "end_date": "2026-06-29",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "7d3bf2466f18",
-   "title": "The Structure of Left Cheban Loops \u2014 Michael Kinyon",
-   "url": "https://researchseminars.org/talk/ENAAS/185/",
-   "start_date": "2026-06-29",
-   "end_date": "2026-06-29",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "c76201bcae16",
-   "title": "Oriented graph-links: invariants and classification \u2014 Igor M. Nikonov",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/169/",
-   "start_date": "2026-06-29",
-   "end_date": "2026-06-29",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -635,6 +565,24 @@
    ]
   },
   {
+   "id": "046980f309ab",
+   "title": "Uniformly perfect Morse boundaries \u2014 Qing Liu",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/151/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "23a49d560453",
    "title": "Generic Manin\u2013Mumford \u2014 Lior Bary-Soroker",
    "url": "https://researchseminars.org/talk/LNTS/200/",
@@ -915,9 +863,43 @@
    ]
   },
   {
+   "id": "428219c3f9d8",
+   "title": "Beyond ON/OFF: Multistate Molecules and Materials \u2014 Friedrich (Fritz) Stricker",
+   "url": "https://researchseminars.org/talk/SysChemDis/23/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "physics"
+   ]
+  },
+  {
    "id": "e1a086ff95d5",
    "title": "A dimension descent scheme for the positive mass theorem in arbitrary dimension \u2014 Simon Brendle",
    "url": "https://researchseminars.org/talk/NCTS-GMT/36/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0c4e61c48681",
+   "title": "Non-reductive pseudo-Riemannian symmetric spaces \u2014 Ines Kath",
+   "url": "https://researchseminars.org/talk/VSGS/133/",
    "start_date": "2026-07-15",
    "end_date": "2026-07-15",
    "deadline": null,
