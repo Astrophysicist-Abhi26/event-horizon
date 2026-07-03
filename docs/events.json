@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-02T06:23:35.717142+00:00",
+ "generated": "2026-07-03T06:09:38.102318+00:00",
  "errors": [],
  "events": [
   {
@@ -57,24 +57,6 @@
    ]
   },
   {
-   "id": "861380711d72",
-   "title": "Form Without End: Aristotelian Causality and the General-Purpose Tool \u2014 Matt Prewitt",
-   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/220/",
-   "start_date": "2026-07-02",
-   "end_date": "2026-07-02",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
    "id": "f2b5a19a674c",
    "title": "ACL 2026 \u2014 Annual Meeting of the Association for Computational Linguistics",
    "url": "https://2026.aclweb.org/",
@@ -89,40 +71,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "500f6ccf7c87",
-   "title": "Affine extensions of icosahedral symmetry with connections to biology and chemistry \u2014 Kevin O'Brien",
-   "url": "https://researchseminars.org/talk/GaTO/148/",
-   "start_date": "2026-07-02",
-   "end_date": "2026-07-02",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "50a3038c6a59",
-   "title": "On Distributed-Order Time-Fractional Telegraph Equations in Higher Dimensions \u2014 Nelson Vieira",
-   "url": "https://researchseminars.org/talk/SeminaronAnalysis/131/",
-   "start_date": "2026-07-02",
-   "end_date": "2026-07-02",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -925,6 +873,25 @@
    "score": 50,
    "tags": [
     "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "312565db62b6",
+   "title": "Introduction to Krylov Complexity \u2014 Nongmaithem Jasper",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/39/",
+   "start_date": "2026-07-24",
+   "end_date": "2026-07-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
     "physics"
    ]
   },
