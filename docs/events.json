@@ -1,61 +1,7 @@
 {
- "generated": "2026-07-03T06:09:38.102318+00:00",
+ "generated": "2026-07-04T05:59:51.277517+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "febbf82cc88a",
-   "title": "Refinements in Enumerative Geometry and  Physics",
-   "url": "https://www.icts.res.in/program/regp-2026",
-   "start_date": "2026-06-22",
-   "end_date": "2026-07-03",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Workshop",
-   "source": "ICTS Bengaluru",
-   "score": 80,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "eb2d90341e5f",
-   "title": "COLT 2026 \u2014 Annual Conference on Learning Theory",
-   "url": "https://learningtheory.org/colt2026/",
-   "start_date": "2026-06-29",
-   "end_date": "2026-07-03",
-   "deadline": null,
-   "location": "Bahia Resort Hotel",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 52,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "9b8989de77d4",
-   "title": "SGP 2026 \u2014 Symposium on Geometry Processing",
-   "url": "https://sgp26.org/",
-   "start_date": "2026-07-01",
-   "end_date": "2026-07-03",
-   "deadline": "2026-02-02",
-   "location": "University of Bern, Switzerland",
-   "country": "Switzerland",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
   {
    "id": "f2b5a19a674c",
    "title": "ACL 2026 \u2014 Annual Meeting of the Association for Computational Linguistics",
@@ -88,23 +34,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "be5a8c0790fc",
-   "title": "Linear stability of Perelman's $\\nu$-entropy functional on standard Einstein manifolds \u2014 Alejandro Tolcachier",
-   "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/111/",
-   "start_date": "2026-07-03",
-   "end_date": "2026-07-03",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -406,6 +335,23 @@
    ]
   },
   {
+   "id": "638f71152bd0",
+   "title": "Local-global compatibility at l=p for automorphic Galois representations over CM fields \u2014 Lambert A'Campo",
+   "url": "https://researchseminars.org/talk/HCMCAlg/1/",
+   "start_date": "2026-07-08",
+   "end_date": "2026-07-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "23a49d560453",
    "title": "Generic Manin\u2013Mumford \u2014 Lior Bary-Soroker",
    "url": "https://researchseminars.org/talk/LNTS/200/",
@@ -700,6 +646,23 @@
    "score": 10,
    "tags": [
     "physics"
+   ]
+  },
+  {
+   "id": "0230aae98e35",
+   "title": "On Second Adjointness for mod p Representations \u2014 Claudius Heyer",
+   "url": "https://researchseminars.org/talk/HCMCAlg/2/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
