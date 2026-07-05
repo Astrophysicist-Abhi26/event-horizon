@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-04T05:59:51.277517+00:00",
+ "generated": "2026-07-05T06:24:48.260767+00:00",
  "errors": [],
  "events": [
   {
@@ -10,23 +10,6 @@
    "end_date": "2026-07-07",
    "deadline": "2026-01-05",
    "location": "Grand Hyatt Manchester San Diego, 1 Market Place, San Diego, CA 92101",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "4daf867f17b7",
-   "title": "CoNLL 2026 \u2014 The SIGNLL Conference on Computational Natural Language Learning",
-   "url": "https://conll.org/",
-   "start_date": "2026-07-03",
-   "end_date": "2026-07-04",
-   "deadline": "2026-02-19",
-   "location": "San Diego, California, USA",
    "country": "USA",
    "in_india": false,
    "type": "Conference",
