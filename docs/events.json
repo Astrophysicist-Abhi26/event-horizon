@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-05T06:24:48.260767+00:00",
+ "generated": "2026-07-06T06:52:50.986360+00:00",
  "errors": [],
  "events": [
   {
@@ -489,6 +489,23 @@
    ]
   },
   {
+   "id": "a0cc05eef57b",
+   "title": "Continuous structurally fractal functions defined in terms of the $Q_s$-representation and nega-$Q_s$-representation of numbers (qualifying seminar) \u2014 Volodymyr Yelahin",
+   "url": "https://researchseminars.org/talk/fran/82/",
+   "start_date": "2026-07-09",
+   "end_date": "2026-07-09",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "372d4a5c4474",
    "title": "Gravitational and Phenomenological Properties of Early Universe Defects \u2014 Yu Komiya",
    "url": "https://researchseminars.org/talk/EUPAC-TP/37/",
@@ -842,6 +859,24 @@
    ]
   },
   {
+   "id": "5b422ab3c56b",
+   "title": "Quasi-particle bases of standard modules for affine Lie algebras \u2014 Marijana Butorac",
+   "url": "https://researchseminars.org/talk/ENAAS/182/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "38b381b3ef46",
    "title": "The Concurrence of Mega-Surveys",
    "url": "https://www.icts.res.in/program/CMSURVEYS",
@@ -858,6 +893,23 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "0451bf24e2b8",
+   "title": "A proof of the p-adic Gross-Zagier theorem - Part II \u2014 Peter Neamti",
+   "url": "https://researchseminars.org/talk/CarletonOttawaNT/77/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
