@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-06T06:52:50.986360+00:00",
+ "generated": "2026-07-07T06:30:09.126730+00:00",
  "errors": [],
  "events": [
   {
@@ -56,24 +56,6 @@
    ]
   },
   {
-   "id": "e3be19c3f68a",
-   "title": "on A. Basmajian's \"QC mappings and geodesics in the hyperbolic plane\" \u2014 Shuoran Yan",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/3/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 50,
-   "tags": [
-    "astro",
-    "math"
-   ]
-  },
-  {
    "id": "a32154f91222",
    "title": "Automorphic forms: Arithmetic and Representation Theoretical Aspects",
    "url": "https://www.icts.res.in/program/afart",
@@ -90,91 +72,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "c647bf70407c",
-   "title": "Birational Normal Forms for Kac--Moody Algebras \u2014 Atabey Kaygun",
-   "url": "https://researchseminars.org/talk/ENAAS/180/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "f689c4d15188",
-   "title": "Conformal geometry of points, curves, and surfaces \u2014 Hrant Hakobyan",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/1/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "c3f9a2148d49",
-   "title": "Manifolds Homeomorphic to Sphere \u2014 Sachchidanand Prasad",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/170/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "b042aa8ff4cc",
-   "title": "on R. Schwartz's \"Mostow rigidity made easier\" \u2014 Leo Thiebaud",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/2/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "140b224a6da2",
-   "title": "on D. Saric's \"Circle homeomorphisms and shears\" \u2014 Aram Galstyan",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/4/",
-   "start_date": "2026-07-06",
-   "end_date": "2026-07-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -901,6 +798,23 @@
    "url": "https://researchseminars.org/talk/CarletonOttawaNT/77/",
    "start_date": "2026-07-27",
    "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6cc6dc533bdf",
+   "title": "Crystals and KLR representations in type $A_1^{(1)}$ \u2014 Rob Muth",
+   "url": "https://researchseminars.org/talk/OISTRTS/79/",
+   "start_date": "2026-07-28",
+   "end_date": "2026-07-28",
    "deadline": null,
    "location": "Online",
    "country": "Online",
