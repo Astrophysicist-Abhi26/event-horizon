@@ -1,24 +1,7 @@
 {
- "generated": "2026-07-07T06:30:09.126730+00:00",
+ "generated": "2026-07-08T05:37:08.084474+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "f2b5a19a674c",
-   "title": "ACL 2026 \u2014 Annual Meeting of the Association for Computational Linguistics",
-   "url": "https://2026.aclweb.org/",
-   "start_date": "2026-07-02",
-   "end_date": "2026-07-07",
-   "deadline": "2026-01-05",
-   "location": "Grand Hyatt Manchester San Diego, 1 Market Place, San Diego, CA 92101",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
   {
    "id": "2e46016dd2af",
    "title": "Enumerative Geometry and Categorification",
@@ -91,109 +74,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "08626a9d3d2c",
-   "title": "The Renormalization Group based on the Smooth Feshbach--Schur Map \u2014 Volker Bach",
-   "url": "https://researchseminars.org/talk/IAMP_seminars/196/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "13e878d8fce8",
-   "title": "Faltings heights and subleading terms of adjoint L-functions \u2014 Ryan Chen",
-   "url": "https://researchseminars.org/talk/IntSemAutForms/149/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "e85784e5c41e",
-   "title": "Extremal Domains in Teichmueller's Modulsatz \u2014 Melkana Brakalova-Trevithick",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/5/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "9e1fb425d0bd",
-   "title": "on O. Schramm's \"Transboundary extremal length\" \u2014 Irina Mamsurova",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/6/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "214a1ba8f377",
-   "title": "on B. Esmayli, K. Rajala's \"Conformal uniformization of domains bounded by quasitripods\" \u2014 Abhishek Pandey",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/7/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "5742365590c1",
-   "title": "on K. Rajala's \"Extremal length and duality\" \u2014 Denis Rakhmankin",
-   "url": "https://researchseminars.org/talk/ams-msc-30c/8/",
-   "start_date": "2026-07-07",
-   "end_date": "2026-07-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -335,6 +215,23 @@
    ]
   },
   {
+   "id": "73965242608c",
+   "title": "Cotangent bundles of diffeological spaces, and diffeological gluing \u2014 Ekaterina Pervova",
+   "url": "https://researchseminars.org/talk/MGDS/53/",
+   "start_date": "2026-07-09",
+   "end_date": "2026-07-09",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "7538c9791b71",
    "title": "on M. Younsi's \"Removability, rigidity of circle domains and Koebe's conjecture\" \u2014 Riddhi Mishra",
    "url": "https://researchseminars.org/talk/ams-msc-30c/13/",
@@ -434,6 +331,24 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "6bffd8620a6a",
+   "title": "On The Art Of Braiding Algorithms \u2014 Parker Adey and Ness Schattman",
+   "url": "https://researchseminars.org/talk/CompMath/33/",
+   "start_date": "2026-07-10",
+   "end_date": "2026-07-10",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
    "tags": [
     "ai-ml",
     "math"
@@ -815,6 +730,23 @@
    "url": "https://researchseminars.org/talk/OISTRTS/79/",
    "start_date": "2026-07-28",
    "end_date": "2026-07-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "f3a63992c0ff",
+   "title": "Gelfand-Kirillov bound for GL_2 \u2014 Reinier Sorgdrager",
+   "url": "https://researchseminars.org/talk/HCMCAlg/4/",
+   "start_date": "2026-07-29",
+   "end_date": "2026-07-29",
    "deadline": null,
    "location": "Online",
    "country": "Online",
