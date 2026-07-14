@@ -1,28 +1,7 @@
 {
- "generated": "2026-07-13T05:53:41.131363+00:00",
- "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-07-13%22%2C+%22%24lte%22%3A+%222026-08-03T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7fb39708aa50>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
- ],
+ "generated": "2026-07-14T05:14:41.338029+00:00",
+ "errors": [],
  "events": [
-  {
-   "id": "47876cb4592c",
-   "title": "Quantum Entanglement in Nature: From Superconductors to Black Holes",
-   "url": "https://www.icts.res.in/lectures/quantum-entanglement-nature",
-   "start_date": "2026-07-13",
-   "end_date": "2026-07-13",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 100,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "e214ecd9e7ae",
    "title": "Summer School on Gravitational-Wave Astronomy",
@@ -77,6 +56,776 @@
    ]
   },
   {
+   "id": "7dc9b597d37c",
+   "title": "AI4Physics through the lenses of the latest NeurIPS, ICLR, and ICML \u2014 Nikolaos Vasiloglou",
+   "url": "https://researchseminars.org/talk/ai-for-science/12/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 57,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "b2ff7108702e",
+   "title": "Two topics in combinatorial number theory \u2014 Carl Pomerance",
+   "url": "https://researchseminars.org/talk/CANT2026/26/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5d0787d059eb",
+   "title": "Generating functions for maximally expanded \u03b1-trees \u2014 Johann Thiel",
+   "url": "https://researchseminars.org/talk/CANT2026/21/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "db1faf562445",
+   "title": "On Sidon sets with squares, cubes and quartics in short intervals \u2014 Sergei Konyagin",
+   "url": "https://researchseminars.org/talk/CANT2026/22/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "29ed45329aa1",
+   "title": "Three-in-one in Ramsey theory \u2014 Renling Jin",
+   "url": "https://researchseminars.org/talk/CANT2026/23/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "b98842116ef1",
+   "title": "A surprising characterization of unique factorization domains \u2014 Scott Chapman",
+   "url": "https://researchseminars.org/talk/CANT2026/24/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "7b712fcf51e8",
+   "title": "Almost primes solutions to forms of odd degrees in many variables \u2014 Akos Magyar",
+   "url": "https://researchseminars.org/talk/CANT2026/25/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5e869849c528",
+   "title": "Exponential sums over primes \u2014 Maksym Radziwill",
+   "url": "https://researchseminars.org/talk/CANT2026/27/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "eaebc6f1d634",
+   "title": "Duality between prime factors and prime numbers in arithmetic progressions \u2014 Krishnaswami Alladi",
+   "url": "https://researchseminars.org/talk/CANT2026/28/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "02aca8e8de73",
+   "title": "The mystery of two-color partitions with distinct parts \u2014 George Andrews",
+   "url": "https://researchseminars.org/talk/CANT2026/29/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "b32c3377e6e4",
+   "title": "Problem session \u2014 Krishnaswami Alladi",
+   "url": "https://researchseminars.org/talk/CANT2026/30/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "428219c3f9d8",
+   "title": "Beyond ON/OFF: Multistate Molecules and Materials \u2014 Friedrich (Fritz) Stricker",
+   "url": "https://researchseminars.org/talk/SysChemDis/23/",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "physics"
+   ]
+  },
+  {
+   "id": "734361931541",
+   "title": "A pearl of number theory: Some old and new applications \u2014 Sukumar Das Adhikar",
+   "url": "https://researchseminars.org/talk/CANT2026/31/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d43cfe8cca72",
+   "title": "Three problems in additive number theory \u2014 Mel Nathanson",
+   "url": "https://researchseminars.org/talk/CANT2026/35/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "004968e1580b",
+   "title": "A structure sheaf for Kirch topology on N \u2014 Alexander Borisov",
+   "url": "https://researchseminars.org/talk/CANT2026/38/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0efee1fa74e8",
+   "title": "Faithfulness of the Burau Representation for n = 4 \u2014 Yanghzhou Liu",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/153/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "a9f4bf0e3eb5",
+   "title": "Minimal asymptotic bases related to G-adic sequences \u2014 Jinhui Fang",
+   "url": "https://researchseminars.org/talk/CANT2026/32/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ce9cdae7686d",
+   "title": "On quotients of a more general theorem of Wilson \u2014 Ivan V. Morozov",
+   "url": "https://researchseminars.org/talk/CANT2026/33/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "efb182cbf854",
+   "title": "The Collatz problem: Progress and perspectives \u2014 Jeffrey C. Lagarias",
+   "url": "https://researchseminars.org/talk/CANT2026/34/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9dc5fcd1a464",
+   "title": "Nathanson\u2019s triangular gap question \u2014 Steven Senger",
+   "url": "https://researchseminars.org/talk/CANT2026/36/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "21635abe3388",
+   "title": "Euler-Kronecker constants of maximal real cyclotomic subfields and Kummer\u2019s conjecture \u2014 Alisa Sedunova",
+   "url": "https://researchseminars.org/talk/CANT2026/37/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "b51b3fafb79a",
+   "title": "Simple upper bound for the power partition function \u2014 Wladimir Pribitkin",
+   "url": "https://researchseminars.org/talk/CANT2026/39/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "e8242a8a0fba",
+   "title": "Strong paucity in systems of diagonal equations \u2014 Trevor Dion Wooley",
+   "url": "https://researchseminars.org/talk/CANT2026/40/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "66bbf023dd0e",
+   "title": "On the factorization of a sum of cyclotomic polynomials \u2014 Michael Filaseta",
+   "url": "https://researchseminars.org/talk/CANT2026/41/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "83491d2da8c5",
+   "title": "Problem Session \u2014 Steve Senger",
+   "url": "https://researchseminars.org/talk/CANT2026/42/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0230aae98e35",
+   "title": "On Second Adjointness for mod p Representations \u2014 Claudius Heyer",
+   "url": "https://researchseminars.org/talk/HCMCAlg/2/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "e1a086ff95d5",
+   "title": "A dimension descent scheme for the positive mass theorem in arbitrary dimension \u2014 Simon Brendle",
+   "url": "https://researchseminars.org/talk/NCTS-GMT/36/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0c4e61c48681",
+   "title": "Non-reductive pseudo-Riemannian symmetric spaces \u2014 Ines Kath",
+   "url": "https://researchseminars.org/talk/VSGS/133/",
+   "start_date": "2026-07-15",
+   "end_date": "2026-07-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "818a79f89348",
+   "title": "Lehmer-type partition statistics \u2014 Amita Malik",
+   "url": "https://researchseminars.org/talk/CANT2026/53/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 45,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "842c3bdf33fe",
+   "title": "An $(\\infty,n)$-categorical pasting theorem \u2014 Timothy Campion",
+   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/227/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "0100eb750873",
+   "title": "Asymptotic approximate groups in virtually nilpotent groups \u2014 Arindam Biswas",
+   "url": "https://researchseminars.org/talk/CANT2026/43/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "2a3a27ab3703",
+   "title": "Sets with few subset sums \u2014 Noah Kravitz",
+   "url": "https://researchseminars.org/talk/CANT2026/44/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "303e11758418",
+   "title": "Matchable numbers \u2014 Nathan McNew",
+   "url": "https://researchseminars.org/talk/CANT2026/45/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "a7569ebf9ed2",
+   "title": "Lower bounds for mask polynomials with many cyclotomic divisors \u2014 Gergely Kiss",
+   "url": "https://researchseminars.org/talk/CANT2026/46/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "72ee03e1b83b",
+   "title": "Left and right quotient sets in non-abelian groups \u2014 Pramana Saldin",
+   "url": "https://researchseminars.org/talk/CANT2026/47/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "4e77303da56c",
+   "title": "The distortion method and its applications \u2014 Jonah Klein",
+   "url": "https://researchseminars.org/talk/CANT2026/48/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ae8214e9f8ad",
+   "title": "Consecutive sums, Sidon sets, convex sequences: Old and new problems \u2014 Norbert Hegyv\u00e1ri",
+   "url": "https://researchseminars.org/talk/CANT2026/49/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "bd1207cb89f9",
+   "title": "Discrete Brunn\u2013Minkowski inequalities \u2014 Amanda Montejano",
+   "url": "https://researchseminars.org/talk/CANT2026/50/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d73203d6ebb7",
+   "title": "Possible sizes of sumsets \u2014 Isaac Rajagopal",
+   "url": "https://researchseminars.org/talk/CANT2026/51/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d5678cef413f",
+   "title": "Sidon sets in the squares, repeated distances, and the Elekes-Ronyai problem \u2014 Cosmin Pohoata",
+   "url": "https://researchseminars.org/talk/CANT2026/52/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d66a041487a6",
+   "title": "Deletable edges in 3-connected graphs and their applications \u2014 Sandra Kingan",
+   "url": "https://researchseminars.org/talk/CANT2026/54/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "497b499e6d56",
+   "title": "A new approach to the circle method attack on the m-prime conjecture \u2014 C. J. Mozzochi",
+   "url": "https://researchseminars.org/talk/CANT2026/55/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "728628b2b197",
+   "title": "Problem Session \u2014 Kevin O\u2019Bryant",
+   "url": "https://researchseminars.org/talk/CANT2026/56/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "7f2876da8ebc",
+   "title": "Lattice points under polynomial curves \u2014 Austin Abraham Cramer",
+   "url": "https://researchseminars.org/talk/CANT2026/93/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "1417eee2ff68",
+   "title": "Homogenization of a parabolic equation with a periodic nonlocal convolution-type operator \u2014 Tatiana Suslina",
+   "url": "https://researchseminars.org/talk/SeminaronAnalysis/132/",
+   "start_date": "2026-07-16",
+   "end_date": "2026-07-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "6d26fb02b6a3",
    "title": "Learning machines",
    "url": "https://www.icts.res.in/lectures/outreach-learning-machines",
@@ -93,6 +842,618 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "8455f652850d",
+   "title": "Some identities of the sums-of-tails type \u2014 Gaurav Kumar",
+   "url": "https://researchseminars.org/talk/CANT2026/57/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "fae00b7be8ed",
+   "title": "Restricted set addition in finite abelian groups \u2014 Vivekanand Goswami",
+   "url": "https://researchseminars.org/talk/CANT2026/58/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "dd6329baad89",
+   "title": "Multiplicative irreducibility of shifted multiplicative subgroups \u2014 Semin Yoo",
+   "url": "https://researchseminars.org/talk/CANT2026/59/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "21d6bd31c77e",
+   "title": "Monotone increasing representation functions \u2014 S\u00e1ndor Kiss",
+   "url": "https://researchseminars.org/talk/CANT2026/60/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "2cc22e474d3c",
+   "title": "The combinatorics of sequences that enjoy a curious self-convolutive property \u2014 Dennis Eichhorn",
+   "url": "https://researchseminars.org/talk/CANT2026/61/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "1955a478b822",
+   "title": "S\u00e1rk\u00f6zy\u2019s conjecture on quadratic residues \u2014 Alexander Kalmynim",
+   "url": "https://researchseminars.org/talk/CANT2026/62/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "2f297b9f6998",
+   "title": "Lehmer-type conjectures and open problems for Nathanson\u2019s totient functions \u2014 Mohan",
+   "url": "https://researchseminars.org/talk/CANT2026/63/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "372579bed6ce",
+   "title": "Generalized discrete Lagrange\u2013Markov spectra \u2014 Yasuaki Gyoda",
+   "url": "https://researchseminars.org/talk/CANT2026/64/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5d7847fd7e4b",
+   "title": "The size of certain symmetric differences of sets of integers \u2014 Philippa Holdridge",
+   "url": "https://researchseminars.org/talk/CANT2026/65/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "248dce790b6d",
+   "title": "Independent families and asymptotic density \u2014 Paolo Leonetti",
+   "url": "https://researchseminars.org/talk/CANT2026/66/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ba70570e0e05",
+   "title": "Small doubling in right-ordered groups \u2014 Neetu",
+   "url": "https://researchseminars.org/talk/CANT2026/67/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "60016c92d21d",
+   "title": "Gap sets of random generalized numerical semigroups \u2014 Veronica Bitonti",
+   "url": "https://researchseminars.org/talk/CANT2026/68/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9230fa182d64",
+   "title": "Power semigroups and two rigidity theorems for groups \u2014 Salvatore Tringali",
+   "url": "https://researchseminars.org/talk/CANT2026/69/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d18a07726ce9",
+   "title": "The taxicab problem for polynomials and generalizations of Mason\u2019s theorem \u2014 Katalin Gyarmati",
+   "url": "https://researchseminars.org/talk/CANT2026/70/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "46ecba160fe2",
+   "title": "Improvements in calculating the recursion satisfied by a family of determinants \u2014 Russell Hendel",
+   "url": "https://researchseminars.org/talk/CANT2026/71/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "fef325632215",
+   "title": "Hook length biases in t-regular and t-core partitions \u2014 Manjil P. Saikia",
+   "url": "https://researchseminars.org/talk/CANT2026/72/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "4ed56a2e5dea",
+   "title": "Contributions to the famiily of reversed Dickson polynomials \u2014 Neranga Fernando",
+   "url": "https://researchseminars.org/talk/CANT2026/73/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "b6085e7df0d7",
+   "title": "Atoms in the semigroup of non-negative integer matrices \u2014 Lindsay Dever",
+   "url": "https://researchseminars.org/talk/CANT2026/74/",
+   "start_date": "2026-07-17",
+   "end_date": "2026-07-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0293370e8f64",
+   "title": "Generalized discrete Lagrange\u2013Markov spectra \u2014 Yasuaki Gyoda",
+   "url": "https://researchseminars.org/talk/CANT2026/75/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "69165a9d9c79",
+   "title": "Visibility of lattice points across polynomial curves \u2014 Chahat Ahuja",
+   "url": "https://researchseminars.org/talk/CANT2026/76/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ffa37bc97bcc",
+   "title": "Building off the Ideas of Erd\u00f3s, Sierpi\u0144ski, Riesel, and More \u2014 Daniel Baczkowski",
+   "url": "https://researchseminars.org/talk/CANT2026/77/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "21e7cf53f113",
+   "title": "Extending zero-sum theory from abelian to non-abelian groups \u2014 Eshita Mazumdar",
+   "url": "https://researchseminars.org/talk/CANT2026/78/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "993d81d7fb27",
+   "title": "On the Bessenrodt-Ono inequality for polynomials \u2014 Krystian Gajdzica",
+   "url": "https://researchseminars.org/talk/CANT2026/79/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "36b2dfb575b7",
+   "title": "Extended Inverse results for restricted h-fold sumset in integer \u2014 Debyani Manna",
+   "url": "https://researchseminars.org/talk/CANT2026/80/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "bf6f37447d6e",
+   "title": "Additive properties of multiplicatively defined sets \u2014 Chi Hoi Yip",
+   "url": "https://researchseminars.org/talk/CANT2026/81/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "16a91f16dc34",
+   "title": "A structure theorem for sets with doubling 4 + \u03b4 \u2014 Akshat Mudgal",
+   "url": "https://researchseminars.org/talk/CANT2026/82/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "913b94477f7f",
+   "title": "Averages of the diagonal Elliott-Halberstam problem twisted by the M\u00f6bius function with Sobolev and H\u00f6lder-Zygmund weights \u2014 Marco Cantarini",
+   "url": "https://researchseminars.org/talk/CANT2026/83/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "763591d8b77f",
+   "title": "Non-Rascoe partitions and a rank parity function associated to the Rogers\u2013Ramanujan partitions \u2014 Aviral Srivastava",
+   "url": "https://researchseminars.org/talk/CANT2026/84/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "bd59dd578994",
+   "title": "On the density of rational lines on cubic diagonal hypersurfaces \u2014 Kiseok Yeon",
+   "url": "https://researchseminars.org/talk/CANT2026/85/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0cdebaaf5166",
+   "title": "Multiply gleeful numbers \u2014 Florian Luca",
+   "url": "https://researchseminars.org/talk/CANT2026/86/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6fce95d028cf",
+   "title": "Gertsch quotient living in the \u201cpoor man\u2019s adele ring\u201d A: Kurepa-Bell-Wilson congruence \u2014 Francis Atta Howard",
+   "url": "https://researchseminars.org/talk/CANT2026/87/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "1a9ceed385e0",
+   "title": "Fibonacci multiplication \u2014 Bobby Jacobs",
+   "url": "https://researchseminars.org/talk/CANT2026/88/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "1d2750c3d033",
+   "title": "A Bessenrodt-Ono inspired inequality for compositions proved constructively \u2014 Augustine O. Munagi",
+   "url": "https://researchseminars.org/talk/CANT2026/89/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "3cb41aca051a",
+   "title": "Polynomial corners over finite field \u2014 Laurence P. Wijaya",
+   "url": "https://researchseminars.org/talk/CANT2026/90/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "3d86a746c90e",
+   "title": "Generalized polygonal number representations \u2014 Glenn T. Bruda",
+   "url": "https://researchseminars.org/talk/CANT2026/91/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "56acb6486b5d",
+   "title": "On Rado numbers for equations with unit fractions \u2014 Collier Gaiser",
+   "url": "https://researchseminars.org/talk/CANT2026/92/",
+   "start_date": "2026-07-18",
+   "end_date": "2026-07-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -132,6 +1493,25 @@
    ]
   },
   {
+   "id": "30a6c3d919b5",
+   "title": "A Proof of Gromov\u2019s Simplicial Volume Conjecture under a Mild Condition \u2014 Guoliang Yu",
+   "url": "https://researchseminars.org/talk/MathPic/152/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "8f577bd83bb5",
    "title": "SIGIR 2026 \u2014 International ACM SIGIR Conference on Research and Development in Information Retrieval",
    "url": "https://sigir2026.org/en-AU",
@@ -149,6 +1529,165 @@
    ]
   },
   {
+   "id": "06e83ca9f01c",
+   "title": "A proof of the p-adic Gross-Zagier theorem - Part I \u2014 Peter Neamti",
+   "url": "https://researchseminars.org/talk/CarletonOttawaNT/76/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "35924f089dbc",
+   "title": "On construction of differential $\\mathbb Z$-graded varieties \u2014 Aliaksandr Hancharuk",
+   "url": "https://researchseminars.org/talk/ENAAS/186/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5f9faa5f0d6c",
+   "title": "Can AI do Number Theory? Adventures with Fable and Sol \u2014 Florian Breuer",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/34/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "University of Newcastle",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "a1143b95d387",
+   "title": "Watching Quantum Fields Evolve: Partons and Thermalization on Quantum Computers \u2014 Jiunn-Wei Chen",
+   "url": "https://researchseminars.org/talk/ICCUB_Seminars/97/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "1bd5a7445419",
+   "title": "Transference in the quantitative polynomial Szemer&eacute;di theorem \u2014 Daniel Altman",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/33/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Stanford University",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0ee67511fc41",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/6/",
+   "start_date": "2026-07-23",
+   "end_date": "2026-07-23",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "e37297076e8f",
+   "title": "Chapter 4:Measurement of Multiple-Qubit States \u2014 Susana Lopez-Moreno",
+   "url": "https://researchseminars.org/talk/QRB/5/",
+   "start_date": "2026-07-23",
+   "end_date": "2026-07-23",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "312565db62b6",
+   "title": "Introduction to Krylov Complexity \u2014 Nongmaithem Jasper",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/39/",
+   "start_date": "2026-07-24",
+   "end_date": "2026-07-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "5b422ab3c56b",
+   "title": "Quasi-particle bases of standard modules for affine Lie algebras \u2014 Marijana Butorac",
+   "url": "https://researchseminars.org/talk/ENAAS/182/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "38b381b3ef46",
    "title": "The Concurrence of Mega-Surveys",
    "url": "https://www.icts.res.in/program/CMSURVEYS",
@@ -161,6 +1700,111 @@
    "type": "Workshop",
    "source": "ICTS Bengaluru",
    "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "0451bf24e2b8",
+   "title": "A proof of the p-adic Gross-Zagier theorem - Part II \u2014 Peter Neamti",
+   "url": "https://researchseminars.org/talk/CarletonOttawaNT/77/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6cc6dc533bdf",
+   "title": "Crystals and KLR representations in type $A_1^{(1)}$ \u2014 Rob Muth",
+   "url": "https://researchseminars.org/talk/OISTRTS/79/",
+   "start_date": "2026-07-28",
+   "end_date": "2026-07-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "f3a63992c0ff",
+   "title": "Gelfand-Kirillov bound for GL_2 \u2014 Reinier Sorgdrager",
+   "url": "https://researchseminars.org/talk/HCMCAlg/4/",
+   "start_date": "2026-07-29",
+   "end_date": "2026-07-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d95d12260a51",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/7/",
+   "start_date": "2026-07-30",
+   "end_date": "2026-07-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "0372c6d2a2c1",
+   "title": "Approximation theory for fractional calculus \u2014 Vassili Kolokoltsov",
+   "url": "https://researchseminars.org/talk/SeminaronAnalysis/133/",
+   "start_date": "2026-07-30",
+   "end_date": "2026-07-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "85658b542e86",
+   "title": "A Chaotic Form Factor in Topological Gravity \u2014 Ahmed I. Abdalla",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/38/",
+   "start_date": "2026-07-31",
+   "end_date": "2026-07-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
    "tags": [
     "astro",
     "math",
