@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T05:14:41.338029+00:00",
+ "generated": "2026-07-15T05:15:27.472800+00:00",
  "errors": [],
  "events": [
   {
@@ -53,212 +53,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "7dc9b597d37c",
-   "title": "AI4Physics through the lenses of the latest NeurIPS, ICLR, and ICML \u2014 Nikolaos Vasiloglou",
-   "url": "https://researchseminars.org/talk/ai-for-science/12/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 57,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "b2ff7108702e",
-   "title": "Two topics in combinatorial number theory \u2014 Carl Pomerance",
-   "url": "https://researchseminars.org/talk/CANT2026/26/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "5d0787d059eb",
-   "title": "Generating functions for maximally expanded \u03b1-trees \u2014 Johann Thiel",
-   "url": "https://researchseminars.org/talk/CANT2026/21/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "db1faf562445",
-   "title": "On Sidon sets with squares, cubes and quartics in short intervals \u2014 Sergei Konyagin",
-   "url": "https://researchseminars.org/talk/CANT2026/22/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "29ed45329aa1",
-   "title": "Three-in-one in Ramsey theory \u2014 Renling Jin",
-   "url": "https://researchseminars.org/talk/CANT2026/23/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "b98842116ef1",
-   "title": "A surprising characterization of unique factorization domains \u2014 Scott Chapman",
-   "url": "https://researchseminars.org/talk/CANT2026/24/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "7b712fcf51e8",
-   "title": "Almost primes solutions to forms of odd degrees in many variables \u2014 Akos Magyar",
-   "url": "https://researchseminars.org/talk/CANT2026/25/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "5e869849c528",
-   "title": "Exponential sums over primes \u2014 Maksym Radziwill",
-   "url": "https://researchseminars.org/talk/CANT2026/27/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "eaebc6f1d634",
-   "title": "Duality between prime factors and prime numbers in arithmetic progressions \u2014 Krishnaswami Alladi",
-   "url": "https://researchseminars.org/talk/CANT2026/28/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "02aca8e8de73",
-   "title": "The mystery of two-color partitions with distinct parts \u2014 George Andrews",
-   "url": "https://researchseminars.org/talk/CANT2026/29/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "b32c3377e6e4",
-   "title": "Problem session \u2014 Krishnaswami Alladi",
-   "url": "https://researchseminars.org/talk/CANT2026/30/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "428219c3f9d8",
-   "title": "Beyond ON/OFF: Multistate Molecules and Materials \u2014 Friedrich (Fritz) Stricker",
-   "url": "https://researchseminars.org/talk/SysChemDis/23/",
-   "start_date": "2026-07-14",
-   "end_date": "2026-07-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "physics"
    ]
   },
   {
@@ -1599,6 +1393,23 @@
    ]
   },
   {
+   "id": "92f99c9785fc",
+   "title": "Multiplicity-one for p-adic automorphic cohomology \u2014 Douglas Molin",
+   "url": "https://researchseminars.org/talk/HCMCAlg/3/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "1bd5a7445419",
    "title": "Transference in the quantitative polynomial Szemer&eacute;di theorem \u2014 Daniel Altman",
    "url": "https://researchseminars.org/talk/UNSW-NTSeminar/33/",
@@ -2599,7 +2410,7 @@
   {
    "id": "3563b89d5c4e",
    "title": "AAAI 2027 \u2014 AAAI Conference on Artificial Intelligence",
-   "url": "https://aaai.org/conference/aaai/",
+   "url": "https://aaai.org/conference/aaai/aaai-27/",
    "start_date": "2027-02-16",
    "end_date": "2027-02-23",
    "deadline": null,
