@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-15T05:15:27.472800+00:00",
+ "generated": "2026-07-16T05:25:12.360492+00:00",
  "errors": [],
  "events": [
   {
@@ -53,279 +53,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "734361931541",
-   "title": "A pearl of number theory: Some old and new applications \u2014 Sukumar Das Adhikar",
-   "url": "https://researchseminars.org/talk/CANT2026/31/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "d43cfe8cca72",
-   "title": "Three problems in additive number theory \u2014 Mel Nathanson",
-   "url": "https://researchseminars.org/talk/CANT2026/35/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "004968e1580b",
-   "title": "A structure sheaf for Kirch topology on N \u2014 Alexander Borisov",
-   "url": "https://researchseminars.org/talk/CANT2026/38/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0efee1fa74e8",
-   "title": "Faithfulness of the Burau Representation for n = 4 \u2014 Yanghzhou Liu",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/153/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "a9f4bf0e3eb5",
-   "title": "Minimal asymptotic bases related to G-adic sequences \u2014 Jinhui Fang",
-   "url": "https://researchseminars.org/talk/CANT2026/32/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "ce9cdae7686d",
-   "title": "On quotients of a more general theorem of Wilson \u2014 Ivan V. Morozov",
-   "url": "https://researchseminars.org/talk/CANT2026/33/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "efb182cbf854",
-   "title": "The Collatz problem: Progress and perspectives \u2014 Jeffrey C. Lagarias",
-   "url": "https://researchseminars.org/talk/CANT2026/34/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "9dc5fcd1a464",
-   "title": "Nathanson\u2019s triangular gap question \u2014 Steven Senger",
-   "url": "https://researchseminars.org/talk/CANT2026/36/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "21635abe3388",
-   "title": "Euler-Kronecker constants of maximal real cyclotomic subfields and Kummer\u2019s conjecture \u2014 Alisa Sedunova",
-   "url": "https://researchseminars.org/talk/CANT2026/37/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "b51b3fafb79a",
-   "title": "Simple upper bound for the power partition function \u2014 Wladimir Pribitkin",
-   "url": "https://researchseminars.org/talk/CANT2026/39/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "e8242a8a0fba",
-   "title": "Strong paucity in systems of diagonal equations \u2014 Trevor Dion Wooley",
-   "url": "https://researchseminars.org/talk/CANT2026/40/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "66bbf023dd0e",
-   "title": "On the factorization of a sum of cyclotomic polynomials \u2014 Michael Filaseta",
-   "url": "https://researchseminars.org/talk/CANT2026/41/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "83491d2da8c5",
-   "title": "Problem Session \u2014 Steve Senger",
-   "url": "https://researchseminars.org/talk/CANT2026/42/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0230aae98e35",
-   "title": "On Second Adjointness for mod p Representations \u2014 Claudius Heyer",
-   "url": "https://researchseminars.org/talk/HCMCAlg/2/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "e1a086ff95d5",
-   "title": "A dimension descent scheme for the positive mass theorem in arbitrary dimension \u2014 Simon Brendle",
-   "url": "https://researchseminars.org/talk/NCTS-GMT/36/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0c4e61c48681",
-   "title": "Non-reductive pseudo-Riemannian symmetric spaces \u2014 Ines Kath",
-   "url": "https://researchseminars.org/talk/VSGS/133/",
-   "start_date": "2026-07-15",
-   "end_date": "2026-07-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -1115,8 +842,8 @@
    ]
   },
   {
-   "id": "bd59dd578994",
-   "title": "On the density of rational lines on cubic diagonal hypersurfaces \u2014 Kiseok Yeon",
+   "id": "2e273524a83f",
+   "title": "On the density of rational lines on diagonal cubic hypersurfaces \u2014 Kiseok Yeon",
    "url": "https://researchseminars.org/talk/CANT2026/85/",
    "start_date": "2026-07-18",
    "end_date": "2026-07-18",
@@ -1623,6 +1350,23 @@
    ]
   },
   {
+   "id": "7e632591cecd",
+   "title": "Moment Estimates and Discrepancy for Sums of Square Roots Modulo One \u2014 Yixiu Xiao",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/35/",
+   "start_date": "2026-08-05",
+   "end_date": "2026-08-05",
+   "deadline": null,
+   "location": "UNSW Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "f7e91f91aba1",
    "title": "KDD 2026 \u2014 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
    "url": "https://kdd2026.kdd.org/",
@@ -2107,8 +1851,8 @@
    "start_date": "2026-10-24",
    "end_date": "2026-10-29",
    "deadline": "2026-05-25",
-   "location": "TBA",
-   "country": null,
+   "location": "Hungexpo, Budapest, Hungary",
+   "country": "Hungary",
    "in_india": false,
    "type": "Conference",
    "source": "AI Deadlines",
@@ -2285,7 +2029,7 @@
    "start_date": "2026-12-06",
    "end_date": "2026-12-12",
    "deadline": "2026-05-04",
-   "location": "International Convention Centre, Sydney, Australia (Main venue, Dec 6-12). Satellite events at Georgia World Congress Center, Atlanta, USA (Dec 8-13) and Paris, France (Dec 9-13).",
+   "location": "International Convention Centre, Sydney, Australia (Main venue, Dec 6-12). Satellite events at Georgia World Congress Center, Atlanta, USA (Dec 9-13) and Paris, France (Dec 9-13).",
    "country": "USA",
    "in_india": false,
    "type": "Conference",
@@ -2334,6 +2078,23 @@
    ]
   },
   {
+   "id": "eba0c87e98e8",
+   "title": "WACV 2027 \u2014 IEEE/CVF Winter Conference on Applications of Computer Vision",
+   "url": "https://wacv.thecvf.com/",
+   "start_date": "2027-01-04",
+   "end_date": "2027-01-08",
+   "deadline": null,
+   "location": "Disney Springs, Buena Vista, FL",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "4d82db0b08e5",
    "title": "Fifty years of Eisenstein ideal",
    "url": "https://www.icts.res.in/program/FYEI2027",
@@ -2350,23 +2111,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "77542917c54e",
-   "title": "WACV 2027 \u2014 IEEE/CVF Winter Conference on Applications of Computer Vision",
-   "url": "https://wacv.thecvf.com/",
-   "start_date": "2027-01-05",
-   "end_date": "2027-01-09",
-   "deadline": null,
-   "location": "Disney Springs, Buena Vista, FL",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 52,
-   "tags": [
-    "ai-ml"
    ]
   },
   {
@@ -2433,6 +2177,23 @@
    "deadline": null,
    "location": "University of Southampton, Southampton, United Kingdom",
    "country": "UK",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "491b3be5d32d",
+   "title": "3DV 2027 \u2014 International Conference on 3D Vision",
+   "url": "https://3dvconf.github.io/2027/",
+   "start_date": "2027-04-06",
+   "end_date": "2027-04-09",
+   "deadline": null,
+   "location": "Thessaloniki Concert Hall (M2 building), Thessaloniki, Greece",
+   "country": "Greece",
    "in_india": false,
    "type": "Conference",
    "source": "AI Deadlines",
