@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-17T05:27:46.375935+00:00",
+ "generated": "2026-07-18T05:12:16.127865+00:00",
  "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-07-17%22%2C+%22%24lte%22%3A+%222026-08-07T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7fe73393d190>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
+  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-07-18%22%2C+%22%24lte%22%3A+%222026-08-08T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7f8e48033710>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
  ],
  "events": [
   {
@@ -17,42 +17,6 @@
    "type": "School",
    "source": "ICTS Bengaluru",
    "score": 85,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "46ce1bfa46c9",
-   "title": "RSS 2026 \u2014 Robotics Science and Systems",
-   "url": "https://roboticsconference.org",
-   "start_date": "2026-07-13",
-   "end_date": "2026-07-17",
-   "deadline": "2026-01-23",
-   "location": "University of Technology Sydney",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "6d26fb02b6a3",
-   "title": "Learning machines",
-   "url": "https://www.icts.res.in/lectures/outreach-learning-machines",
-   "start_date": "2026-07-17",
-   "end_date": "2026-07-17",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
    "tags": [
     "astro",
     "math",
