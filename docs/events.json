@@ -1,8 +1,6 @@
 {
- "generated": "2026-07-19T05:37:25.652892+00:00",
- "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-07-19%22%2C+%22%24lte%22%3A+%222026-08-09T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7f25d94f8c50>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
- ],
+ "generated": "2026-07-20T05:54:15.578536+00:00",
+ "errors": [],
  "events": [
   {
    "id": "e214ecd9e7ae",
@@ -60,6 +58,25 @@
    ]
   },
   {
+   "id": "30a6c3d919b5",
+   "title": "A Proof of Gromov\u2019s Simplicial Volume Conjecture under a Mild Condition \u2014 Guoliang Yu",
+   "url": "https://researchseminars.org/talk/MathPic/152/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "8f577bd83bb5",
    "title": "SIGIR 2026 \u2014 International ACM SIGIR Conference on Research and Development in Information Retrieval",
    "url": "https://sigir2026.org/en-AU",
@@ -74,6 +91,217 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "06e83ca9f01c",
+   "title": "A proof of the p-adic Gross-Zagier theorem - Part I \u2014 Peter Neamti",
+   "url": "https://researchseminars.org/talk/CarletonOttawaNT/76/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "35924f089dbc",
+   "title": "On construction of differential $\\mathbb Z$-graded varieties \u2014 Aliaksandr Hancharuk",
+   "url": "https://researchseminars.org/talk/ENAAS/186/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "97c41e98d292",
+   "title": "Intersection formulas for parities on virtual knots \u2014 Igor M. Nikonov",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/173/",
+   "start_date": "2026-07-20",
+   "end_date": "2026-07-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5f9faa5f0d6c",
+   "title": "Can AI do Number Theory? Adventures with Fable and Sol \u2014 Florian Breuer",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/34/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "University of Newcastle",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "a1143b95d387",
+   "title": "Watching Quantum Fields Evolve: Partons and Thermalization on Quantum Computers \u2014 Jiunn-Wei Chen",
+   "url": "https://researchseminars.org/talk/ICCUB_Seminars/97/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "92f99c9785fc",
+   "title": "Multiplicity-one for p-adic automorphic cohomology \u2014 Douglas Molin",
+   "url": "https://researchseminars.org/talk/HCMCAlg/3/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "1bd5a7445419",
+   "title": "Transference in the quantitative polynomial Szemer&eacute;di theorem \u2014 Daniel Altman",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/33/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Stanford University",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0ee67511fc41",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/6/",
+   "start_date": "2026-07-23",
+   "end_date": "2026-07-23",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "e37297076e8f",
+   "title": "Chapter 4:Measurement of Multiple-Qubit States \u2014 Susana Lopez-Moreno",
+   "url": "https://researchseminars.org/talk/QRB/5/",
+   "start_date": "2026-07-23",
+   "end_date": "2026-07-23",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "312565db62b6",
+   "title": "Introduction to Krylov Complexity \u2014 Nongmaithem Jasper",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/39/",
+   "start_date": "2026-07-24",
+   "end_date": "2026-07-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "b66bd89562c5",
+   "title": "Idempotents and Compositions in the Temperley Lieb Algebra \u2014 Louis H Kauffman",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/160/",
+   "start_date": "2026-07-25",
+   "end_date": "2026-07-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "5b422ab3c56b",
+   "title": "Quasi-particle bases of standard modules for affine Lie algebras \u2014 Marijana Butorac",
+   "url": "https://researchseminars.org/talk/ENAAS/182/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -93,6 +321,147 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "0451bf24e2b8",
+   "title": "A proof of the p-adic Gross-Zagier theorem - Part II \u2014 Peter Neamti",
+   "url": "https://researchseminars.org/talk/CarletonOttawaNT/77/",
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6cc6dc533bdf",
+   "title": "Crystals and KLR representations in type $A_1^{(1)}$ \u2014 Rob Muth",
+   "url": "https://researchseminars.org/talk/OISTRTS/79/",
+   "start_date": "2026-07-28",
+   "end_date": "2026-07-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "f3a63992c0ff",
+   "title": "Gelfand-Kirillov bound for GL_2 \u2014 Reinier Sorgdrager",
+   "url": "https://researchseminars.org/talk/HCMCAlg/4/",
+   "start_date": "2026-07-29",
+   "end_date": "2026-07-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d95d12260a51",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/7/",
+   "start_date": "2026-07-30",
+   "end_date": "2026-07-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "0372c6d2a2c1",
+   "title": "Approximation theory for fractional calculus \u2014 Vassili Kolokoltsov",
+   "url": "https://researchseminars.org/talk/SeminaronAnalysis/133/",
+   "start_date": "2026-07-30",
+   "end_date": "2026-07-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "85658b542e86",
+   "title": "A Chaotic Form Factor in Topological Gravity \u2014 Ahmed I. Abdalla",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/38/",
+   "start_date": "2026-07-31",
+   "end_date": "2026-07-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "229f2e05d3c8",
+   "title": "Detecting single gravitons with gravitational wave detectors \u2014 Germain Tobar",
+   "url": "https://researchseminars.org/talk/3cqfs/43/",
+   "start_date": "2026-08-04",
+   "end_date": "2026-08-04",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 80,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "7e632591cecd",
+   "title": "Moment Estimates and Discrepancy for Sums of Square Roots Modulo One \u2014 Yixiu Xiao",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/35/",
+   "start_date": "2026-08-05",
+   "end_date": "2026-08-05",
+   "deadline": null,
+   "location": "UNSW Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -129,6 +498,23 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "5e04167b878d",
+   "title": "Graded Identities of Finite Matrices \u2014 Diogo Diniz",
+   "url": "https://researchseminars.org/talk/ENAAS/183/",
+   "start_date": "2026-08-10",
+   "end_date": "2026-08-10",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
