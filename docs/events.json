@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T05:54:15.578536+00:00",
+ "generated": "2026-07-21T05:36:04.340784+00:00",
  "errors": [],
  "events": [
   {
@@ -58,25 +58,6 @@
    ]
   },
   {
-   "id": "30a6c3d919b5",
-   "title": "A Proof of Gromov\u2019s Simplicial Volume Conjecture under a Mild Condition \u2014 Guoliang Yu",
-   "url": "https://researchseminars.org/talk/MathPic/152/",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "8f577bd83bb5",
    "title": "SIGIR 2026 \u2014 International ACM SIGIR Conference on Research and Development in Information Retrieval",
    "url": "https://sigir2026.org/en-AU",
@@ -91,57 +72,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "06e83ca9f01c",
-   "title": "A proof of the p-adic Gross-Zagier theorem - Part I \u2014 Peter Neamti",
-   "url": "https://researchseminars.org/talk/CarletonOttawaNT/76/",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "35924f089dbc",
-   "title": "On construction of differential $\\mathbb Z$-graded varieties \u2014 Aliaksandr Hancharuk",
-   "url": "https://researchseminars.org/talk/ENAAS/186/",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "97c41e98d292",
-   "title": "Intersection formulas for parities on virtual knots \u2014 Igor M. Nikonov",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/173/",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -177,6 +107,24 @@
    "score": 50,
    "tags": [
     "astro",
+    "physics"
+   ]
+  },
+  {
+   "id": "c5c28ecdcffd",
+   "title": "Combinatorial geometry and its interaction with combinatorics on words \u2014 Mehdi Golafshan",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/154/",
+   "start_date": "2026-07-22",
+   "end_date": "2026-07-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
     "physics"
    ]
   },
@@ -960,6 +908,25 @@
    ]
   },
   {
+   "id": "41aad18a8604",
+   "title": "Widening Astrophysics with Voices, Equity, and Science (WAVES) - A Workshop on Equity and Advances in Astrophysics",
+   "url": "https://www.icts.res.in/program/waves2026",
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 100,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "8483702dca7f",
    "title": "EMNLP 2026 \u2014 The annual Conference on Empirical Methods in Natural Language Processing",
    "url": "https://2026.emnlp.org/",
@@ -1300,6 +1267,25 @@
    "score": 52,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "c954beb27855",
+   "title": "Multiscale flows and self-organisation in living matter",
+   "url": "https://www.icts.res.in/discussion-meeting/mfso",
+   "start_date": "2027-03-01",
+   "end_date": "2027-03-06",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
    ]
   },
   {
