@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T05:34:37.005042+00:00",
+ "generated": "2026-07-23T05:39:36.880158+00:00",
  "errors": [],
  "events": [
   {
@@ -72,112 +72,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "5f9faa5f0d6c",
-   "title": "Can AI do Number Theory? Adventures with Fable and Sol \u2014 Florian Breuer",
-   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/34/",
-   "start_date": "2026-07-22",
-   "end_date": "2026-07-22",
-   "deadline": null,
-   "location": "University of Newcastle",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 65,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "a1143b95d387",
-   "title": "Watching Quantum Fields Evolve: Partons and Thermalization on Quantum Computers \u2014 Jiunn-Wei Chen",
-   "url": "https://researchseminars.org/talk/ICCUB_Seminars/97/",
-   "start_date": "2026-07-22",
-   "end_date": "2026-07-22",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 50,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "c5c28ecdcffd",
-   "title": "Combinatorial geometry and its interaction with combinatorics on words \u2014 Mehdi Golafshan",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/154/",
-   "start_date": "2026-07-22",
-   "end_date": "2026-07-22",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "92f99c9785fc",
-   "title": "Multiplicity-one for p-adic automorphic cohomology \u2014 Douglas Molin",
-   "url": "https://researchseminars.org/talk/HCMCAlg/3/",
-   "start_date": "2026-07-22",
-   "end_date": "2026-07-22",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "1bd5a7445419",
-   "title": "Transference in the quantitative polynomial Szemer&eacute;di theorem \u2014 Daniel Altman",
-   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/33/",
-   "start_date": "2026-07-22",
-   "end_date": "2026-07-22",
-   "deadline": null,
-   "location": "Stanford University",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0ee67511fc41",
-   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
-   "url": "https://researchseminars.org/talk/QRB/6/",
-   "start_date": "2026-07-23",
-   "end_date": "2026-07-23",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "physics"
    ]
   },
   {
