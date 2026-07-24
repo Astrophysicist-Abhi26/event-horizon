@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T05:39:36.880158+00:00",
+ "generated": "2026-07-24T05:35:56.353206+00:00",
  "errors": [],
  "events": [
   {
@@ -19,23 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "0c9b19497c84",
-   "title": "SIGGRAPH 2026 \u2014 Conference on Computer Graphics and Interactive Techniques",
-   "url": "https://s2026.siggraph.org/",
-   "start_date": "2026-07-19",
-   "end_date": "2026-07-23",
-   "deadline": "2026-01-22",
-   "location": "Los Angeles Convention Center, Los Angeles, California",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
    ]
   },
   {
@@ -69,23 +52,6 @@
    "in_india": false,
    "type": "Conference",
    "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "e37297076e8f",
-   "title": "Chapter 4:Measurement of Multiple-Qubit States \u2014 Susana Lopez-Moreno",
-   "url": "https://researchseminars.org/talk/QRB/5/",
-   "start_date": "2026-07-23",
-   "end_date": "2026-07-23",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
    "score": 17,
    "tags": [
     "ai-ml"
@@ -282,10 +248,9 @@
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
-   "score": 80,
+   "score": 70,
    "tags": [
     "astro",
-    "math",
     "physics"
    ]
   },
@@ -374,6 +339,25 @@
    "score": 100,
    "tags": [
     "ai-ml",
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "dbde4338ec20",
+   "title": "Revisiting the k-theorem with the ANEC \u2014 Ung Nguyen",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/40/",
+   "start_date": "2026-08-14",
+   "end_date": "2026-08-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
     "astro",
     "math",
     "physics"
