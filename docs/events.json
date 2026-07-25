@@ -1,81 +1,7 @@
 {
- "generated": "2026-07-24T05:35:56.353206+00:00",
+ "generated": "2026-07-25T05:29:17.647622+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "e214ecd9e7ae",
-   "title": "Summer School on Gravitational-Wave Astronomy",
-   "url": "https://www.icts.res.in/program/gwa2026",
-   "start_date": "2026-07-13",
-   "end_date": "2026-07-24",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "School",
-   "source": "ICTS Bengaluru",
-   "score": 85,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "d9e4532d6017",
-   "title": "Regularity, blow-up, and mixing of fluid flow",
-   "url": "https://www.icts.res.in/discussion-meeting/RBFW2026",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-24",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Workshop",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "8f577bd83bb5",
-   "title": "SIGIR 2026 \u2014 International ACM SIGIR Conference on Research and Development in Information Retrieval",
-   "url": "https://sigir2026.org/en-AU",
-   "start_date": "2026-07-20",
-   "end_date": "2026-07-24",
-   "deadline": "2026-01-15",
-   "location": "Melbourne Convention and Exhibition Centre (MCEC)",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "312565db62b6",
-   "title": "Introduction to Krylov Complexity \u2014 Nongmaithem Jasper",
-   "url": "https://researchseminars.org/talk/EUPAC-TP/39/",
-   "start_date": "2026-07-24",
-   "end_date": "2026-07-24",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "b66bd89562c5",
    "title": "Idempotents and Compositions in the Temperley Lieb Algebra \u2014 Louis H Kauffman",
@@ -1153,6 +1079,25 @@
    "url": "https://www.icts.res.in/discussion-meeting/mfso",
    "start_date": "2027-03-01",
    "end_date": "2027-03-06",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "5814ab40ad6a",
+   "title": "Modelling Water Across Scales",
+   "url": "https://www.icts.res.in/program/mwas",
+   "start_date": "2027-03-15",
+   "end_date": "2027-03-26",
    "deadline": null,
    "location": "ICTS, Bengaluru, India",
    "country": "India",
