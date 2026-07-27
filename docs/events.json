@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-26T05:45:55.492845+00:00",
+ "generated": "2026-07-27T06:04:59.601797+00:00",
  "errors": [],
  "events": [
   {
@@ -355,6 +355,41 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "bc3217a468a3",
+   "title": "From affine algebraic racks to Leibniz algebras and Yang\u2013Baxter operators \u2014 L\u1ef1c Ta",
+   "url": "https://researchseminars.org/talk/ENAAS/190/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "219ee4d615e5",
+   "title": "Coverings of Complete Graphs by Small Cliques and Applications \u2014 Yifan Zhang",
+   "url": "https://researchseminars.org/talk/cam/105/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "University of Ostrava, VSB - Technical University of Ostrava",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
