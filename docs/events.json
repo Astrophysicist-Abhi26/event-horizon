@@ -1,25 +1,7 @@
 {
- "generated": "2026-07-27T06:04:59.601797+00:00",
+ "generated": "2026-07-28T05:31:50.494638+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "5b422ab3c56b",
-   "title": "Quasi-particle bases of standard modules for affine Lie algebras \u2014 Marijana Butorac",
-   "url": "https://researchseminars.org/talk/ENAAS/182/",
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 50,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "38b381b3ef46",
    "title": "The Concurrence of Mega-Surveys",
@@ -40,37 +22,22 @@
    ]
   },
   {
-   "id": "0451bf24e2b8",
-   "title": "A proof of the p-adic Gross-Zagier theorem - Part II \u2014 Peter Neamti",
-   "url": "https://researchseminars.org/talk/CarletonOttawaNT/77/",
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
+   "id": "b239f9719eec",
+   "title": "Towards interoperable modeling of toehold-mediated strand exchange circuits across DNA nanotechnology and engineering biology \u2014 Zoila Jurado and Samuel Schaffter",
+   "url": "https://researchseminars.org/talk/Biocontrol/57/",
+   "start_date": "2026-07-28",
+   "end_date": "2026-07-28",
    "deadline": null,
    "location": "Online",
    "country": "Online",
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
-   "score": 10,
+   "score": 37,
    "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "476d3d796068",
-   "title": "On the construction of foldings of branched covers along knots \u2014 Byeorhi Kim",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/174/",
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
+    "ai-ml",
+    "math",
+    "physics"
    ]
   },
   {
@@ -88,6 +55,41 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "ab42996365b2",
+   "title": "Toric Topology of the complex Grassmann manifolds G(n,2) \u2014 Matvey A. Sergeev",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/152/",
+   "start_date": "2026-07-29",
+   "end_date": "2026-07-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "3449cb580a75",
+   "title": "The Results of the Prosocial Ranking Challenge \u2014 Jonathan Stray",
+   "url": "https://researchseminars.org/talk/Metagov/292/",
+   "start_date": "2026-07-29",
+   "end_date": "2026-07-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
    ]
   },
   {
