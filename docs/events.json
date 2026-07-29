@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T05:31:50.494638+00:00",
+ "generated": "2026-07-29T05:37:17.729370+00:00",
  "errors": [],
  "events": [
   {
@@ -19,42 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "b239f9719eec",
-   "title": "Towards interoperable modeling of toehold-mediated strand exchange circuits across DNA nanotechnology and engineering biology \u2014 Zoila Jurado and Samuel Schaffter",
-   "url": "https://researchseminars.org/talk/Biocontrol/57/",
-   "start_date": "2026-07-28",
-   "end_date": "2026-07-28",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "6cc6dc533bdf",
-   "title": "Crystals and KLR representations in type $A_1^{(1)}$ \u2014 Rob Muth",
-   "url": "https://researchseminars.org/talk/OISTRTS/79/",
-   "start_date": "2026-07-28",
-   "end_date": "2026-07-28",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -164,6 +128,42 @@
    ]
   },
   {
+   "id": "00604956d0df",
+   "title": "Diffeology: A gentle introduction \u2014 Ambar Sengupta",
+   "url": "https://researchseminars.org/talk/CompMath/34/",
+   "start_date": "2026-07-31",
+   "end_date": "2026-07-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "dac569b8eeaf",
+   "title": "London Learning Lean \u2014 Various",
+   "url": "https://researchseminars.org/talk/LondonLearningLean/35/",
+   "start_date": "2026-07-31",
+   "end_date": "2026-07-31",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "92d2f8cac5cf",
    "title": "Detecting loops of singular long knots with polynomial complexity \u2014 Thomas Fiedler",
    "url": "https://researchseminars.org/talk/knotgraphgroup/161/",
@@ -179,6 +179,23 @@
    "tags": [
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "5aa2b3d8a3e3",
+   "title": "Algebraic geometry over division rings \u2014 Elad Paran",
+   "url": "https://researchseminars.org/talk/ENAAS/187/",
+   "start_date": "2026-08-03",
+   "end_date": "2026-08-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 35,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -391,6 +408,23 @@
    "score": 27,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "9c510206e83d",
+   "title": "Knots, Links, and Polynomial Bounds \u2014 Marc Lackenby",
+   "url": "https://researchseminars.org/talk/th21/8/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
