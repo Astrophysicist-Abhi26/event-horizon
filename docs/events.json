@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T05:24:27.911921+00:00",
+ "generated": "2026-07-31T05:50:35.717242+00:00",
  "errors": [],
  "events": [
   {
@@ -19,41 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "d95d12260a51",
-   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
-   "url": "https://researchseminars.org/talk/QRB/-7/",
-   "start_date": "2026-07-30",
-   "end_date": "2026-07-30",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "physics"
-   ]
-  },
-  {
-   "id": "0372c6d2a2c1",
-   "title": "Approximation theory for fractional calculus \u2014 Vassili Kolokoltsov",
-   "url": "https://researchseminars.org/talk/SeminaronAnalysis/133/",
-   "start_date": "2026-07-30",
-   "end_date": "2026-07-30",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -200,6 +165,23 @@
    ]
   },
   {
+   "id": "822967ef9ccd",
+   "title": "A Fireside Discussion with KeepRight (an interoperable protocol for keeping things long-term) \u2014 George Oates",
+   "url": "https://researchseminars.org/talk/Metagov/293/",
+   "start_date": "2026-08-05",
+   "end_date": "2026-08-05",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "7e632591cecd",
    "title": "Moment Estimates and Discrepancy for Sums of Square Roots Modulo One \u2014 Yixiu Xiao",
    "url": "https://researchseminars.org/talk/UNSW-NTSeminar/35/",
@@ -284,6 +266,24 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "a096b8dd1a27",
+   "title": "Conflict Systems Zine Launch \u2014 Media Economies Design Lab",
+   "url": "https://researchseminars.org/talk/Metagov/294/",
+   "start_date": "2026-08-12",
+   "end_date": "2026-08-12",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 82,
+   "tags": [
+    "ai-ml",
+    "astro"
    ]
   },
   {
@@ -444,6 +444,25 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "cc73651244a3",
+   "title": "Instanton-Induced Closed-String Amplitudes in Minimal Superstring Theory at Subleading Order \u2014 Jyotirmoy Barman",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/41/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
    ]
   },
   {
