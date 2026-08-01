@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31T05:50:35.717242+00:00",
+ "generated": "2026-08-01T05:41:04.759465+00:00",
  "errors": [],
  "events": [
   {
@@ -19,61 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "85658b542e86",
-   "title": "A Chaotic Form Factor in Topological Gravity \u2014 Ahmed I. Abdalla",
-   "url": "https://researchseminars.org/talk/EUPAC-TP/38/",
-   "start_date": "2026-07-31",
-   "end_date": "2026-07-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "3e33e040c30c",
-   "title": "Diffeology: A gentle introduction \u2014 Ambar Sengupta and Dion Mann",
-   "url": "https://researchseminars.org/talk/CompMath/34/",
-   "start_date": "2026-07-31",
-   "end_date": "2026-07-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "dac569b8eeaf",
-   "title": "London Learning Lean \u2014 Various",
-   "url": "https://researchseminars.org/talk/LondonLearningLean/35/",
-   "start_date": "2026-07-31",
-   "end_date": "2026-07-31",
-   "deadline": null,
-   "location": null,
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
    ]
   },
   {
