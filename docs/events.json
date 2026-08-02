@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-01T05:41:04.759465+00:00",
+ "generated": "2026-08-02T05:41:36.043387+00:00",
  "errors": [],
  "events": [
   {
@@ -22,24 +22,6 @@
    ]
   },
   {
-   "id": "92d2f8cac5cf",
-   "title": "Detecting loops of singular long knots with polynomial complexity \u2014 Thomas Fiedler",
-   "url": "https://researchseminars.org/talk/knotgraphgroup/161/",
-   "start_date": "2026-08-01",
-   "end_date": "2026-08-01",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "5aa2b3d8a3e3",
    "title": "Algebraic geometry over division rings \u2014 Elad Paran",
    "url": "https://researchseminars.org/talk/ENAAS/187/",
@@ -52,6 +34,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 35,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "86020de88a28",
+   "title": "Parity on based matrices \u2014 Igor M. Nikonov",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/175/",
+   "start_date": "2026-08-03",
+   "end_date": "2026-08-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
