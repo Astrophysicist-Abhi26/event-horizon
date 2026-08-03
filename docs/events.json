@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T05:41:36.043387+00:00",
+ "generated": "2026-08-03T05:57:42.210078+00:00",
  "errors": [],
  "events": [
   {
@@ -410,6 +410,24 @@
    ]
   },
   {
+   "id": "63a442a4eb7f",
+   "title": "Shared hierarchical representations explain temporal correspondence between brain activity and deep neural networks \u2014 Giovanni Marraffini",
+   "url": "https://researchseminars.org/talk/TropicalmathandML/45/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "e66dc610bed9",
    "title": "Plasma Turbulence: New Challenges from Magnetic Confinement",
    "url": "https://www.icts.res.in/program/ptmc",
@@ -426,6 +444,23 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "298459a8f85f",
+   "title": "Modular data of boundary W-algebras \u2014 Jethro van Ekeren",
+   "url": "https://researchseminars.org/talk/ENAAS/184/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
    ]
   },
   {
