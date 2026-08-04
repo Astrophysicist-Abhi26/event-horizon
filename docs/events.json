@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T05:57:42.210078+00:00",
+ "generated": "2026-08-04T05:32:09.132794+00:00",
  "errors": [],
  "events": [
   {
@@ -19,57 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "5aa2b3d8a3e3",
-   "title": "Algebraic geometry over division rings \u2014 Elad Paran",
-   "url": "https://researchseminars.org/talk/ENAAS/187/",
-   "start_date": "2026-08-03",
-   "end_date": "2026-08-03",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 35,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "86020de88a28",
-   "title": "Parity on based matrices \u2014 Igor M. Nikonov",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/175/",
-   "start_date": "2026-08-03",
-   "end_date": "2026-08-03",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "a38b3ceae93e",
-   "title": "Semi-stability in the arithmetic quotients of loop groups \u2014 Manish Patnaik",
-   "url": "https://researchseminars.org/talk/KyuDaiSem/23/",
-   "start_date": "2026-08-03",
-   "end_date": "2026-08-03",
-   "deadline": null,
-   "location": "University of Alberta",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -157,6 +106,25 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "e423b22362ef",
+   "title": "A potential method for logical gates via anyon permutations \u2014 Zijian Song",
+   "url": "https://researchseminars.org/talk/MathPic/153/",
+   "start_date": "2026-08-07",
+   "end_date": "2026-08-07",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
    ]
   },
   {
