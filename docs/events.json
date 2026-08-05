@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T05:32:09.132794+00:00",
+ "generated": "2026-08-05T05:31:17.450082+00:00",
  "errors": [],
  "events": [
   {
@@ -18,24 +18,6 @@
    "tags": [
     "astro",
     "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "229f2e05d3c8",
-   "title": "Detecting single gravitons with gravitational wave detectors \u2014 Germain Tobar",
-   "url": "https://researchseminars.org/talk/3cqfs/43/",
-   "start_date": "2026-08-04",
-   "end_date": "2026-08-04",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 70,
-   "tags": [
-    "astro",
     "physics"
    ]
   },
@@ -449,6 +431,23 @@
    ]
   },
   {
+   "id": "fd0239d252de",
+   "title": "How to Exit to Community: A Cookbook for Blockchain Communities \u2014 Tara Merk, Primavera de Fillippi, Danny Spitzberg, & Nathan Schneider",
+   "url": "https://researchseminars.org/talk/Metagov/295/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "170f78db8545",
    "title": "ICDAR 2026 \u2014 International Conference on Document Analysis and Recognition",
    "url": "https://icdar2026.org/",
@@ -760,6 +759,25 @@
    "type": "Workshop",
    "source": "ICTS Bengaluru",
    "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "8d12e66c173f",
+   "title": "A plurality of optical singularities: intensity, phase, polarisation",
+   "url": "https://www.icts.res.in/lectures/Michael_Berry",
+   "start_date": "2026-10-14",
+   "end_date": "2026-10-14",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
    "tags": [
     "astro",
     "math",
