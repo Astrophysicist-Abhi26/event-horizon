@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T05:31:17.450082+00:00",
+ "generated": "2026-08-06T05:33:40.449424+00:00",
  "errors": [],
  "events": [
   {
@@ -19,58 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "cbff805a4855",
-   "title": "Two combinatorial problems on the triangular grid and their connections with topology \u2014 Anyuan Tian",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/155/",
-   "start_date": "2026-08-05",
-   "end_date": "2026-08-05",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "822967ef9ccd",
-   "title": "A Fireside Discussion with KeepRight (an interoperable protocol for keeping things long-term) \u2014 George Oates",
-   "url": "https://researchseminars.org/talk/Metagov/293/",
-   "start_date": "2026-08-05",
-   "end_date": "2026-08-05",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "7e632591cecd",
-   "title": "Moment Estimates and Discrepancy for Sums of Square Roots Modulo One \u2014 Yixiu Xiao",
-   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/35/",
-   "start_date": "2026-08-05",
-   "end_date": "2026-08-05",
-   "deadline": null,
-   "location": "UNSW Sydney",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -105,6 +53,24 @@
    "score": 37,
    "tags": [
     "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "182a85d7a089",
+   "title": "On generalisations of groups G_{n}^{k} for moduli spaces, braid groups, and algebraic geometry \u2014 Vassily O. Manturov",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/162/",
+   "start_date": "2026-08-08",
+   "end_date": "2026-08-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 45,
+   "tags": [
     "math",
     "physics"
    ]
@@ -146,9 +112,9 @@
    ]
   },
   {
-   "id": "5e04167b878d",
-   "title": "Graded Identities of Finite Matrices \u2014 Diogo Diniz",
-   "url": "https://researchseminars.org/talk/ENAAS/183/",
+   "id": "75573225d285",
+   "title": "Conformal blocks for quasi-lisse vertex algebras \u2014 Jethro van Ekeren",
+   "url": "https://researchseminars.org/talk/ENAAS/184/",
    "start_date": "2026-08-10",
    "end_date": "2026-08-10",
    "deadline": null,
@@ -157,7 +123,7 @@
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
-   "score": 10,
+   "score": 30,
    "tags": [
     "math"
    ]
@@ -394,23 +360,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "298459a8f85f",
-   "title": "Modular data of boundary W-algebras \u2014 Jethro van Ekeren",
-   "url": "https://researchseminars.org/talk/ENAAS/184/",
-   "start_date": "2026-08-24",
-   "end_date": "2026-08-24",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
    ]
   },
   {
