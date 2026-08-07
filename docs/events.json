@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T05:33:40.449424+00:00",
+ "generated": "2026-08-07T04:36:34.814933+00:00",
  "errors": [],
  "events": [
   {
@@ -19,23 +19,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "8f4027062e96",
-   "title": "Counting polynomial solutions over finite fields and applications \u2014 Francis Brown",
-   "url": "https://researchseminars.org/talk/KyuDaiSem/22/",
-   "start_date": "2026-08-06",
-   "end_date": "2026-08-06",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -394,6 +377,24 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "2f9acba61dd9",
+   "title": "London Learning Lean \u2014 Various",
+   "url": "https://researchseminars.org/talk/LondonLearningLean/36/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
