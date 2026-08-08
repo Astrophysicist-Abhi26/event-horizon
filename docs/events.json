@@ -1,45 +1,7 @@
 {
- "generated": "2026-08-07T04:36:34.814933+00:00",
+ "generated": "2026-08-08T03:51:40.275794+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "38b381b3ef46",
-   "title": "The Concurrence of Mega-Surveys",
-   "url": "https://www.icts.res.in/program/CMSURVEYS",
-   "start_date": "2026-07-27",
-   "end_date": "2026-08-07",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Workshop",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "e423b22362ef",
-   "title": "A potential method for logical gates via anyon permutations \u2014 Zijian Song",
-   "url": "https://researchseminars.org/talk/MathPic/153/",
-   "start_date": "2026-08-07",
-   "end_date": "2026-08-07",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "182a85d7a089",
    "title": "On generalisations of groups G_{n}^{k} for moduli spaces, braid groups, and algebraic geometry \u2014 Vassily O. Manturov",
@@ -309,6 +271,23 @@
    ]
   },
   {
+   "id": "46e061b5c994",
+   "title": "Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence \u2014 Barbara Giunti",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/130/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "63a442a4eb7f",
    "title": "Shared hierarchical representations explain temporal correspondence between brain activity and deep neural networks \u2014 Giovanni Marraffini",
    "url": "https://researchseminars.org/talk/TropicalmathandML/45/",
@@ -394,6 +373,23 @@
    "score": 27,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "64e57724fa27",
+   "title": "Introduction to Khovanov Homology \u2014 Louis Kauffman",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/131/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
