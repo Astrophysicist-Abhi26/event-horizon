@@ -1,25 +1,7 @@
 {
- "generated": "2026-08-08T03:51:40.275794+00:00",
+ "generated": "2026-08-09T04:00:10.530317+00:00",
  "errors": [],
  "events": [
-  {
-   "id": "182a85d7a089",
-   "title": "On generalisations of groups G_{n}^{k} for moduli spaces, braid groups, and algebraic geometry \u2014 Vassily O. Manturov",
-   "url": "https://researchseminars.org/talk/knotgraphgroup/162/",
-   "start_date": "2026-08-08",
-   "end_date": "2026-08-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 45,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
   {
    "id": "f7e91f91aba1",
    "title": "KDD 2026 \u2014 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -69,6 +51,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "0d2aaf6b1c74",
+   "title": "Homotopy index polynomials for knotoids \u2014 Igor M. Nikonov",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/176/",
+   "start_date": "2026-08-10",
+   "end_date": "2026-08-10",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
@@ -232,6 +231,24 @@
    "tags": [
     "ai-ml",
     "math"
+   ]
+  },
+  {
+   "id": "79cf1dfcf7c9",
+   "title": "On the classification of 2-dimensional analogues of 2-bridge knots \u2014 Jumpei Yasuda",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/157/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
