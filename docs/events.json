@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T04:00:10.530317+00:00",
+ "generated": "2026-08-10T04:14:04.430548+00:00",
  "errors": [],
  "events": [
   {
@@ -408,6 +408,24 @@
    "score": 10,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "ffaeeb34af4a",
+   "title": "Crossing number and ribbonlength of folded ribbon knots \u2014 Elizabeth Denne",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/163/",
+   "start_date": "2026-08-29",
+   "end_date": "2026-08-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -998,25 +1016,6 @@
    ]
   },
   {
-   "id": "af2a0e7364f5",
-   "title": "Winter School on Biological Physics",
-   "url": "https://www.icts.res.in/program/wsbp",
-   "start_date": "2026-12-21",
-   "end_date": "2027-01-01",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "School",
-   "source": "ICTS Bengaluru",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "9a053f1f4527",
    "title": "Geometry of Sparse Sets",
    "url": "https://www.icts.res.in/program/geoss",
@@ -1027,6 +1026,25 @@
    "country": "India",
    "in_india": true,
    "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "af2a0e7364f5",
+   "title": "Winter School on Biological Physics",
+   "url": "https://www.icts.res.in/program/wsbp",
+   "start_date": "2026-12-21",
+   "end_date": "2027-01-01",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "School",
    "source": "ICTS Bengaluru",
    "score": 60,
    "tags": [
@@ -1107,6 +1125,23 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "877459d0c096",
+   "title": "WSDM 2027 \u2014 ACM International Conference on Web Search and Data Mining",
+   "url": "https://www.wsdm-conference.org/2027/",
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-19",
+   "deadline": "2026-08-17",
+   "location": "Cordis, Hong Kong",
+   "country": null,
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
    ]
   },
   {
@@ -1207,6 +1242,23 @@
    "deadline": null,
    "location": "David L. Lawrence Convention Center, Pittsburgh, USA",
    "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "69f42c6de0b0",
+   "title": "Eurographics 2027 \u2014 The 48th Annual Conference of the European Association for Computer Graphics",
+   "url": "https://eg2027.isti.cnr.it/",
+   "start_date": "2027-05-10",
+   "end_date": "2027-05-14",
+   "deadline": "2026-09-25",
+   "location": "IMT Campus, Lucca, Italy",
+   "country": "Italy",
    "in_india": false,
    "type": "Conference",
    "source": "AI Deadlines",
@@ -2026,23 +2078,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "db862bdda99c",
-   "title": "Eurographics 2027 \u2014 The 48th Annual Conference of the European Association for Computer Graphics",
-   "url": "https://www.eg.org/wp/eg-events/eurographics-annual-conference/",
-   "start_date": null,
-   "end_date": null,
-   "deadline": null,
-   "location": "Pisa, Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
    ]
   },
   {
