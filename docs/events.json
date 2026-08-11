@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T04:14:04.430548+00:00",
+ "generated": "2026-08-11T04:01:54.401497+00:00",
  "errors": [],
  "events": [
   {
@@ -39,40 +39,6 @@
    ]
   },
   {
-   "id": "75573225d285",
-   "title": "Conformal blocks for quasi-lisse vertex algebras \u2014 Jethro van Ekeren",
-   "url": "https://researchseminars.org/talk/ENAAS/184/",
-   "start_date": "2026-08-10",
-   "end_date": "2026-08-10",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "0d2aaf6b1c74",
-   "title": "Homotopy index polynomials for knotoids \u2014 Igor M. Nikonov",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/176/",
-   "start_date": "2026-08-10",
-   "end_date": "2026-08-10",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
    "id": "a096b8dd1a27",
    "title": "Conflict Systems Zine Launch \u2014 Media Economies Design Lab",
    "url": "https://researchseminars.org/talk/Metagov/294/",
@@ -88,6 +54,24 @@
    "tags": [
     "ai-ml",
     "astro"
+   ]
+  },
+  {
+   "id": "6caf3fc3b01a",
+   "title": "A Slice Formula for Arnold-Type Invariants of Curves and Surfaces \u2014 Hiroki Mizuno",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/148/",
+   "start_date": "2026-08-12",
+   "end_date": "2026-08-12",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -129,6 +113,23 @@
    ]
   },
   {
+   "id": "7ca91e27545b",
+   "title": "M23 is a Galois group over the rationals \u2014 John Voight",
+   "url": "https://researchseminars.org/talk/CompAlgSemMagma/27/",
+   "start_date": "2026-08-13",
+   "end_date": "2026-08-13",
+   "deadline": null,
+   "location": "Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "dbde4338ec20",
    "title": "Revisiting the k-theorem with the ANEC \u2014 Ung Nguyen",
    "url": "https://researchseminars.org/talk/EUPAC-TP/40/",
@@ -145,6 +146,24 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "86f7a7b032fe",
+   "title": "Spanning Trees and Fair Voting Maps \u2014 Kris Tapp",
+   "url": "https://researchseminars.org/talk/CompMath/35/",
+   "start_date": "2026-08-14",
+   "end_date": "2026-08-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
