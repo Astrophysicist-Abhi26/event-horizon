@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T04:01:54.401497+00:00",
+ "generated": "2026-08-12T04:23:40.437440+00:00",
  "errors": [],
  "events": [
   {
@@ -375,6 +375,23 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "56aea1e43583",
+   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
+   "url": "https://researchseminars.org/talk/OISTRTS/84/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
    ]
   },
   {
