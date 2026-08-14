@@ -1,26 +1,7 @@
 {
- "generated": "2026-08-13T04:27:07.012671+00:00",
- "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-08-13%22%2C+%22%24lte%22%3A+%222026-09-03T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7fad99993980>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
- ],
+ "generated": "2026-08-14T04:23:56.180691+00:00",
+ "errors": [],
  "events": [
-  {
-   "id": "f7e91f91aba1",
-   "title": "KDD 2026 \u2014 ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-   "url": "https://kdd2026.kdd.org/",
-   "start_date": "2026-08-09",
-   "end_date": "2026-08-13",
-   "deadline": "2025-07-24",
-   "location": "International Convention Center Jeju",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
   {
    "id": "cf54996be22c",
    "title": "Circuits, Communication, and Proofs",
@@ -61,6 +42,43 @@
    ]
   },
   {
+   "id": "dbde4338ec20",
+   "title": "Revisiting the k-theorem with the ANEC \u2014 Ung Nguyen",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/40/",
+   "start_date": "2026-08-14",
+   "end_date": "2026-08-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "86f7a7b032fe",
+   "title": "Spanning Trees and Fair Voting Maps \u2014 Kris Tapp",
+   "url": "https://researchseminars.org/talk/CompMath/35/",
+   "start_date": "2026-08-14",
+   "end_date": "2026-08-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "236a7e9f4d71",
    "title": "ECAI 2026 \u2014 European Conference on Artificial Intelligence",
    "url": "https://2026.ijcai.org/",
@@ -95,6 +113,24 @@
    ]
   },
   {
+   "id": "a1c577bc52b0",
+   "title": "Knots and Amusement \u2014 Yangzhou Liu",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/164/",
+   "start_date": "2026-08-15",
+   "end_date": "2026-08-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "a866c0dc0a5b",
    "title": "RLC 2026 \u2014 Reinforcement Learning Conference",
    "url": "https://rl-conference.cc/",
@@ -109,6 +145,147 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "bc3217a468a3",
+   "title": "From affine algebraic racks to Leibniz algebras and Yang\u2013Baxter operators \u2014 L\u1ef1c Ta",
+   "url": "https://researchseminars.org/talk/ENAAS/190/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "219ee4d615e5",
+   "title": "Coverings of Complete Graphs by Small Cliques and Applications \u2014 Yifan Zhang",
+   "url": "https://researchseminars.org/talk/cam/105/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "University of Ostrava, VSB - Technical University of Ostrava",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "79cf1dfcf7c9",
+   "title": "On the classification of 2-dimensional analogues of 2-bridge knots \u2014 Jumpei Yasuda",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/157/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "9c510206e83d",
+   "title": "Knots, Links, and Polynomial Bounds \u2014 Marc Lackenby",
+   "url": "https://researchseminars.org/talk/th21/8/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9260ca46a743",
+   "title": "Introduction to Magma: computation, experimentation and new mathematics \u2014 Don Taylor",
+   "url": "https://researchseminars.org/talk/CompAlgSemMagma/28/",
+   "start_date": "2026-08-20",
+   "end_date": "2026-08-20",
+   "deadline": null,
+   "location": "Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "cc73651244a3",
+   "title": "Instanton-Induced Closed-String Amplitudes in Minimal Superstring Theory at Subleading Order \u2014 Jyotirmoy Barman",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/41/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "46e061b5c994",
+   "title": "Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence \u2014 Barbara Giunti",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/130/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "63a442a4eb7f",
+   "title": "Shared hierarchical representations explain temporal correspondence between brain activity and deep neural networks \u2014 Giovanni Marraffini",
+   "url": "https://researchseminars.org/talk/TropicalmathandML/45/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
@@ -145,6 +322,93 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "56aea1e43583",
+   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
+   "url": "https://researchseminars.org/talk/OISTRTS/84/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "fd0239d252de",
+   "title": "How to Exit to Community: A Cookbook for Blockchain Communities \u2014 Tara Merk, Primavera de Fillippi, Danny Spitzberg, & Nathan Schneider",
+   "url": "https://researchseminars.org/talk/Metagov/295/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "2f9acba61dd9",
+   "title": "London Learning Lean \u2014 Various",
+   "url": "https://researchseminars.org/talk/LondonLearningLean/36/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "64e57724fa27",
+   "title": "Introduction to Khovanov Homology \u2014 Louis Kauffman",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/131/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ffaeeb34af4a",
+   "title": "Crossing number and ribbonlength of folded ribbon knots \u2014 Elizabeth Denne",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/163/",
+   "start_date": "2026-08-29",
+   "end_date": "2026-08-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -202,6 +466,61 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "337280fac9e9",
+   "title": "Structural Analysis of Coupled Electromagnetic Fields and Electric Circuits. \u2014 Sebastian Sch\u00f6ps",
+   "url": "https://researchseminars.org/talk/PHSeminar/40/",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 57,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "062b389ec9be",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/8/",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "1a8ace880dfa",
+   "title": "Mathematical AI for Molecular Sciences: from topological data analysis to topological deep learning \u2014 Kelin Xia",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/132/",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-04",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 85,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
