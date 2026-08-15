@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T04:23:56.180691+00:00",
+ "generated": "2026-08-15T03:18:47.643143+00:00",
  "errors": [],
  "events": [
   {
@@ -39,43 +39,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "dbde4338ec20",
-   "title": "Revisiting the k-theorem with the ANEC \u2014 Ung Nguyen",
-   "url": "https://researchseminars.org/talk/EUPAC-TP/40/",
-   "start_date": "2026-08-14",
-   "end_date": "2026-08-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "86f7a7b032fe",
-   "title": "Spanning Trees and Fair Voting Maps \u2014 Kris Tapp",
-   "url": "https://researchseminars.org/talk/CompMath/35/",
-   "start_date": "2026-08-14",
-   "end_date": "2026-08-14",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
    ]
   },
   {
@@ -251,6 +214,23 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "35881ef5ab2c",
+   "title": "Hermitian curvature flow and HKT geometry \u2014 Beatrice Brienza",
+   "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/113/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
    ]
   },
   {
