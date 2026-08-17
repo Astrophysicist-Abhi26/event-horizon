@@ -1,8 +1,6 @@
 {
- "generated": "2026-08-16T03:28:00.529777+00:00",
- "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-08-16%22%2C+%22%24lte%22%3A+%222026-09-06T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7fd0e9c25bb0>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
- ],
+ "generated": "2026-08-17T03:27:52.409990+00:00",
+ "errors": [],
  "events": [
   {
    "id": "cf54996be22c",
@@ -95,6 +93,199 @@
    ]
   },
   {
+   "id": "bc3217a468a3",
+   "title": "From affine algebraic racks to Leibniz algebras and Yang\u2013Baxter operators \u2014 L\u1ef1c Ta",
+   "url": "https://researchseminars.org/talk/ENAAS/190/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "219ee4d615e5",
+   "title": "Coverings of Complete Graphs by Small Cliques and Applications \u2014 Yifan Zhang",
+   "url": "https://researchseminars.org/talk/cam/105/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "University of Ostrava, VSB - Technical University of Ostrava",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "da0bb0c19f94",
+   "title": "On nice transversality and generalisations of groups G_{n}^{k} \u2014 Vassily O. Manturov",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/178/",
+   "start_date": "2026-08-17",
+   "end_date": "2026-08-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "79cf1dfcf7c9",
+   "title": "On the classification of 2-dimensional analogues of 2-bridge knots \u2014 Jumpei Yasuda",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/157/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "9c510206e83d",
+   "title": "Knots, Links, and Polynomial Bounds \u2014 Marc Lackenby",
+   "url": "https://researchseminars.org/talk/th21/8/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9260ca46a743",
+   "title": "Introduction to Magma: computation, experimentation and new mathematics \u2014 Don Taylor",
+   "url": "https://researchseminars.org/talk/CompAlgSemMagma/28/",
+   "start_date": "2026-08-20",
+   "end_date": "2026-08-20",
+   "deadline": null,
+   "location": "Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "cc73651244a3",
+   "title": "Instanton-Induced Closed-String Amplitudes in Minimal Superstring Theory at Subleading Order \u2014 Jyotirmoy Barman",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/41/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "35881ef5ab2c",
+   "title": "Hermitian curvature flow and HKT geometry \u2014 Beatrice Brienza",
+   "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/113/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "46e061b5c994",
+   "title": "Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence \u2014 Barbara Giunti",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/130/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6de9859dca5c",
+   "title": "Apllications of Homotopy Algebras in String Field Theory 1 \u2014 Ivo Sachs",
+   "url": "https://researchseminars.org/talk/Homotopy2026/1/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "63a442a4eb7f",
+   "title": "Shared hierarchical representations explain temporal correspondence between brain activity and deep neural networks \u2014 Giovanni Marraffini",
+   "url": "https://researchseminars.org/talk/TropicalmathandML/45/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "e66dc610bed9",
    "title": "Plasma Turbulence: New Challenges from Magnetic Confinement",
    "url": "https://www.icts.res.in/program/ptmc",
@@ -114,6 +305,42 @@
    ]
   },
   {
+   "id": "b859055a952a",
+   "title": "The large N limit of correlation functions from homotopy algebras \u2014 Yuji Okawa",
+   "url": "https://researchseminars.org/talk/Homotopy2026/2/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "50222e49ad97",
+   "title": "Higher connections and higher Chern-Simons theory \u2014 Christian Saemann",
+   "url": "https://researchseminars.org/talk/Homotopy2026/3/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "936d90221c6a",
    "title": "RuleML+RR 2026 \u2014 International Joint Conference on Rules and Reasoning",
    "url": "https://2026.declarativeai.net/events/ruleml-rr",
@@ -128,6 +355,291 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "710def3216ea",
+   "title": "Apllications of Homotopy Algebras in String Field Theory 2 \u2014 Ivo Sachs",
+   "url": "https://researchseminars.org/talk/Homotopy2026/4/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "bd8f6e653375",
+   "title": "Localization of effective action in homtopy algebraic superstring field theory \u2014 Xianghang Zhang",
+   "url": "https://researchseminars.org/talk/Homotopy2026/5/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "676aaead7d24",
+   "title": "Finite Gauge Symmetry and Cyclicity in L_\\infty Algebras: An Application to 4d Chern-Simons Theory \u2014 Jojiro Totsuka",
+   "url": "https://researchseminars.org/talk/Homotopy2026/6/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "10168838e7cc",
+   "title": "Homological algebra of integrable field theories in two and higher dimensions \u2014 Alexander Schenkel",
+   "url": "https://researchseminars.org/talk/Homotopy2026/7/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "56aea1e43583",
+   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
+   "url": "https://researchseminars.org/talk/OISTRTS/84/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "67f495d39e80",
+   "title": "A consistent light-cone-gauge superstring field theory \u2014 Hiroshi Kunitomo",
+   "url": "https://researchseminars.org/talk/Homotopy2026/8/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 45,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "7137c31d5d15",
+   "title": "Nonperturbative aspects of homotopy-algebraic approaches to correlation functions \u2014 Keisuke Konosu",
+   "url": "https://researchseminars.org/talk/Homotopy2026/9/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "be4cc68510e4",
+   "title": "Canonical Commutation relations, RLL relations, and the Yang-Baxter equation within the Batalin-Vilkovisky formalism \u2014 Hiroaki Matsunaga",
+   "url": "https://researchseminars.org/talk/Homotopy2026/10/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "fd0239d252de",
+   "title": "How to Exit to Community: A Cookbook for Blockchain Communities \u2014 Tara Merk, Primavera de Fillippi, Danny Spitzberg, & Nathan Schneider",
+   "url": "https://researchseminars.org/talk/Metagov/295/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "dcebfb028267",
+   "title": "The self-duality equations, Lax pairs, and the classification of reductions. \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/1/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "517a6d4d23d0",
+   "title": "The Ward construction, examples and reductions \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/2/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "2f9acba61dd9",
+   "title": "London Learning Lean \u2014 Various",
+   "url": "https://researchseminars.org/talk/LondonLearningLean/36/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "727e9d955896",
+   "title": "Action, Hamiltonians and reduction to 4d Chern-Simons for Hitchin's equations \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/4/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "db1a6a82d7e1",
+   "title": "Direct linearization and Sato Grassmannian \u2014 Kanehisa Takasaki",
+   "url": "https://researchseminars.org/talk/Twistor2026/5/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "64e57724fa27",
+   "title": "Introduction to Khovanov Homology \u2014 Louis Kauffman",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/131/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ffaeeb34af4a",
+   "title": "Crossing number and ribbonlength of folded ribbon knots \u2014 Elizabeth Denne",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/163/",
+   "start_date": "2026-08-29",
+   "end_date": "2026-08-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -185,6 +697,61 @@
     "astro",
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "337280fac9e9",
+   "title": "Structural Analysis of Coupled Electromagnetic Fields and Electric Circuits. \u2014 Sebastian Sch\u00f6ps",
+   "url": "https://researchseminars.org/talk/PHSeminar/40/",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 57,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "062b389ec9be",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/8/",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "1a8ace880dfa",
+   "title": "Mathematical AI for Molecular Sciences: from topological data analysis to topological deep learning \u2014 Kelin Xia",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/132/",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-04",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 85,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
