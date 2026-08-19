@@ -1,8 +1,6 @@
 {
- "generated": "2026-08-18T03:24:37.217312+00:00",
- "errors": [
-  "researchseminars.org: HTTPSConnectionPool(host='researchseminars.org', port=443): Max retries exceeded with url: /api/0/search/talks?start_time=%7B%22%24gte%22%3A+%222026-08-18%22%2C+%22%24lte%22%3A+%222026-09-08T23%3A59%3A59%22%7D (Caused by ConnectTimeoutError(<HTTPSConnection(host='researchseminars.org', port=443) at 0x7f5197c35940>, 'Connection to researchseminars.org timed out. (connect timeout=30)'))"
- ],
+ "generated": "2026-08-19T03:25:30.574143+00:00",
+ "errors": [],
  "events": [
   {
    "id": "cf54996be22c",
@@ -78,55 +76,162 @@
    ]
   },
   {
-   "id": "a866c0dc0a5b",
-   "title": "RLC 2026 \u2014 Reinforcement Learning Conference",
-   "url": "https://rl-conference.cc/",
-   "start_date": "2026-08-15",
-   "end_date": "2026-08-18",
-   "deadline": "2026-03-01",
-   "location": "Montreal",
-   "country": "Canada",
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "f43540ddd11d",
-   "title": "COSMO-26: 29th International Conference on Particle Physics & Cosmology",
-   "url": "https://cosmo-26.lorentz.leidenuniv.nl/",
-   "start_date": "2026-08-24",
-   "end_date": "2026-08-28",
+   "id": "79cf1dfcf7c9",
+   "title": "On the classification of 2-dimensional analogues of 2-bridge knots \u2014 Jumpei Yasuda",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/157/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
    "deadline": null,
-   "location": "Leiden, The Netherlands",
-   "country": "Netherlands",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
    "tags": [
-    "astro",
+    "math",
     "physics"
    ]
   },
   {
-   "id": "dd2e24fc72f6",
-   "title": "Tidal Disruption Events and Nuclear Transients in Crete vol. 2",
-   "url": "https://sites.google.com/view/tdesandntsincrete2026",
-   "start_date": "2026-08-24",
-   "end_date": "2026-08-28",
+   "id": "9c510206e83d",
+   "title": "Knots, Links, and Polynomial Bounds \u2014 Marc Lackenby",
+   "url": "https://researchseminars.org/talk/th21/8/",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-19",
    "deadline": null,
-   "location": "Heraklion, Crete, Greece",
-   "country": "Greece",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9260ca46a743",
+   "title": "Introduction to Magma: computation, experimentation and new mathematics \u2014 Don Taylor",
+   "url": "https://researchseminars.org/talk/CompAlgSemMagma/28/",
+   "start_date": "2026-08-20",
+   "end_date": "2026-08-20",
+   "deadline": null,
+   "location": "Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "84479469b694",
+   "title": "On Quantum Ramsey Theory \u2014 Jose Mijares",
+   "url": "https://researchseminars.org/talk/OLS/212/",
+   "start_date": "2026-08-20",
+   "end_date": "2026-08-20",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "cc73651244a3",
+   "title": "Instanton-Induced Closed-String Amplitudes in Minimal Superstring Theory at Subleading Order \u2014 Jyotirmoy Barman",
+   "url": "https://researchseminars.org/talk/EUPAC-TP/41/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
    "score": 60,
    "tags": [
-    "astro"
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "35881ef5ab2c",
+   "title": "Hermitian curvature flow and HKT geometry \u2014 Beatrice Brienza",
+   "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/113/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "46e061b5c994",
+   "title": "Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence \u2014 Barbara Giunti",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/130/",
+   "start_date": "2026-08-21",
+   "end_date": "2026-08-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "6de9859dca5c",
+   "title": "Apllications of Homotopy Algebras in String Field Theory 1 \u2014 Ivo Sachs",
+   "url": "https://researchseminars.org/talk/Homotopy2026/1/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "63a442a4eb7f",
+   "title": "Shared hierarchical representations explain temporal correspondence between brain activity and deep neural networks \u2014 Giovanni Marraffini",
+   "url": "https://researchseminars.org/talk/TropicalmathandML/45/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
@@ -149,54 +254,39 @@
    ]
   },
   {
-   "id": "aaa147fa877f",
-   "title": "Dynamic Radio Sky 2026",
-   "url": "https://drs2026.github.io",
+   "id": "b859055a952a",
+   "title": "The large N limit of correlation functions from homotopy algebras \u2014 Yuji Okawa",
+   "url": "https://researchseminars.org/talk/Homotopy2026/2/",
    "start_date": "2026-08-24",
-   "end_date": "2026-08-28",
+   "end_date": "2026-08-24",
    "deadline": null,
-   "location": "McGill",
-   "country": null,
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
    "tags": [
-    "astro"
+    "math",
+    "physics"
    ]
   },
   {
-   "id": "a7f5158522ce",
-   "title": "2026 POSYDON School",
-   "url": "https://posydon.org/posydon-school-2026/",
+   "id": "50222e49ad97",
+   "title": "Higher connections and higher Chern-Simons theory \u2014 Christian Saemann",
+   "url": "https://researchseminars.org/talk/Homotopy2026/3/",
    "start_date": "2026-08-24",
-   "end_date": "2026-08-27",
+   "end_date": "2026-08-24",
    "deadline": null,
-   "location": "Versoix, Switzerland",
-   "country": "Switzerland",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
    "score": 20,
    "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "5981fea17224",
-   "title": "Surveying the Universe in 4D: Beating Cosmic Variance with Wide-Field Slitless Spectroscopy from HST, JWST, Euclid, Roman, and Beyond",
-   "url": "https://www.stsci.edu/events/surveying-the-universe-in-4d",
-   "start_date": "2026-08-24",
-   "end_date": "2026-08-28",
-   "deadline": null,
-   "location": "Space Telescope Science Institute",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
+    "math",
+    "physics"
    ]
   },
   {
@@ -217,20 +307,323 @@
    ]
   },
   {
-   "id": "5362fc38c230",
-   "title": "6th Summer School \"Galaxy Formation and Evolution in a Cosmological Context\"",
-   "url": "https://galaxyformationschool2026.obspm.fr",
-   "start_date": "2026-08-30",
-   "end_date": "2026-09-05",
+   "id": "a1ffb43f1ff5",
+   "title": "Theory of normal forms of differential operators and some of its applications \u2014 Alexander Zheglov",
+   "url": "https://researchseminars.org/talk/ENAAS/205/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-08-24",
    "deadline": null,
-   "location": "Spetses (Greece)",
-   "country": "Greece",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "710def3216ea",
+   "title": "Apllications of Homotopy Algebras in String Field Theory 2 \u2014 Ivo Sachs",
+   "url": "https://researchseminars.org/talk/Homotopy2026/4/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
    "score": 65,
    "tags": [
-    "astro"
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "bd8f6e653375",
+   "title": "Localization of effective action in homtopy algebraic superstring field theory \u2014 Xianghang Zhang",
+   "url": "https://researchseminars.org/talk/Homotopy2026/5/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "676aaead7d24",
+   "title": "Finite Gauge Symmetry and Cyclicity in L_\\infty Algebras: An Application to 4d Chern-Simons Theory \u2014 Jojiro Totsuka",
+   "url": "https://researchseminars.org/talk/Homotopy2026/6/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "10168838e7cc",
+   "title": "Homological algebra of integrable field theories in two and higher dimensions \u2014 Alexander Schenkel",
+   "url": "https://researchseminars.org/talk/Homotopy2026/7/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "56aea1e43583",
+   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
+   "url": "https://researchseminars.org/talk/OISTRTS/84/",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-25",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "67f495d39e80",
+   "title": "A consistent light-cone-gauge superstring field theory \u2014 Hiroshi Kunitomo",
+   "url": "https://researchseminars.org/talk/Homotopy2026/8/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 45,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "7137c31d5d15",
+   "title": "Nonperturbative aspects of homotopy-algebraic approaches to correlation functions \u2014 Keisuke Konosu",
+   "url": "https://researchseminars.org/talk/Homotopy2026/9/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "be4cc68510e4",
+   "title": "Canonical Commutation relations, RLL relations, and the Yang-Baxter equation within the Batalin-Vilkovisky formalism \u2014 Hiroaki Matsunaga",
+   "url": "https://researchseminars.org/talk/Homotopy2026/10/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "fd0239d252de",
+   "title": "How to Exit to Community: A Cookbook for Blockchain Communities \u2014 Tara Merk, Primavera de Fillippi, Danny Spitzberg, & Nathan Schneider",
+   "url": "https://researchseminars.org/talk/Metagov/295/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "dcebfb028267",
+   "title": "The self-duality equations, Lax pairs, and the classification of reductions. \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/1/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "517a6d4d23d0",
+   "title": "The Ward construction, examples and reductions \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/2/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "ee6a41130609",
+   "title": "Sato-theoretic construction of the ASDYM hierarchy and the Ward conjecture \u2014 Shangshuai Li",
+   "url": "https://researchseminars.org/talk/Twistor2026/3/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "2f9acba61dd9",
+   "title": "London Learning Lean \u2014 Various",
+   "url": "https://researchseminars.org/talk/LondonLearningLean/36/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "727e9d955896",
+   "title": "Action, Hamiltonians and reduction to 4d Chern-Simons for Hitchin's equations \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/Twistor2026/4/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "db1a6a82d7e1",
+   "title": "Direct linearization and Sato Grassmannian \u2014 Kanehisa Takasaki",
+   "url": "https://researchseminars.org/talk/Twistor2026/5/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "64e57724fa27",
+   "title": "Introduction to Khovanov Homology \u2014 Louis Kauffman",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/131/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ffaeeb34af4a",
+   "title": "Crossing number and ribbonlength of folded ribbon knots \u2014 Elizabeth Denne",
+   "url": "https://researchseminars.org/talk/knotgraphgroup/163/",
+   "start_date": "2026-08-29",
+   "end_date": "2026-08-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -249,25 +642,6 @@
    "tags": [
     "ai-ml",
     "math"
-   ]
-  },
-  {
-   "id": "a5d3c6980fff",
-   "title": "International Conference on Machine Learning for Astrophysics (ML4ASTRO3) - 3rd Edition",
-   "url": "https://indico.ict.inaf.it/event/3460/page/1893-venue",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "Valletta (Malta)",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro",
-    "physics"
    ]
   },
   {
@@ -291,41 +665,6 @@
    ]
   },
   {
-   "id": "d9ddaa91128b",
-   "title": "Astrophysics and Space Science in Marche III: Big Bang, Big stars, Big Computers",
-   "url": "https://indico.dfa.unipd.it/event/1698/overview",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "Jesi (AN) Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "09c39b1b4ef5",
-   "title": "The 17th Gaia Science Alerts workshop and the ACME Time-Domain Workshop",
-   "url": "https://gsawg.wiki.ast.cam.ac.uk/index.php?title=Workshop2026:main",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "Frejus",
-   "country": null,
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "43632012a89f",
    "title": "A School on Gradient Flows",
    "url": "https://www.icts.res.in/program/sgflows",
@@ -345,146 +684,99 @@
    ]
   },
   {
-   "id": "f628f09492c0",
-   "title": "Spectral\u2013Timing\u2013Polarimetry in the eXTP Era",
-   "url": "https://indico.global/e/extp_workshop",
+   "id": "652dfac4613a",
+   "title": "Averaging Lie bialgebras \u2014 Shuai Hou",
+   "url": "https://researchseminars.org/talk/ENAAS/206/",
    "start_date": "2026-08-31",
+   "end_date": "2026-08-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "337280fac9e9",
+   "title": "Structural Analysis of Coupled Electromagnetic Fields and Electric Circuits. \u2014 Sebastian Sch\u00f6ps",
+   "url": "https://researchseminars.org/talk/PHSeminar/40/",
+   "start_date": "2026-09-02",
    "end_date": "2026-09-02",
    "deadline": null,
-   "location": "Turku, Finland",
-   "country": "Finland",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 57,
    "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "2e69353ef814",
-   "title": "Cosmic Dust",
-   "url": "https://www.cps-jp.org/~dust/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "National Institute of Technology (KOSEN), Niihama College, Niihama, Ehime, Japan",
-   "country": "Japan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b21951045b1e",
-   "title": "Multiple Planet Systems",
-   "url": "https://exo-mps.eu",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "Sofia University",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "1f2140fa68ed",
-   "title": "International Astronomical Union Hands-on Workshop (I-HOW) in Radio Astronomy and 10th Byurakan International Summer School (10BISS)",
-   "url": "https://www.bao.am/meetings/meetings/SS2026/index.html",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "Byurakan Astrophysical Observatory (BAO)",
-   "country": null,
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 70,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "bc6aaa150b2e",
-   "title": "Binary compact objects on eccentric orbits and their gravitational-wave signatures",
-   "url": "https://sites.google.com/unimib.it/gweccentricity",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-06",
-   "deadline": null,
-   "location": "Corfu, Greece",
-   "country": "Greece",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "712b43c63777",
-   "title": "High Angular Resolution Science with Next-Generation Optical-Infrared Capabilities at ESO: Exploiting MAVIS and ELT instruments in the 2030s",
-   "url": "https://www.eso.org/sci/meetings/2026/MAVIS2026.html",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "ESO Garching (Germany)",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "f00c2426c0fa",
-   "title": "Probe Combination for Dark Matter Physics in the Era of Large Surveys",
-   "url": "https://indico.uchicago.edu/event/580/",
-   "start_date": "2026-09-02",
-   "end_date": "2026-09-04",
-   "deadline": null,
-   "location": "Chicago, IL",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
+    "ai-ml",
+    "math",
     "physics"
    ]
   },
   {
-   "id": "e1eef4129e37",
-   "title": "New Results in X-ray Astronomy & NewAthena UK community science meeting",
-   "url": "https://www.athena.ac.uk/conferences/new-results-2026",
-   "start_date": "2026-09-02",
+   "id": "062b389ec9be",
+   "title": "Chapter 5:Quantum State Transformations \u2014 Taehyeong Kim",
+   "url": "https://researchseminars.org/talk/QRB/8/",
+   "start_date": "2026-09-03",
    "end_date": "2026-09-03",
    "deadline": null,
-   "location": "Leicester, United Kingdom",
-   "country": "UK",
+   "location": "Online",
+   "country": "Online",
    "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
    "tags": [
-    "astro"
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "e3a6b4cffde9",
+   "title": "Spectral theory and descriptive combinatorics for Borel pmp graphs \u2014 Cecilia Higgins",
+   "url": "https://researchseminars.org/talk/OLS/211/",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "1a8ace880dfa",
+   "title": "Mathematical AI for Molecular Sciences: from topological data analysis to topological deep learning \u2014 Kelin Xia",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/132/",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-04",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 85,
+   "tags": [
+    "ai-ml",
+    "math"
    ]
   },
   {
    "id": "b0a4525bfc30",
    "title": "Clouds over the Pyrenees",
-   "url": "https://benasque.org/2026cop/",
+   "url": "https://benasque.org/new_general/cgi-bin/years.pl?ano=2026",
    "start_date": "2026-09-06",
    "end_date": "2026-09-19",
    "deadline": null,
@@ -494,58 +786,6 @@
    "type": "Conference",
    "source": "CADC Astronomy Meetings",
    "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "32d1c6d1a5dd",
-   "title": "Kavli Astrophysics Symposium 2026:  Forging the Frontier of Cosmic Discovery",
-   "url": "https://sites.google.com/cam.ac.uk/kas2026/home",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "Cambridge, UK",
-   "country": "UK",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "c3f0541e93cf",
-   "title": "Building Galaxies from Scratch: Advances and Challenges in Simulating Galaxy Evolution",
-   "url": "https://wwwmpa.mpa-garching.mpg.de/conf/bugs2026/",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "University of Heidelberg, Heidelberg, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "fe883c99c5b5",
-   "title": "Annual Meeting of the German Astronomical Society 2026 - Building Blocks of Cosmic Structure",
-   "url": "https://ag2026.astronomische-gesellschaft.de/",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "Garching near Munich, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
    "tags": [
     "astro"
    ]
@@ -568,58 +808,6 @@
    ]
   },
   {
-   "id": "290f4e312dba",
-   "title": "ERIS 2026 - XI European Radio Interferometry School",
-   "url": "https://acme-eris-2026.sciencesconf.org/",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "Noto, Sicily (Italy)",
-   "country": "Italy",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "9ca27e6f6098",
-   "title": "Open SkAI 2026: Annual Astronomy & AI Conference at SkAI",
-   "url": "https://www.openskai-conference.org",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-11",
-   "deadline": null,
-   "location": "NSF-Simons AI Institute for the Sky (SkAI), Chicago, USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro"
-   ]
-  },
-  {
-   "id": "8cf82378c955",
-   "title": "Cosmic Rhythms workshop: correlating CMB, LSS and beyond",
-   "url": "https://indico.global/event/16531/overview",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-12",
-   "deadline": null,
-   "location": "Rio de Janeiro (Brazil)",
-   "country": "Brazil",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "ccda14635a1d",
    "title": "ECCV 2026 \u2014 European Conference on Computer Vision",
    "url": "https://eccv.ecva.net/Conferences/2026",
@@ -637,6 +825,23 @@
    ]
   },
   {
+   "id": "afbe41a46552",
+   "title": "Fractions Are Hard! A Mathematical Overview of a Troublesome Topic \u2014 James Tanton",
+   "url": "https://researchseminars.org/talk/ESME/67/",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "d23e8f52e84a",
    "title": "ICOMP 2026 \u2014 International Conference on Computational Optimization",
    "url": "https://icomp.cc/",
@@ -651,23 +856,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "ace4c8e2f716",
-   "title": "International Symposium \"Our Non-Stable Universe\", dedicated to the 80th anniversary of the Byurakan Astrophysical Observatory (BAO)",
-   "url": "https://www.bao.am/meetings/meetings/BAO80/",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-18",
-   "deadline": null,
-   "location": "Yerevan, Armenia",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -707,91 +895,6 @@
    ]
   },
   {
-   "id": "78ee83c767c4",
-   "title": "17th European VLBI Network Symposium and Users' Meeting",
-   "url": "https://www.e-merlin.ac.uk/EVNSymp2026/",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-18",
-   "deadline": null,
-   "location": "Manchester, United Kingdom",
-   "country": "UK",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "76cfe5a2fad7",
-   "title": "Illuminating the Active Universe: Multi-Wavelength and Multi-Messenger Insights into AGN",
-   "url": "https://indico.global/event/17292/overview",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-17",
-   "deadline": null,
-   "location": "ESO Headquarters in Garching",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "fa493e69bc23",
-   "title": "Gravity@Prague 2026",
-   "url": "https://gravity-prague.fzu.cz/",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-18",
-   "deadline": null,
-   "location": "Prague, Czech Republic",
-   "country": "Czech",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "02ff8f6faa31",
-   "title": "BRIdge the Disciplines related to Galactic Chemical Evolution (BRIDGCE) School 2026",
-   "url": "https://sites.google.com/view/bridgce-herts-2026/the-school",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-15",
-   "deadline": null,
-   "location": "University of Hertfordshire, Hatfield, United Kingdom",
-   "country": "UK",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "92dfc858983e",
-   "title": "IMPRS Summer School on \"Cosmic Multiplicity: Evolution and Fate of Binary Stars\"",
-   "url": "https://www.imprs-hd.mpg.de/Summer-School",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-18",
-   "deadline": null,
-   "location": "Heidelberg, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "33382b428094",
    "title": "CoLLAs 2026 \u2014 Fifth Conference on Lifelong Learning Agents",
    "url": "https://lifelong-ml.cc",
@@ -806,159 +909,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "f303564d72b8",
-   "title": "8th LOFAR Data School",
-   "url": "https://acme-lds2026.sciencesconf.org/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-23",
-   "deadline": null,
-   "location": "ASTRON, Dwingeloo, the Netherlands",
-   "country": "Netherlands",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "35c08c39419b",
-   "title": "BRIdge the Disciplines related to Galactic Chemical Evolution (BRIDGCE) Annual Meeting 2026",
-   "url": "https://sites.google.com/view/bridgce-herts-2026/the-meeting",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-18",
-   "deadline": null,
-   "location": "University of Hertfordshire, Hatfield, United Kingdom",
-   "country": "UK",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "563c633463b6",
-   "title": "Mineral and Material Sciences for Space Exploration",
-   "url": "https://cospar.uonbi.ac.ke/",
-   "start_date": "2026-09-20",
-   "end_date": "2026-10-02",
-   "deadline": null,
-   "location": "Nairobi, Kenya",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "9ad601d14c89",
-   "title": "Charting the future of stellar and exoplanets spectroscopy. \r\nA ESO-INAF-OCA conference in honor of Luca Pasquini.",
-   "url": "https://www.eso.org/sci/meetings/2026/CHASES2026.html",
-   "start_date": "2026-09-21",
-   "end_date": "2026-09-25",
-   "deadline": null,
-   "location": "Procchio, Elba Island, Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "514ab8e53186",
-   "title": "The Interstellar Institute #8 - from milli to Mega parsec",
-   "url": "https://interstellarinstitute.org/II8",
-   "start_date": "2026-09-21",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "Institut Pascal, Paris-Saclay University, Orsay, France",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "28e870d9eb25",
-   "title": "DISCO: Disks in Context",
-   "url": "https://sites.google.com/view/disksincontext",
-   "start_date": "2026-09-21",
-   "end_date": "2026-09-25",
-   "deadline": null,
-   "location": "National Radio Astronomy Observatory, Charlottesville, USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "33446f565892",
-   "title": "HERA 2026: Black holes at different flavours",
-   "url": "https://events.camk.edu.pl/event/138/",
-   "start_date": "2026-09-21",
-   "end_date": "2026-09-25",
-   "deadline": null,
-   "location": "Bartycka 18, 00-716, Warsaw, Poland",
-   "country": "Poland",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "8d174b8bd888",
-   "title": "Star Formation Fields",
-   "url": "https://star-formation-fields.univie.ac.at",
-   "start_date": "2026-09-21",
-   "end_date": "2026-09-25",
-   "deadline": null,
-   "location": "Crete",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "991c898798a8",
-   "title": "AGN on the Beach II: A multi-scale view of jetted AGN",
-   "url": "https://www.jb.man.ac.uk/AGNbeachII/",
-   "start_date": "2026-09-21",
-   "end_date": "2026-09-25",
-   "deadline": null,
-   "location": "Diani, Kenya",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -996,23 +946,6 @@
    ]
   },
   {
-   "id": "35ba38116dfd",
-   "title": "LSST@Europe8",
-   "url": "https://lsst-europe8.hu/index.php",
-   "start_date": "2026-09-28",
-   "end_date": "2026-10-02",
-   "deadline": null,
-   "location": "Budapest, Hungary",
-   "country": "Hungary",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "79a2882e385a",
    "title": "Two and a half decades of the Macroscopic Fluctuation Theory",
    "url": "https://www.icts.res.in/program/mftheory",
@@ -1029,23 +962,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "3b4fb5643ba0",
-   "title": "13th IRAM Millimeter Interferometry School",
-   "url": "https://iram-institute.org/science-portal/events/interferometry-school/13th-iram-interferometry-school-2026/",
-   "start_date": "2026-09-28",
-   "end_date": "2026-10-03",
-   "deadline": null,
-   "location": "Hotel Mercure Centre Porte des Alpes in Grenoble/France",
-   "country": "France",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -1083,23 +999,6 @@
    ]
   },
   {
-   "id": "9ddf740af72d",
-   "title": "MATISSE Science Days",
-   "url": "https://vlti-ec.konkoly.hu/matisse2026/",
-   "start_date": "2026-09-29",
-   "end_date": "2026-10-02",
-   "deadline": null,
-   "location": "Budapest, Hungary",
-   "country": "Hungary",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "f50d7ce54d9f",
    "title": "SIBGRAPI 2026 \u2014 Conference on Graphics, Patterns and Images",
    "url": "https://sibgrapi.sbc.org.br/2026/",
@@ -1117,126 +1016,6 @@
    ]
   },
   {
-   "id": "f4f8b446d188",
-   "title": "SPAICE: AI in and for Space",
-   "url": "https://spaice.esa.int/2026/",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "ESTEC, Noordwijk, The Netherlands",
-   "country": "Netherlands",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "ai-ml",
-    "astro"
-   ]
-  },
-  {
-   "id": "bbe0a4692364",
-   "title": "Understanding the Universe through Large Scale Astronomical Surveys",
-   "url": "https://www.cefca.es/research/understanding_universe_large_surveys",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "Teruel, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "827aadf6a79d",
-   "title": "21th Serbian astronomical conference",
-   "url": "https://astro.matf.bg.ac.rs/kas21/",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-08",
-   "deadline": null,
-   "location": "Belgrade, Serbia",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "a5b5fbd58a8c",
-   "title": "Type II Supernovae: The Chaotic Deaths of Supergiants and their Cosmic Implications",
-   "url": "https://www.eso.org/sci/meetings/2026/SNII-RSG.html",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "San Pedro de Atacama, Chile",
-   "country": "Chile",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "e130037115e0",
-   "title": "Stellar Intensity Interferometry Workshop 2026",
-   "url": "https://agenda.ciemat.es/event/5477/",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "La Palma, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "7a5e0937f4ef",
-   "title": "IAC 77th International Astronautical Congress",
-   "url": "https://www.iafastro.org/assets/files/events/iac/2026/IAC_2026_Call_for_Papers.pdf",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "Antalya, Turkey",
-   "country": "Turkey",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "4163b4bdc517",
-   "title": "Cosmic Rays 4: the salt of the star formation recipe",
-   "url": "https://sites.google.com/view/cosmic-rays-4",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-09",
-   "deadline": null,
-   "location": "Pisa, Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "acd8852ad175",
    "title": "COLM 2026 \u2014 Conference on Language Modeling",
    "url": "https://colmweb.org/",
@@ -1251,76 +1030,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "d9fb911b5f81",
-   "title": "the Pathfinder HI SCience Community (PHISCC) Workshop 2026",
-   "url": "https://phiscc2026.github.io/",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-16",
-   "deadline": null,
-   "location": "Kavli Inst. for Astronomy & Astrophysics (KIAA), Peking Univ., Beijing, China",
-   "country": "China",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "9225e5f01336",
-   "title": "5th Astro-COLIBRI Multi-Messenger Astrophysics Workshop",
-   "url": "https://multimessenger-astrophysics.com/",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-16",
-   "deadline": null,
-   "location": "Institut Pascal, University Paris-Saclay (France)",
-   "country": "France",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "9547dfd1de52",
-   "title": "Many faces of stellar-mass black holes",
-   "url": "https://sites.google.com/view/bh-nepal-2026/home",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-16",
-   "deadline": null,
-   "location": "Kathmandu, Nepal",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "7bf75142ba5d",
-   "title": "ACME Hands-On Observational School in Optical Follow-Up of Transients",
-   "url": "https://acme-asiago-sch.sciencesconf.org/",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-16",
-   "deadline": null,
-   "location": "Asiago (Italy)",
-   "country": "Italy",
-   "in_india": false,
-   "type": "School",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -1379,93 +1088,6 @@
    ]
   },
   {
-   "id": "6460c99d0383",
-   "title": "LAPIS 2026: Local volume cosmology: constraints on dark matter properties in the era of GAIA, LSST, and S4 probes.",
-   "url": "https://congresos.unlp.edu.ar/xiilapis2026/",
-   "start_date": "2026-10-19",
-   "end_date": "2026-10-30",
-   "deadline": null,
-   "location": "FCAG de la Universidad Nacional de La Plata , La Plata, Argentina.",
-   "country": "Argentina",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 70,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "d096a90be097",
-   "title": "SPARCS XIV: The SKAO Awakens \r\n(SKA Pathfinder and Radio Continuum Surveys conference)",
-   "url": "https://ska.kasi.re.kr/meetings/oct-2026-sparcs-xiv",
-   "start_date": "2026-10-19",
-   "end_date": "2026-10-23",
-   "deadline": null,
-   "location": "Seoul, South Korea",
-   "country": "South Korea",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "eba9f8ccc537",
-   "title": "Austrian ELT Workshop 2026",
-   "url": "https://elt-austria-2026.pages.ist.ac.at/",
-   "start_date": "2026-10-19",
-   "end_date": "2026-10-21",
-   "deadline": null,
-   "location": "Klosterneuburg, Austria",
-   "country": "Austria",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "fe7a0038cc87",
-   "title": "INTEGRAL Legacy Conference 2026",
-   "url": "https://integral2026.sciencesconf.org",
-   "start_date": "2026-10-19",
-   "end_date": "2026-10-23",
-   "deadline": null,
-   "location": "Paris, France",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "f87b1c55608f",
-   "title": "The 1st International Online Conference on Symmetry\r\n- Recent Advances in Mathematics and Physics",
-   "url": "https://sciforum.net/event/IOCSYM2026",
-   "start_date": "2026-10-20",
-   "end_date": "2026-10-22",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "41aad18a8604",
    "title": "Widening Astrophysics with Voices, Equity, and Science (WAVES) - A Workshop on Equity and Advances in Astrophysics",
    "url": "https://www.icts.res.in/program/waves2026",
@@ -1482,23 +1104,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "42d74944ecd5",
-   "title": "ASI Symposium 008: The Dynamic Radio Sky",
-   "url": "https://iitk.ac.in/space/DynamicRadioSky/",
-   "start_date": "2026-10-23",
-   "end_date": "2026-10-25",
-   "deadline": null,
-   "location": "IIT Kanpur, UP, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -1536,40 +1141,6 @@
    ]
   },
   {
-   "id": "b397fc9daa1c",
-   "title": "Probing the Circumstellar and Interstellar Medium\r\nwith Multi-Wavelength Observations and Transients",
-   "url": "https://denisburgarella-flpou.wordpress.com/18-2/",
-   "start_date": "2026-10-26",
-   "end_date": "2026-10-29",
-   "deadline": null,
-   "location": "Tokyo Waseda University",
-   "country": "Japan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "5c2b82814677",
-   "title": "YAGN26 - Young Astronomers on Galactic Nuclei",
-   "url": "https://eventos.us.es/go/yagn26",
-   "start_date": "2026-10-26",
-   "end_date": "2026-10-28",
-   "deadline": null,
-   "location": "Universidad de Sevilla, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "b3a5d5d234cc",
    "title": "Plasma turbulence across scales: integrating theory and observations",
    "url": "https://www.icts.res.in/program/PTAS2026",
@@ -1589,126 +1160,6 @@
    ]
   },
   {
-   "id": "503d0752fa71",
-   "title": "The 8th International Conference on Particle Physics and Astrophysics (ICPPA-2026)",
-   "url": "https://indico.particle.mephi.ru/e/ICPPA2026",
-   "start_date": "2026-10-27",
-   "end_date": "2026-10-30",
-   "deadline": null,
-   "location": "Sevastopol Hotel Complex, 1A Bolshaya Yushunskaya Street, Moscow, Russia",
-   "country": "Russia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "cd1a21466002",
-   "title": "12th KIAS Workshop on Cosmology and Structure Formation",
-   "url": "https://symposia.kias.re.kr/cosmology2026",
-   "start_date": "2026-11-01",
-   "end_date": "2026-11-07",
-   "deadline": null,
-   "location": "Korea Institute for Advanced Study (KIAS), Seoul, Republic of Korea",
-   "country": "South Korea",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "a061450f31a2",
-   "title": "Bridging horizons: Harnessing ESO\u2019s current facilities for the dawn of exoplanet population studies",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-06",
-   "deadline": null,
-   "location": "ESO Garching, ESO Santiago, Observatoire de la C\u00f4te d'Azur Nice, Lund University",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "a1575f591c0b",
-   "title": "Simulations of Galaxy Evolution: Advancements, Revolutions and Struggles (Simulations GEARS)",
-   "url": "https://indico.ipmu.jp/event/526/overview",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-06",
-   "deadline": null,
-   "location": "Kashiwanoha, Tokyo, Japan",
-   "country": "Japan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "6720ec1b653e",
-   "title": "Stars On the Run III",
-   "url": "https://conf.koushare.com/conf/StarsOntheRun/",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-06",
-   "deadline": null,
-   "location": "Yanqi Lake Campus of UCAS, Beijing",
-   "country": "China",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "ddfabfc5e52f",
-   "title": "GrandMagnet 2026: Decoding the Magnetized Dusty Universe",
-   "url": "https://www.grandmagnet.org/grandmagnet2026",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-06",
-   "deadline": null,
-   "location": "Jeju Island, Republic of Korea",
-   "country": "South Korea",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "cd32e8ca9b18",
-   "title": "The Schmidt Observatory System Science Symposium",
-   "url": "https://symposium.schmidtobservatorysystem.org/",
-   "start_date": "2026-11-03",
-   "end_date": "2026-11-05",
-   "deadline": null,
-   "location": "Florence, Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "e86d2a5d1cdc",
    "title": "CIKM 2026 \u2014 Conference on Information and Knowledge Management",
    "url": "https://cikm2026.diag.uniroma1.it/",
@@ -1723,23 +1174,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "7425ca7791cd",
-   "title": "Illuminating the Cosmos: Chemical Elements in Stars, Planets, Nebulae, and Transient Extra-galactic Events",
-   "url": "https://indico.nbi.ku.dk/e/RTII",
-   "start_date": "2026-11-09",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "Max Planck Institute for Astronomy, Heidelberg",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -1762,40 +1196,6 @@
    ]
   },
   {
-   "id": "4af62c4d35f4",
-   "title": "Workshop : Waves in astrophysical fluids",
-   "url": "https://waf-2026.ist.ac.at/",
-   "start_date": "2026-11-09",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "Institute of Science and Technology, Austria",
-   "country": "Austria",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "e89e72970893",
-   "title": "Missing Links in Planet Formation: From Embedded Disks to Planets",
-   "url": "https://events.asiaa.sinica.edu.tw/workshop/20261109/",
-   "start_date": "2026-11-09",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "ASIAA, Taipei, Taiwan",
-   "country": "Taiwan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "991702e2b394",
    "title": "CoRL 2026 \u2014 The Conference on Robot Learning",
    "url": "https://www.corl.org/",
@@ -1810,23 +1210,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "4e3c5608398e",
-   "title": "ngVLA International Science Conference 2026",
-   "url": "https://ngvla.nao.ac.jp/ngVLA_Sendai/",
-   "start_date": "2026-11-10",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "Sendai SME Activation Center, Japan",
-   "country": "Japan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -1864,125 +1247,6 @@
    ]
   },
   {
-   "id": "3e5da42d5e45",
-   "title": "Galaxy nuclei \u2013 Diversity, Dynamics, and Hidden Mass in Galactic Centers",
-   "url": "https://www.eso.org/sci/meetings/2026/NUCLEI_2026.html",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-20",
-   "deadline": null,
-   "location": "ESO Santiago, Chile",
-   "country": "Chile",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b1b0788a5474",
-   "title": "Connecting the scales: APEX Synergies with ALMA and Beyond",
-   "url": "https://indico.mpifr-bonn.mpg.de/e/apexchile2026",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-18",
-   "deadline": null,
-   "location": "Departamento de Astronom\u00eda, Cerro Cal\u00e1n, Santiago, Chile",
-   "country": "Chile",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "0ca7853acd5d",
-   "title": "16th Southeast Asia Astronomy Network Meeting 2026",
-   "url": "https://umevent.um.edu.my/SEAAN2026",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-19",
-   "deadline": null,
-   "location": "Kuala Lumpur, Malaysia",
-   "country": "Malaysia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b42c558862d5",
-   "title": "The Future of PDR Modelling - Current Challenges and Next Steps",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-20",
-   "deadline": null,
-   "location": "Leiden, Netherlands",
-   "country": "Netherlands",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "e6418ed909d5",
-   "title": "Rocky Worlds DDT Workshop Data Challenge Results & Rocky Worlds DDT Science",
-   "url": "https://www.stsci.edu/contents/events/stsci/2026/november/rocky-worlds-ddt-workshop",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-18",
-   "deadline": null,
-   "location": "Space Telescope Science Institute in Baltimore, Maryland, USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "925c7412b2b2",
-   "title": "IAU ECRWG Conference \u2014 Synergies between Observational and Theoretical Astronomy: Results, Challenges and Future Prospects",
-   "url": "https://sirrah.troja.mff.cuni.cz/~merc/iau_ecrwg_conference.html",
-   "start_date": "2026-11-17",
-   "end_date": "2026-11-19",
-   "deadline": null,
-   "location": "Virtual",
-   "country": "Online",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "9e7a01f40c0c",
-   "title": "IAU Symposium 411: Star Clusters as Guides to Galaxies: Synergies and New Developments from Space and Ground-Based Surveys",
-   "url": "https://iaus411.fcaglp.unlp.edu.ar/",
-   "start_date": "2026-11-22",
-   "end_date": "2026-11-27",
-   "deadline": null,
-   "location": "San Carlos de Bariloche, Argentina",
-   "country": "Argentina",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "80ecc985f1c4",
    "title": "Probing Quantum Matter: From Topology to Emerging devices",
    "url": "https://www.icts.res.in/program/pqmted",
@@ -1999,23 +1263,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "a806c4cabf97",
-   "title": "IR 2026: Showcasing Science and Synergies in Thermal Infrared Astronomy",
-   "url": "https://www.eso.org/sci/meetings/2026/IR_2026.html",
-   "start_date": "2026-11-30",
-   "end_date": "2026-12-04",
-   "deadline": null,
-   "location": "Santiago, CL",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -2038,57 +1285,6 @@
    ]
   },
   {
-   "id": "f3342cb919e0",
-   "title": "IAUS412: Hub-Filament Structures in Star Formation",
-   "url": "https://aries.res.in/iaus412-hfs2026/index.html",
-   "start_date": "2026-11-30",
-   "end_date": "2026-12-04",
-   "deadline": null,
-   "location": "Mysuru (previously written as Mysore), India",
-   "country": "India",
-   "in_india": true,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "784f404ffb0b",
-   "title": "XVIII Latin-American Regional IAU Meeting",
-   "url": "https://sites.google.com/astro.unam.mx/larim2026/",
-   "start_date": "2026-11-30",
-   "end_date": "2026-12-04",
-   "deadline": null,
-   "location": "Cancun, Mexico",
-   "country": "Mexico",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "3205ba37f047",
-   "title": "HWO2026 Conference: \r\nWhere cutting-edge science shapes tomorrow's technology.\r\n** August 28th, new abstract submission deadline for talks**",
-   "url": "https://hwo2026.sciencesconf.org/",
-   "start_date": "2026-11-30",
-   "end_date": "2026-12-04",
-   "deadline": null,
-   "location": "France, near Paris",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "36b3dcee21cc",
    "title": "NeurIPS 2026 \u2014 Conference on Neural Information Processing Systems",
    "url": "https://neurips.cc/",
@@ -2103,25 +1299,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "4bfd53adb01e",
-   "title": "Shanghai International Symposium on Relativistic Astrophysics",
-   "url": "https://indico-tdli.sjtu.edu.cn/event/5006/",
-   "start_date": "2026-12-07",
-   "end_date": "2026-12-11",
-   "deadline": null,
-   "location": "Shanghai, China",
-   "country": "China",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro",
-    "physics"
    ]
   },
   {
@@ -2141,57 +1318,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "0c711758213c",
-   "title": "RR Lyrae and Cepheid Stars 2026: The Rubin Era",
-   "url": "https://noirlab.edu/science/events/websites/rrl-cep-2026",
-   "start_date": "2026-12-07",
-   "end_date": "2026-12-11",
-   "deadline": null,
-   "location": "La Serena, Chile",
-   "country": "Chile",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "3c11b44e4551",
-   "title": "12th Annual Science at Low Frequencies (SALF XII) conference - 2026",
-   "url": "https://salfconference.org",
-   "start_date": "2026-12-07",
-   "end_date": "2026-12-10",
-   "deadline": null,
-   "location": "Tempe, Arizona, USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "9ed8aa3339c4",
-   "title": "COSMOGOLD IAP 2026",
-   "url": "https://indico.iap.fr/e/cosmogold2026",
-   "start_date": "2026-12-14",
-   "end_date": "2026-12-18",
-   "deadline": null,
-   "location": "IAP, Paris, France",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -2233,61 +1359,6 @@
    ]
   },
   {
-   "id": "4c228d3d94cf",
-   "title": "Cosmology and galaxy astrophysics with simulations and machine learning 2027",
-   "url": "https://www.simonsfoundation.org/event/cosmology-and-galaxy-astrophysics-with-simulations-and-machine-learning-2027/",
-   "start_date": "2027-01-04",
-   "end_date": "2027-01-08",
-   "deadline": null,
-   "location": "Flatiron Institute's Center for Computational Astrophysics",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "fd003d5c4db7",
-   "title": "Cosmic Rays in Astrophysical Systems: From the Sun to Galaxies and Beyond",
-   "url": "https://www.kitp.ucsb.edu/activities/cosmicrays27",
-   "start_date": "2027-01-04",
-   "end_date": "2027-03-11",
-   "deadline": null,
-   "location": "Kavli Institute for Theoretical Physics",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "b85996a902b5",
-   "title": "eSPACE 2027: International Conference on Astrophysics, Space Science and Converging Disciplines",
-   "url": "https://www.e-space2027.com",
-   "start_date": "2027-01-04",
-   "end_date": "2027-01-08",
-   "deadline": null,
-   "location": "Ibarra, Ecuador",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
    "id": "eba0c87e98e8",
    "title": "WACV 2027 \u2014 IEEE/CVF Winter Conference on Applications of Computer Vision",
    "url": "https://wacv.thecvf.com/",
@@ -2324,40 +1395,6 @@
    ]
   },
   {
-   "id": "259110bc7184",
-   "title": "From Gaia to GaiaNIR - Science from Precision Astrometry Across the Universe and Beyond the Extinction Barrier",
-   "url": "https://conferences.uoa.gr/event/126/",
-   "start_date": "2027-01-11",
-   "end_date": "2027-01-15",
-   "deadline": null,
-   "location": "Eugenides Foundation, Athens, Greece",
-   "country": "Greece",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "41a88cfca197",
-   "title": "AGN Jets from Gamsberg to the Multi-Messenger Frontier",
-   "url": "https://indico.global/event/18038/overview",
-   "start_date": "2027-01-18",
-   "end_date": "2027-01-22",
-   "deadline": null,
-   "location": "Windhoek, Namibia",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "6b1377af71e0",
    "title": "Recent advances in low-dimensional topology",
    "url": "https://www.icts.res.in/program/raldt",
@@ -2373,41 +1410,6 @@
    "tags": [
     "astro",
     "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "bdd6a3940388",
-   "title": "Stellar Ages as Cosmic Clocks: From the Milky Way to the Universe",
-   "url": "https://benasque.org/2027stellar/",
-   "start_date": "2027-02-07",
-   "end_date": "2027-02-13",
-   "deadline": null,
-   "location": "Benasque (Spain)",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b635ff585a30",
-   "title": "Break-Game-Set: Settling the long-standing debate on the disk evolution mechanisms and their impact on planet formation",
-   "url": "https://tinyurl.com/bgss2027",
-   "start_date": "2027-02-08",
-   "end_date": "2027-02-12",
-   "deadline": null,
-   "location": "Sexten, Sexten Center for Astrophysics",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
     "physics"
    ]
   },
@@ -2428,23 +1430,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "5709a15d793b",
-   "title": "Magnetism in Tassie: Magnetic fields in the diffuse and nearby universe with Faraday tomography",
-   "url": "https://gmims.ok.ubc.ca/magnetism-tassie/",
-   "start_date": "2027-02-15",
-   "end_date": "2027-02-19",
-   "deadline": null,
-   "location": "Hobart, Australia",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -2482,75 +1467,6 @@
    ]
   },
   {
-   "id": "2fa642054f93",
-   "title": "Supernovae near and far, celebrating the achievements of Brian Schmidt and the 40th anniversary of SN1987A",
-   "url": "https://rsaa.anu.edu.au/news-events/events/supernovae-near-and-far-celebrating-achievements-brian-schmidt-and-40th",
-   "start_date": "2027-02-22",
-   "end_date": "2027-02-26",
-   "deadline": null,
-   "location": "Canberra, Australia",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b9025ce01814",
-   "title": "ALMA at 15 years: Science, Synergies, and the Road Ahead",
-   "url": "https://2027alma.org/",
-   "start_date": "2027-02-22",
-   "end_date": "2027-02-26",
-   "deadline": null,
-   "location": "Taipei, Taiwan",
-   "country": "Taiwan",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "1adbb622fb0d",
-   "title": "Simulation-Driven Cosmology and Large-Scale Structure: Emulators, Fields, and Galaxy Catalogs",
-   "url": "https://web.gravity.sjtu.edu.cn/event/12/",
-   "start_date": "2027-03-01",
-   "end_date": "2027-03-05",
-   "deadline": null,
-   "location": "Shanghai, China",
-   "country": "China",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 70,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "7876172bdc37",
-   "title": "The Dynamic Lives and Deaths of Massive Stars",
-   "url": "https://www.kitp.ucsb.edu/activities/massivestars27",
-   "start_date": "2027-03-01",
-   "end_date": "2027-04-22",
-   "deadline": null,
-   "location": "Kavli Institute for Theoretical Physics, Santa Barbara",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 40,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
    "id": "c954beb27855",
    "title": "Multiscale flows and self-organisation in living matter",
    "url": "https://www.icts.res.in/discussion-meeting/mfso",
@@ -2566,41 +1482,6 @@
    "tags": [
     "astro",
     "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "317109e14038",
-   "title": "Unveiling the Universe in the JWST Era - A COSPAR Capacity Building Workshop",
-   "url": "https://colombianjwstworks.wixsite.com/macondo-cospar",
-   "start_date": "2027-03-01",
-   "end_date": "2027-03-12",
-   "deadline": null,
-   "location": "Universidad Industrial de Santander - Bucaramanga, Colombia",
-   "country": null,
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "8239b9f4d982",
-   "title": "Cosmological Signals from the Dark Ages to the Present",
-   "url": "http://wise-obs.tau.ac.il/~barkana/darkages.html",
-   "start_date": "2027-03-07",
-   "end_date": "2027-03-12",
-   "deadline": null,
-   "location": "Aspen Center for Physics",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
     "physics"
    ]
   },
@@ -2624,23 +1505,6 @@
    ]
   },
   {
-   "id": "198500204cda",
-   "title": "30 Years of STIS and the Future of UV Astronomy",
-   "url": "https://www.stsci.edu/events/stis30workshop",
-   "start_date": "2027-03-17",
-   "end_date": "2027-03-19",
-   "deadline": null,
-   "location": "Space Telescope Science Institute",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "5f0cdbff88d5",
    "title": "ECIR 2027 \u2014 European Conference on Information Retrieval",
    "url": "https://www.ecir2027.co.uk/",
@@ -2658,41 +1522,6 @@
    ]
   },
   {
-   "id": "123275e8c9b8",
-   "title": "Lighting up the Dark \u2014 Understanding Dark Matter from Particles to Galaxies",
-   "url": "https://www.sexten-cfa.eu/event/lud27/",
-   "start_date": "2027-03-22",
-   "end_date": "2027-03-26",
-   "deadline": null,
-   "location": "Sport & Kurhotel at Bad Moos, Sexten, Italy",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "9c934371ee50",
-   "title": "A new window into the innermost regions of accreting massive black holes",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-04-04",
-   "end_date": "2027-04-09",
-   "deadline": null,
-   "location": "Ascona, Switzerland",
-   "country": "Switzerland",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "491b3be5d32d",
    "title": "3DV 2027 \u2014 International Conference on 3D Vision",
    "url": "https://3dvconf.github.io/2027/",
@@ -2707,143 +1536,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "876e9270abb6",
-   "title": "Low-Metallicity ISM and Star Formation at All Redshifts",
-   "url": "https://lowz-ism-sf27.sciencesconf.org",
-   "start_date": "2027-04-11",
-   "end_date": "2027-04-16",
-   "deadline": null,
-   "location": "Centre Paul Langevin, Aussois, France",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "b985e637e915",
-   "title": "Deepdish-Baguette: Stars, Black Holes, and Feedback From Cosmic Dawn to Cosmic Noon",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-04-12",
-   "end_date": "2027-04-16",
-   "deadline": null,
-   "location": "Paris, France",
-   "country": "France",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "ffe6bbffc32c",
-   "title": "LSST@Asia 2027",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-04-19",
-   "end_date": "2027-04-23",
-   "deadline": null,
-   "location": "Seoul, South Korea",
-   "country": "South Korea",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "8246d70930a7",
-   "title": "4th NewAthena conference",
-   "url": "https://newathena.avcr.cz/",
-   "start_date": "2027-04-19",
-   "end_date": "2027-04-23",
-   "deadline": null,
-   "location": "Prague (Czech Republic)",
-   "country": "Czech",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "5d0f30ea3c6d",
-   "title": "Massive Black Holes in the First Billion Years II",
-   "url": "https://www.ucc.ie/en/astro/mbhconference2/",
-   "start_date": "2027-04-26",
-   "end_date": "2027-04-30",
-   "deadline": null,
-   "location": "Sunset Beach Hotel, Benalmadena, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "818d1a3af4a9",
-   "title": "The Galactic Journey of the Solar System: Astronomical, Geological, and Paleo-Climatological Perspectives",
-   "url": "https://www.munich-iapbp.de/activities/activities-2027/solar-system",
-   "start_date": "2027-05-03",
-   "end_date": "2027-05-28",
-   "deadline": null,
-   "location": "Excellence Cluster ORIGINS, MIAPbP, Garching, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "053e4f4283ea",
-   "title": "40 Years of SN1987A: Understanding Supernova Diversity",
-   "url": "https://sn1987a.casconf.cn/",
-   "start_date": "2027-05-09",
-   "end_date": "2027-05-15",
-   "deadline": null,
-   "location": "Guilin, Guangxi Province, China",
-   "country": "China",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "34af8ce9b346",
-   "title": "Connecting the Little Red Dots",
-   "url": "https://connect-the-dots.www3.mpia.de/",
-   "start_date": "2027-05-10",
-   "end_date": "2027-05-14",
-   "deadline": null,
-   "location": "Schloss Ringberg, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -2881,23 +1573,6 @@
    ]
   },
   {
-   "id": "2999c8c6f815",
-   "title": "Solvay-Torino XV Workshop on AGB Stars",
-   "url": "https://fys.kuleuven.be/ster/events/conferences/2027/solvay-torino-workshop",
-   "start_date": "2027-05-24",
-   "end_date": "2027-05-28",
-   "deadline": null,
-   "location": "Brussels (Belgium)",
-   "country": "Belgium",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "db5d26c4e4d6",
    "title": "ICRA 2027 \u2014 IEEE International Conference on Robotics and Automation",
    "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
@@ -2912,40 +1587,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "88f5892b756e",
-   "title": "Star formation in the Aegean: From Clouds to Protostars",
-   "url": "https://derekfest.wordpress.com",
-   "start_date": "2027-05-31",
-   "end_date": "2027-06-04",
-   "deadline": null,
-   "location": "Spetses Island, Greece",
-   "country": "Greece",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "be637e86651e",
-   "title": "XRISM 2027: 2nd International Conference",
-   "url": "https://sites.lsa.umich.edu/xrism2027/",
-   "start_date": "2027-06-01",
-   "end_date": "2027-06-04",
-   "deadline": null,
-   "location": "Detroit, MI, USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -2966,40 +1607,6 @@
    ]
   },
   {
-   "id": "76389f05cec5",
-   "title": "The 7th Workshop on Extremely Precise Radial Velocities",
-   "url": "https://eprv7.github.io",
-   "start_date": "2027-06-14",
-   "end_date": "2027-06-18",
-   "deadline": null,
-   "location": "Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada",
-   "country": "Canada",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "fc3f917077bd",
-   "title": "SKA Regional Centres: Preparing for Scientific Discovery",
-   "url": "https://indico.hpc.uevora.pt/event/189/",
-   "start_date": "2027-06-16",
-   "end_date": "2027-06-17",
-   "deadline": null,
-   "location": "\u00c9vora, Portugal",
-   "country": "Portugal",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "80b9aabc0087",
    "title": "CVPR 2027 \u2014 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
    "url": "https://cvpr.thecvf.com/",
@@ -3014,91 +1621,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "9b968295fac7",
-   "title": "EAS 2027",
-   "url": "https://eas.unige.ch/EAS_meeting/",
-   "start_date": "2027-06-21",
-   "end_date": "2027-06-25",
-   "deadline": null,
-   "location": "Vienna, Austria",
-   "country": "Austria",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "fb016e0dc3db",
-   "title": "African Astronomical Society (AfAS) Conference 2027",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-06-27",
-   "end_date": "2027-07-02",
-   "deadline": null,
-   "location": "Makhanda, South Africa",
-   "country": "South Africa",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "f413b7ea8dbf",
-   "title": "60 Years of Pulsars",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-06-28",
-   "end_date": "2027-07-02",
-   "deadline": null,
-   "location": "LVR-Landesmuseum Bonn, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "96ca6af4fe0b",
-   "title": "ImBaSE2027: The Impact of Binaries on Stellar Evolution",
-   "url": "https://meetings.iac.es/imbase2027/",
-   "start_date": "2027-07-12",
-   "end_date": "2027-07-16",
-   "deadline": null,
-   "location": "Tenerife, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "4519ba3ef348",
-   "title": "2027 Sagan Summer Workshop - Exoplanet Masses: In the Era of Gaia and Extreme Precision Radial Velocities",
-   "url": "https://nexsci.caltech.edu/workshop/2027/",
-   "start_date": "2027-07-19",
-   "end_date": "2027-07-23",
-   "deadline": null,
-   "location": "Pasadena, CA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -3119,57 +1641,6 @@
    ]
   },
   {
-   "id": "237bdc35553b",
-   "title": "Probing the cosmos with white dwarf binaries",
-   "url": "https://www.eso.org/sci/meetings/2027/whitedwarfbinaries.html",
-   "start_date": "2027-07-26",
-   "end_date": "2027-07-30",
-   "deadline": null,
-   "location": "Garching near Munich, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "036233d5b51b",
-   "title": "Rubin Community Workshop 2027",
-   "url": "https://rubinobservatory.org/for-scientists/events-deadlines/events-rcw",
-   "start_date": "2027-08-02",
-   "end_date": "2027-08-06",
-   "deadline": null,
-   "location": "Tucson AZ USA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "bf1cb3f7323b",
-   "title": "ASC 2027: From the sonata of Kepler and TESS to the symphony of future missions",
-   "url": "https://cadiz-meeting2027.ugr.es/",
-   "start_date": "2027-08-02",
-   "end_date": "2027-08-06",
-   "deadline": null,
-   "location": "C\u00e1diz, Spain",
-   "country": "Spain",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
    "id": "af037101d218",
    "title": "SIGGRAPH 2027 \u2014 Conference on Computer Graphics and Interactive Techniques",
    "url": "https://www.siggraph.org/",
@@ -3184,23 +1655,6 @@
    "score": 17,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "65c5f81cd333",
-   "title": "IAU Symposium 418: Planet Formation in the ALMA, JWST and ELT Era",
-   "url": "https://iaus418.fisica.unimi.it/",
-   "start_date": "2027-08-17",
-   "end_date": "2027-08-19",
-   "deadline": null,
-   "location": "Rome",
-   "country": "Italy",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
    ]
   },
   {
@@ -3219,128 +1673,6 @@
    "tags": [
     "ai-ml",
     "math"
-   ]
-  },
-  {
-   "id": "8863a7696ada",
-   "title": "Large-scale structure of the Universe: from galaxies to cosmology",
-   "url": "https://excosm2027.ut.ee",
-   "start_date": "2027-08-30",
-   "end_date": "2027-09-03",
-   "deadline": null,
-   "location": "Tartu, Estonia",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 70,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "bd535a8e2da8",
-   "title": "Potsdam Thinkshop: Clouds over Potsdam",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-09-06",
-   "end_date": "2027-09-10",
-   "deadline": null,
-   "location": "Leibniz Institute for Astrophysics Potsdam (AIP)",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 80,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "0c41172fbc16",
-   "title": "HWO 2027 Science Meeting",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-09-12",
-   "end_date": "2027-09-16",
-   "deadline": null,
-   "location": "Pasadena, CA",
-   "country": "USA",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 20,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "49641c6b709c",
-   "title": "Active small bodies in the Solar System over a wide range of heliocentric distances",
-   "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/meetings/rssFeed",
-   "start_date": "2027-09-13",
-   "end_date": "2027-09-17",
-   "deadline": null,
-   "location": "Vysok\u00e9 Tatry, Slovak Republic",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 40,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "a81ec16a80f6",
-   "title": "45th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering",
-   "url": "https://indico.dzastro.de/e/maxent-2027",
-   "start_date": "2027-09-20",
-   "end_date": "2027-09-24",
-   "deadline": null,
-   "location": "Goerlitz, Germany",
-   "country": "Germany",
-   "in_india": false,
-   "type": "Workshop",
-   "source": "CADC Astronomy Meetings",
-   "score": 85,
-   "tags": [
-    "ai-ml",
-    "astro"
-   ]
-  },
-  {
-   "id": "ce690d94814e",
-   "title": "Celebrating Georges Lema\u00eetre groundbreaking contributions to cosmology and modern science",
-   "url": "https://indico.hpc.uevora.pt/event/188/",
-   "start_date": "2027-09-21",
-   "end_date": "2027-09-22",
-   "deadline": null,
-   "location": "\u00c9vora, Portugal",
-   "country": "Portugal",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 60,
-   "tags": [
-    "astro"
-   ]
-  },
-  {
-   "id": "c5399c66e75b",
-   "title": "IAU Symposium 414:  High-z Galaxies and Black Holes: The JWST/ALMA/GRAVITY Frontier",
-   "url": "http://www.iaus414patagonia.cl",
-   "start_date": "2027-10-11",
-   "end_date": "2027-10-15",
-   "deadline": null,
-   "location": "Puerto Natales, Chile",
-   "country": "Chile",
-   "in_india": false,
-   "type": "Conference",
-   "source": "CADC Astronomy Meetings",
-   "score": 65,
-   "tags": [
-    "astro"
    ]
   },
   {
