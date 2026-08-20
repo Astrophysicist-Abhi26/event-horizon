@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T03:25:30.574143+00:00",
+ "generated": "2026-08-20T03:25:04.416158+00:00",
  "errors": [],
  "events": [
   {
@@ -73,41 +73,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "79cf1dfcf7c9",
-   "title": "On the classification of 2-dimensional analogues of 2-bridge knots \u2014 Jumpei Yasuda",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/157/",
-   "start_date": "2026-08-19",
-   "end_date": "2026-08-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "9c510206e83d",
-   "title": "Knots, Links, and Polynomial Bounds \u2014 Marc Lackenby",
-   "url": "https://researchseminars.org/talk/th21/8/",
-   "start_date": "2026-08-19",
-   "end_date": "2026-08-19",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -538,6 +503,24 @@
    ]
   },
   {
+   "id": "165837a1c541",
+   "title": "Why build categorical models? \u2014 Tim Hosgood",
+   "url": "https://researchseminars.org/talk/CompMath/36/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "2f9acba61dd9",
    "title": "London Learning Lean \u2014 Various",
    "url": "https://researchseminars.org/talk/LondonLearningLean/36/",
@@ -701,6 +684,23 @@
    ]
   },
   {
+   "id": "b8029327fa91",
+   "title": "Classes of extensions of commutative algebraic groups \u2014 Dorota Blinkiewicz",
+   "url": "https://researchseminars.org/talk/gc-arithmetic-geometry/74/",
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-01",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "337280fac9e9",
    "title": "Structural Analysis of Coupled Electromagnetic Fields and Electric Circuits. \u2014 Sebastian Sch\u00f6ps",
    "url": "https://researchseminars.org/talk/PHSeminar/40/",
@@ -837,6 +837,40 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "59454f006fbf",
+   "title": "Tullenvarvet, the Half-Barathon \u2014 Joseph L\u00f6fving",
+   "url": "https://researchseminars.org/talk/gbgphd/57/",
+   "start_date": "2026-09-10",
+   "end_date": "2026-09-10",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "ee7bcd8ae9a8",
+   "title": "Research publishing policy and open access workflows \u2014 Jen Smith",
+   "url": "https://researchseminars.org/talk/mathseminarsnuig/167/",
+   "start_date": "2026-09-10",
+   "end_date": "2026-09-10",
+   "deadline": null,
+   "location": "University of Galway",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
