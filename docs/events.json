@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T03:25:04.416158+00:00",
+ "generated": "2026-08-21T03:30:12.367650+00:00",
  "errors": [],
  "events": [
   {
@@ -73,41 +73,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "9260ca46a743",
-   "title": "Introduction to Magma: computation, experimentation and new mathematics \u2014 Don Taylor",
-   "url": "https://researchseminars.org/talk/CompAlgSemMagma/28/",
-   "start_date": "2026-08-20",
-   "end_date": "2026-08-20",
-   "deadline": null,
-   "location": "Sydney",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "84479469b694",
-   "title": "On Quantum Ramsey Theory \u2014 Jose Mijares",
-   "url": "https://researchseminars.org/talk/OLS/212/",
-   "start_date": "2026-08-20",
-   "end_date": "2026-08-20",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math",
-    "physics"
    ]
   },
   {
@@ -449,6 +414,23 @@
    ]
   },
   {
+   "id": "0d6237735d78",
+   "title": "Zariski Topological Reconstruction Theorems via Model Theory \u2014 Ben Castle",
+   "url": "https://researchseminars.org/talk/OLS/218/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "dcebfb028267",
    "title": "The self-duality equations, Lax pairs, and the classification of reductions. \u2014 Lionel Mason",
    "url": "https://researchseminars.org/talk/Twistor2026/1/",
@@ -500,6 +482,23 @@
    "tags": [
     "math",
     "physics"
+   ]
+  },
+  {
+   "id": "4539fbb13f03",
+   "title": "Magma Office Hours \u2014 John Voight",
+   "url": "https://researchseminars.org/talk/CompAlgSemMagma/29/",
+   "start_date": "2026-08-27",
+   "end_date": "2026-08-27",
+   "deadline": null,
+   "location": "Sydney",
+   "country": "Australia",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
