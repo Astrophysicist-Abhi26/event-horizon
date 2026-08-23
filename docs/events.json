@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T03:21:25.010461+00:00",
+ "generated": "2026-08-23T03:29:41.271153+00:00",
  "errors": [],
  "events": [
   {
@@ -18,24 +18,6 @@
    "tags": [
     "ai-ml",
     "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "5e859f1b35a7",
-   "title": "A characterization of virtual knots as knots in $S_{g} \\times S^{1}$ \u2014 Seongjeong Kim",
-   "url": "https://researchseminars.org/talk/knotgraphgroup/165/",
-   "start_date": "2026-08-22",
-   "end_date": "2026-08-22",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
     "math",
     "physics"
    ]
@@ -577,6 +559,25 @@
    ]
   },
   {
+   "id": "9fddf274b714",
+   "title": "Twistors for Gravitational instantons \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/nmps/14/",
+   "start_date": "2026-08-31",
+   "end_date": "2026-08-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "43632012a89f",
    "title": "A School on Gradient Flows",
    "url": "https://www.icts.res.in/program/sgflows",
@@ -591,6 +592,24 @@
    "score": 40,
    "tags": [
     "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "f7a617befb0d",
+   "title": "Celestial Holography and the S-algebra \u2014 Lionel Mason",
+   "url": "https://researchseminars.org/talk/nmps/15/",
+   "start_date": "2026-08-31",
+   "end_date": "2026-08-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 40,
+   "tags": [
     "math",
     "physics"
    ]
