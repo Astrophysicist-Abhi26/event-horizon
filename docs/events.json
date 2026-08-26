@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T03:26:33.536579+00:00",
+ "generated": "2026-08-26T03:33:37.305746+00:00",
  "errors": [],
  "events": [
   {
@@ -59,114 +59,6 @@
    ]
   },
   {
-   "id": "710def3216ea",
-   "title": "Apllications of Homotopy Algebras in String Field Theory 2 \u2014 Ivo Sachs",
-   "url": "https://researchseminars.org/talk/Homotopy2026/4/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 65,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "bd8f6e653375",
-   "title": "Localization of effective action in homtopy algebraic superstring field theory \u2014 Xianghang Zhang",
-   "url": "https://researchseminars.org/talk/Homotopy2026/5/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 65,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "676aaead7d24",
-   "title": "Finite Gauge Symmetry and Cyclicity in L_\\infty Algebras: An Application to 4d Chern-Simons Theory \u2014 Jojiro Totsuka",
-   "url": "https://researchseminars.org/talk/Homotopy2026/6/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "10168838e7cc",
-   "title": "Homological algebra of integrable field theories in two and higher dimensions \u2014 Alexander Schenkel",
-   "url": "https://researchseminars.org/talk/Homotopy2026/7/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "509f83d837d1",
-   "title": "How biological systems can achieve control without global information \u2014 Carlos Floyd",
-   "url": "https://researchseminars.org/talk/Biocontrol/58/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 37,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "56aea1e43583",
-   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
-   "url": "https://researchseminars.org/talk/OISTRTS/84/",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
    "id": "67f495d39e80",
    "title": "A consistent light-cone-gauge superstring field theory \u2014 Hiroshi Kunitomo",
    "url": "https://researchseminars.org/talk/Homotopy2026/8/",
@@ -206,6 +98,24 @@
    "id": "be4cc68510e4",
    "title": "Canonical Commutation relations, RLL relations, and the Yang-Baxter equation within the Batalin-Vilkovisky formalism \u2014 Hiroaki Matsunaga",
    "url": "https://researchseminars.org/talk/Homotopy2026/10/",
+   "start_date": "2026-08-26",
+   "end_date": "2026-08-26",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "ca4fc484f960",
+   "title": "S-Equivalence of Band-Twisted Genus One Knot \u2014 Jun Wang",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/156/",
    "start_date": "2026-08-26",
    "end_date": "2026-08-26",
    "deadline": null,
@@ -321,6 +231,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "d133df44badd",
+   "title": "Isomorphisms of graded semiconnected algebras \u2014 Darius Dramburg",
+   "url": "https://researchseminars.org/talk/OISTRTS/84/",
+   "start_date": "2026-08-28",
+   "end_date": "2026-08-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
    "tags": [
     "math"
    ]
@@ -928,6 +855,23 @@
    "in_india": false,
    "type": "Conference",
    "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "43ddff54b24d",
+   "title": "Nature-centric governance using The Interspecies Council \u2014 Phoebe Tickell",
+   "url": "https://researchseminars.org/talk/Metagov/296/",
+   "start_date": "2026-09-16",
+   "end_date": "2026-09-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
    "score": 17,
    "tags": [
     "ai-ml"
