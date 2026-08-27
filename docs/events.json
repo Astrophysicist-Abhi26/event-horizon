@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T03:33:37.305746+00:00",
+ "generated": "2026-08-27T13:02:01.814469+00:00",
  "errors": [],
  "events": [
   {
@@ -39,112 +39,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "936d90221c6a",
-   "title": "RuleML+RR 2026 \u2014 International Joint Conference on Rules and Reasoning",
-   "url": "https://2026.declarativeai.net/events/ruleml-rr",
-   "start_date": "2026-08-24",
-   "end_date": "2026-08-26",
-   "deadline": "2026-05-08",
-   "location": "Vilnius",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "67f495d39e80",
-   "title": "A consistent light-cone-gauge superstring field theory \u2014 Hiroshi Kunitomo",
-   "url": "https://researchseminars.org/talk/Homotopy2026/8/",
-   "start_date": "2026-08-26",
-   "end_date": "2026-08-26",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 45,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "7137c31d5d15",
-   "title": "Nonperturbative aspects of homotopy-algebraic approaches to correlation functions \u2014 Keisuke Konosu",
-   "url": "https://researchseminars.org/talk/Homotopy2026/9/",
-   "start_date": "2026-08-26",
-   "end_date": "2026-08-26",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "be4cc68510e4",
-   "title": "Canonical Commutation relations, RLL relations, and the Yang-Baxter equation within the Batalin-Vilkovisky formalism \u2014 Hiroaki Matsunaga",
-   "url": "https://researchseminars.org/talk/Homotopy2026/10/",
-   "start_date": "2026-08-26",
-   "end_date": "2026-08-26",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "ca4fc484f960",
-   "title": "S-Equivalence of Band-Twisted Genus One Knot \u2014 Jun Wang",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/156/",
-   "start_date": "2026-08-26",
-   "end_date": "2026-08-26",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "fd0239d252de",
-   "title": "How to Exit to Community: A Cookbook for Blockchain Communities \u2014 Tara Merk, Primavera de Fillippi, Danny Spitzberg, & Nathan Schneider",
-   "url": "https://researchseminars.org/talk/Metagov/295/",
-   "start_date": "2026-08-26",
-   "end_date": "2026-08-26",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 17,
-   "tags": [
-    "ai-ml"
    ]
   },
   {
@@ -508,6 +402,24 @@
    ]
   },
   {
+   "id": "d68ece7bacd1",
+   "title": "From space-time atoms to gravitational waves \u2014 Bianca Dittrich",
+   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/2/",
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-01",
+   "deadline": null,
+   "location": "Perimeter Institute",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 50,
+   "tags": [
+    "astro",
+    "physics"
+   ]
+  },
+  {
    "id": "b8029327fa91",
    "title": "Classes of extensions of commutative algebraic groups \u2014 Dorota Blinkiewicz",
    "url": "https://researchseminars.org/talk/gc-arithmetic-geometry/74/",
@@ -576,6 +488,23 @@
    "score": 27,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "ca401e4ae835",
+   "title": "Primitive sets and von Mangoldt chains: Erd\u0151s #1196 and beyond \u2014 Jared Duker Lichtman",
+   "url": "https://researchseminars.org/talk/NTWebSeminar/312/",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
@@ -699,6 +628,23 @@
    "score": 30,
    "tags": [
     "math"
+   ]
+  },
+  {
+   "id": "84f37e19aff9",
+   "title": "Illuminating the strong-field regime of gravity \u2014 Hector Okada Da Silva",
+   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/3/",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-08",
+   "deadline": null,
+   "location": "UIUC",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "physics"
    ]
   },
   {
@@ -861,6 +807,23 @@
    ]
   },
   {
+   "id": "3d9902887dc4",
+   "title": "Using light to open doors for next-generation thermoelectrics and chemical imaging techniques \u2014 Sriparna Bhattacharya",
+   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/4/",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-15",
+   "deadline": null,
+   "location": "Clemson University",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "physics"
+   ]
+  },
+  {
    "id": "43ddff54b24d",
    "title": "Nature-centric governance using The Interspecies Council \u2014 Phoebe Tickell",
    "url": "https://researchseminars.org/talk/Metagov/296/",
@@ -875,6 +838,41 @@
    "score": 17,
    "tags": [
     "ai-ml"
+   ]
+  },
+  {
+   "id": "e55668c68ba4",
+   "title": "Accessible model theory \u2014 Ji\u0159\u00ed Rosick\u00fd",
+   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/225/",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "588551df5efe",
+   "title": "Escaping Tennenbaum's Theorem \u2014 Duarte Maia Nascimento",
+   "url": "https://researchseminars.org/talk/OLS/217/",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-17",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -1090,13 +1088,30 @@
    ]
   },
   {
+   "id": "1c23058f227b",
+   "title": "EMNLP (Industry Track) 2026 \u2014 The annual Conference on Empirical Methods in Natural Language Processing (Industry Track)",
+   "url": "https://2026.emnlp.org/",
+   "start_date": "2026-10-24",
+   "end_date": "2026-10-29",
+   "deadline": null,
+   "location": "HUNGEXPO Budapest Congress & Exhibition Center, Albertirsai \u00fat 10, 1101 Budapest, Hungary",
+   "country": "Hungary",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 52,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "5c799b0761c2",
    "title": "EMNLP (System Demonstrations Track) 2026 \u2014 The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations Track)",
    "url": "https://2026.emnlp.org/",
    "start_date": "2026-10-24",
    "end_date": "2026-10-29",
-   "deadline": null,
-   "location": "Budapest, Hungary",
+   "deadline": "2026-07-10",
+   "location": "HUNGEXPO Budapest Congress & Exhibition Center, Budapest, Hungary",
    "country": "Hungary",
    "in_india": false,
    "type": "Conference",
@@ -1524,12 +1539,29 @@
    ]
   },
   {
+   "id": "4b3045bb3fa3",
+   "title": "ICLR 2027 \u2014 The Fifteenth International Conference on Learning Representations",
+   "url": "https://iclr.cc/Conferences/2027",
+   "start_date": "2027-04-26",
+   "end_date": "2027-04-30",
+   "deadline": "2026-09-18",
+   "location": "Moscone Center, San Francisco, CA",
+   "country": "USA",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "c094369f4cd9",
    "title": "CHI 2027 \u2014 The ACM Conference on Human Factors in Computing Systems",
    "url": "https://chi2027.acm.org/",
    "start_date": "2027-05-10",
    "end_date": "2027-05-14",
-   "deadline": null,
+   "deadline": "2026-09-10",
    "location": "David L. Lawrence Convention Center, Pittsburgh, USA",
    "country": "USA",
    "in_india": false,
@@ -1558,9 +1590,26 @@
    ]
   },
   {
+   "id": "411af264a814",
+   "title": "WWW 2027 \u2014 The Web Conference",
+   "url": "https://www2027.thewebconf.org/",
+   "start_date": "2027-05-10",
+   "end_date": "2027-05-14",
+   "deadline": "2026-10-18",
+   "location": "Dublin",
+   "country": "Ireland",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "db5d26c4e4d6",
    "title": "ICRA 2027 \u2014 IEEE International Conference on Robotics and Automation",
-   "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
+   "url": "https://2027.ieee-icra.org/",
    "start_date": "2027-05-24",
    "end_date": "2027-05-28",
    "deadline": null,
