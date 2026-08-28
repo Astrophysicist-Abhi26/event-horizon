@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T13:02:01.814469+00:00",
+ "generated": "2026-08-28T14:32:21.931244+00:00",
  "errors": [],
  "events": [
   {
@@ -39,94 +39,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "0d6237735d78",
-   "title": "Zariski Topological Reconstruction Theorems via Model Theory \u2014 Ben Castle",
-   "url": "https://researchseminars.org/talk/OLS/218/",
-   "start_date": "2026-08-27",
-   "end_date": "2026-08-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "dcebfb028267",
-   "title": "The self-duality equations, Lax pairs, and the classification of reductions. \u2014 Lionel Mason",
-   "url": "https://researchseminars.org/talk/Twistor2026/1/",
-   "start_date": "2026-08-27",
-   "end_date": "2026-08-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "517a6d4d23d0",
-   "title": "The Ward construction, examples and reductions \u2014 Lionel Mason",
-   "url": "https://researchseminars.org/talk/Twistor2026/2/",
-   "start_date": "2026-08-27",
-   "end_date": "2026-08-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "ee6a41130609",
-   "title": "Sato-theoretic construction of the ASDYM hierarchy and the Ward conjecture \u2014 Shangshuai Li",
-   "url": "https://researchseminars.org/talk/Twistor2026/3/",
-   "start_date": "2026-08-27",
-   "end_date": "2026-08-27",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "4539fbb13f03",
-   "title": "Magma Office Hours \u2014 John Voight",
-   "url": "https://researchseminars.org/talk/CompAlgSemMagma/29/",
-   "start_date": "2026-08-27",
-   "end_date": "2026-08-27",
-   "deadline": null,
-   "location": "Sydney",
-   "country": "Australia",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -631,6 +543,23 @@
    ]
   },
   {
+   "id": "c3366e57b985",
+   "title": "From discrete representation to continuous representations \u2014 Daisie Rock",
+   "url": "https://researchseminars.org/talk/OISTRTS/85/",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "84f37e19aff9",
    "title": "Illuminating the strong-field regime of gravity \u2014 Hector Okada Da Silva",
    "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/3/",
@@ -648,6 +577,23 @@
    ]
   },
   {
+   "id": "94fe8467c3cb",
+   "title": "From integer polynomials to complex and hypercomplex manifolds \u2014 Adri\u00e1n Andrada",
+   "url": "https://researchseminars.org/talk/VSGS/138/",
+   "start_date": "2026-09-09",
+   "end_date": "2026-09-09",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "04f16f458026",
    "title": "From Differential Linear Logic to functional analysis and back \u2014 Marie Kerjean",
    "url": "https://researchseminars.org/talk/ToposInstituteColloquium/222/",
@@ -662,6 +608,23 @@
    "score": 47,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "706b649e0a19",
+   "title": "The arithmetic of differential equations \u2014 Daniel Litt",
+   "url": "https://researchseminars.org/talk/NTWebSeminar/316/",
+   "start_date": "2026-09-10",
+   "end_date": "2026-09-10",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
@@ -841,6 +804,23 @@
    ]
   },
   {
+   "id": "d11f7705b220",
+   "title": "Multi-Bubble Isoperimetric Problems \u2014 Emanuel Milman",
+   "url": "https://researchseminars.org/talk/th21/9/",
+   "start_date": "2026-09-16",
+   "end_date": "2026-09-16",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "e55668c68ba4",
    "title": "Accessible model theory \u2014 Ji\u0159\u00ed Rosick\u00fd",
    "url": "https://researchseminars.org/talk/ToposInstituteColloquium/225/",
@@ -872,6 +852,24 @@
    "source": "researchseminars.org",
    "score": 10,
    "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "3cb9c3c6c5ad",
+   "title": "Geometry-Aware Neural Networks for Geometric Analysis \u2014 Tancredi Schettini Gherardini",
+   "url": "https://researchseminars.org/talk/GEOTOP-A/133/",
+   "start_date": "2026-09-18",
+   "end_date": "2026-09-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 70,
+   "tags": [
+    "ai-ml",
     "math"
    ]
   },
