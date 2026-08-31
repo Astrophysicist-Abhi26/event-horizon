@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T08:29:36.474122+00:00",
+ "generated": "2026-08-31T08:51:05.797746+00:00",
  "errors": [],
  "events": [
   {
@@ -133,6 +133,23 @@
    ]
   },
   {
+   "id": "c566dc834a2d",
+   "title": "Essential Diagrams of Knots in $S_g \\times S^1$ \u2014 Seongjeong Kim",
+   "url": "https://researchseminars.org/talk/Knotsandtopology/179/",
+   "start_date": "2026-08-31",
+   "end_date": "2026-08-31",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "d68ece7bacd1",
    "title": "From space-time atoms to gravitational waves \u2014 Bianca Dittrich",
    "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/2/",
@@ -220,6 +237,23 @@
    "score": 27,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "a79e58b0a0a8",
+   "title": "Variants of Raimi's Theorem \u2014 Norbert Hegyvari",
+   "url": "https://researchseminars.org/talk/XidianCombinatoricsSeminar/1/",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
