@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T08:51:05.797746+00:00",
+ "generated": "2026-09-01T07:57:12.251773+00:00",
  "errors": [],
  "events": [
   {
@@ -41,44 +41,6 @@
    ]
   },
   {
-   "id": "73530f054c7c",
-   "title": "CheMLFlow: A proposal to stop AI agents from mixing up all the code \u2014 Eric Dolores",
-   "url": "https://researchseminars.org/talk/TropicalmathandML/51/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-08-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 72,
-   "tags": [
-    "ai-ml",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "9fddf274b714",
-   "title": "Twistors for Gravitational instantons \u2014 Lionel Mason",
-   "url": "https://researchseminars.org/talk/nmps/14/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-08-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "43632012a89f",
    "title": "A School on Gradient Flows",
    "url": "https://www.icts.res.in/program/sgflows",
@@ -95,58 +57,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "f7a617befb0d",
-   "title": "Celestial Holography and the S-algebra \u2014 Lionel Mason",
-   "url": "https://researchseminars.org/talk/nmps/15/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-08-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 40,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "652dfac4613a",
-   "title": "Averaging Lie bialgebras \u2014 Shuai Hou",
-   "url": "https://researchseminars.org/talk/ENAAS/206/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-08-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "c566dc834a2d",
-   "title": "Essential Diagrams of Knots in $S_g \\times S^1$ \u2014 Seongjeong Kim",
-   "url": "https://researchseminars.org/talk/Knotsandtopology/179/",
-   "start_date": "2026-08-31",
-   "end_date": "2026-08-31",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -237,6 +147,23 @@
    "score": 27,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "a8b3dc5a237d",
+   "title": "The dimension theory of perfectoid spaces: an update. \u2014 Jack J. Garzella",
+   "url": "https://researchseminars.org/talk/UtahRTNT/17/",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-02",
+   "deadline": null,
+   "location": "UCSD",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
@@ -416,6 +343,23 @@
    ]
   },
   {
+   "id": "5c84e59f7093",
+   "title": "Nested Pre-Lie Operads and Infinitesimal Hopf Algebras \u2014 Yannic Vargas",
+   "url": "https://researchseminars.org/talk/ENAAS/189/",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-07",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "ccda14635a1d",
    "title": "ECCV 2026 \u2014 European Conference on Computer Vision",
    "url": "https://eccv.ecva.net/Conferences/2026",
@@ -433,6 +377,25 @@
    ]
   },
   {
+   "id": "d4b90cafb4fc",
+   "title": "What is Nothing?",
+   "url": "https://www.icts.res.in/lectures/PLsep2026",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-08",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "afbe41a46552",
    "title": "Fractions Are Hard! A Mathematical Overview of a Troublesome Topic \u2014 James Tanton",
    "url": "https://researchseminars.org/talk/ESME/67/",
@@ -445,6 +408,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "5bdbd18f1be3",
+   "title": "Polynomial Regression under a Mixture of Classical and Berkson Errors \u2014 Oleksandr Liubimov",
+   "url": "https://researchseminars.org/talk/MalliavinCalculus/173/",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
@@ -588,6 +568,24 @@
    ]
   },
   {
+   "id": "31de3bcf71a1",
+   "title": "Mathematics and Mentoring: A Framework \u2014 Aris Winger",
+   "url": "https://researchseminars.org/talk/CompMath/37/",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-11",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 47,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "d23e8f52e84a",
    "title": "ICOMP 2026 \u2014 International Conference on Computational Optimization",
    "url": "https://icomp.cc/",
@@ -695,6 +693,41 @@
    ]
   },
   {
+   "id": "068be23d7dcc",
+   "title": "Cobham\u2019s theorem for Gaussian numerations \u2014 Reem Yassawi",
+   "url": "https://researchseminars.org/talk/CombinatoricsOnWords/141/",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "e0548dfe06ce",
+   "title": "Joint Points of the Images of Independent Markov Processes under Smooth Deterministic Transformations \u2014 Alexey Rudenko",
+   "url": "https://researchseminars.org/talk/MalliavinCalculus/174/",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "3d9902887dc4",
    "title": "Using light to open doors for next-generation thermoelectrics and chemical imaging techniques \u2014 Sriparna Bhattacharya",
    "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/4/",
@@ -799,6 +832,23 @@
    ]
   },
   {
+   "id": "1df908911caa",
+   "title": "A Uniform Construction of Cohomology Theories of Varieties via Fundamental Groupoids \u2014 Hyuk Jun Kweon",
+   "url": "https://researchseminars.org/talk/Postech-PMI-NT/18/",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-17",
+   "deadline": null,
+   "location": "Seoul National University",
+   "country": "South Korea",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "3cb9c3c6c5ad",
    "title": "Geometry-Aware Neural Networks for Geometric Analysis \u2014 Tancredi Schettini Gherardini",
    "url": "https://researchseminars.org/talk/GEOTOP-A/133/",
@@ -813,6 +863,93 @@
    "score": 70,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "e7a9da8924d7",
+   "title": "Electron Pairing and Fractionalization in the Age of AI and Quantum Computing \u2014 Yang Zhang",
+   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/5/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "UT Knoxville",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 65,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "8e489e9ffdb1",
+   "title": "Planar frequency, asymptotic normal forms, and local topology of area-minimizing currents. \u2014 Neshan Wickramasekera",
+   "url": "https://researchseminars.org/talk/NCTS-GMT/38/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "afc88ccb7085",
+   "title": "From Hubbard to Heisenberg at Half Filling \u2014 Tadahiro Miyao",
+   "url": "https://researchseminars.org/talk/IAMP_seminars/198/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "6d47eb05ff52",
+   "title": "A New Math Sequence for First Year Engineering Students at the University of Michigan \u2014 Karen Smith",
+   "url": "https://researchseminars.org/talk/ESME/68/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "7a365ac29caf",
+   "title": "Asymptotic Stability for Stochastic Flows with Interaction \u2014 Andrey Dorogovtsev",
+   "url": "https://researchseminars.org/talk/MalliavinCalculus/175/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
@@ -1497,6 +1634,23 @@
    ]
   },
   {
+   "id": "bf0ef0362105",
+   "title": "AAMAS 2027 \u2014 International Conference on Autonomous Agents and Multiagent Systems",
+   "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+   "start_date": "2027-05-03",
+   "end_date": "2027-05-07",
+   "deadline": "2026-10-01",
+   "location": "JW Marriott Hotel, Hanoi, Vietnam",
+   "country": "Vietnam",
+   "in_india": false,
+   "type": "Conference",
+   "source": "AI Deadlines",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
    "id": "c094369f4cd9",
    "title": "CHI 2027 \u2014 The ACM Conference on Human Factors in Computing Systems",
    "url": "https://chi2027.acm.org/",
@@ -1962,66 +2116,9 @@
    ]
   },
   {
-   "id": "3085dd538dcb",
-   "title": "Public  Lectures",
-   "url": "https://www.icts.res.in/lectures/public",
-   "start_date": null,
-   "end_date": null,
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "46f217952bf3",
    "title": "Distinguished  Lectures",
    "url": "https://www.icts.res.in/lectures/distinguished",
-   "start_date": null,
-   "end_date": null,
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "9843b52ae252",
-   "title": "Einstein  Lectures",
-   "url": "https://www.icts.res.in/lectures/einstein",
-   "start_date": null,
-   "end_date": null,
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "22ea0797e6f1",
-   "title": "Vishveshwara Lectures",
-   "url": "https://www.icts.res.in/lectures/vishveshwara",
    "start_date": null,
    "end_date": null,
    "deadline": null,
@@ -2079,25 +2176,6 @@
    "id": "2cebf74b9128",
    "title": "Foundation Day Lectures",
    "url": "https://www.icts.res.in/lectures/foundation-day-lectures",
-   "start_date": null,
-   "end_date": null,
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "cac26138fb90",
-   "title": "P. Rajagopalan Memorial Lectures",
-   "url": "https://www.icts.res.in/lectures/rajagopalan",
    "start_date": null,
    "end_date": null,
    "deadline": null,
@@ -2269,6 +2347,63 @@
    "id": "cf0626d4df78",
    "title": "Einstein Lectures",
    "url": "https://www.icts.res.in/lectures/einstein/upcoming",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "22ea0797e6f1",
+   "title": "Vishveshwara Lectures",
+   "url": "https://www.icts.res.in/lectures/vishveshwara",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "1f44f3182f9b",
+   "title": "ICTS Public Lectures",
+   "url": "https://www.icts.res.in/lectures/public",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "cac26138fb90",
+   "title": "P. Rajagopalan Memorial Lectures",
+   "url": "https://www.icts.res.in/lectures/rajagopalan",
    "start_date": null,
    "end_date": null,
    "deadline": null,
