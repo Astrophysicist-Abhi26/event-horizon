@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T07:57:12.251773+00:00",
+ "generated": "2026-09-02T07:16:43.434577+00:00",
  "errors": [],
  "events": [
   {
@@ -21,26 +21,6 @@
    ]
   },
   {
-   "id": "66c194a0588b",
-   "title": "Formulating a National Research Roadmap for Accelerated Materials Design: From Generative AI to Self-Driving Labs",
-   "url": "https://www.icts.res.in/discussion-meeting/NRRAMD",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-01",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Workshop",
-   "source": "ICTS Bengaluru",
-   "score": 100,
-   "tags": [
-    "ai-ml",
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "43632012a89f",
    "title": "A School on Gradient Flows",
    "url": "https://www.icts.res.in/program/sgflows",
@@ -57,41 +37,6 @@
     "astro",
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "d68ece7bacd1",
-   "title": "From space-time atoms to gravitational waves \u2014 Bianca Dittrich",
-   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/2/",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-01",
-   "deadline": null,
-   "location": "Perimeter Institute",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 50,
-   "tags": [
-    "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "b8029327fa91",
-   "title": "Classes of extensions of commutative algebraic groups \u2014 Dorota Blinkiewicz",
-   "url": "https://researchseminars.org/talk/gc-arithmetic-geometry/74/",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-01",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -151,6 +96,24 @@
    ]
   },
   {
+   "id": "b1c58682db8d",
+   "title": "SINGULAR QUANDLES: CONSTRUCTIONS AND COHOMOLOGY \u2014 Valeriy Bardakov",
+   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/158/",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "a8b3dc5a237d",
    "title": "The dimension theory of perfectoid spaces: an update. \u2014 Jack J. Garzella",
    "url": "https://researchseminars.org/talk/UtahRTNT/17/",
@@ -206,6 +169,24 @@
    "id": "e3a6b4cffde9",
    "title": "Spectral theory and descriptive combinatorics for Borel pmp graphs \u2014 Cecilia Higgins",
    "url": "https://researchseminars.org/talk/OLS/211/",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-03",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "cbf59c1878de",
+   "title": "Deriving semantics from pragmatics \u2014 Kris Brown",
+   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/226/",
    "start_date": "2026-09-03",
    "end_date": "2026-09-03",
    "deadline": null,
@@ -623,6 +604,25 @@
    ]
   },
   {
+   "id": "b59a6c9fc21b",
+   "title": "Loop equations characterize random matrix statistics \u2014 Paul Bourgade",
+   "url": "https://researchseminars.org/talk/GeomInequAndPDEs/204/",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-14",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 55,
+   "tags": [
+    "ai-ml",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "db28049293ca",
    "title": "ICANN 2026 \u2014 35th International Conference on Artificial Neural Networks",
    "url": "https://e-nns.org/icann2026/",
@@ -708,6 +708,24 @@
    "tags": [
     "ai-ml",
     "math"
+   ]
+  },
+  {
+   "id": "ce06b7048b14",
+   "title": "Star-Norm Bounds and Total Variation Flow, with Applications to Crystallographic Imaging \u2014 Prashant Athavale",
+   "url": "https://researchseminars.org/talk/Nonlinear_Analysis_Seminar/89/",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-15",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
    ]
   },
   {
@@ -867,6 +885,23 @@
    ]
   },
   {
+   "id": "948c0326a58a",
+   "title": "Scott Topology and DCPOs \u2014 Tariq Nuruddin",
+   "url": "https://researchseminars.org/talk/UFV-math-stats/30/",
+   "start_date": "2026-09-21",
+   "end_date": "2026-09-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "e7a9da8924d7",
    "title": "Electron Pairing and Fractionalization in the Age of AI and Quantum Computing \u2014 Yang Zhang",
    "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/5/",
@@ -945,6 +980,23 @@
    "deadline": null,
    "location": "Online",
    "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9d91e307ca58",
+   "title": "The first moment of primitive cubic L-functions with fixed genus \u2014 Hong Ziwei",
+   "url": "https://researchseminars.org/talk/UNSW-NTSeminar/27/",
+   "start_date": "2026-09-23",
+   "end_date": "2026-09-23",
+   "deadline": null,
+   "location": "Renmin University of China",
+   "country": "China",
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
