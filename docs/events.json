@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T07:23:21.672108+00:00",
+ "generated": "2026-09-09T07:32:01.961393+00:00",
  "errors": [],
  "events": [
   {
@@ -70,129 +70,6 @@
    "score": 52,
    "tags": [
     "ai-ml"
-   ]
-  },
-  {
-   "id": "fce7e13aeb26",
-   "title": "What examples should we ask AI for? \u2014 Will Sawin",
-   "url": "https://researchseminars.org/talk/vantage/128/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 50,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "d4b90cafb4fc",
-   "title": "What is Nothing?",
-   "url": "https://www.icts.res.in/lectures/PLsep2026",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "Lecture series",
-   "source": "ICTS Bengaluru",
-   "score": 40,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "afbe41a46552",
-   "title": "Fractions Are Hard! A Mathematical Overview of a Troublesome Topic \u2014 James Tanton",
-   "url": "https://researchseminars.org/talk/ESME/67/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "9b582e0d8bc7",
-   "title": "Well-posedness for Dispersive PDE with Combined Nonlinearities \u2014 Alex D. Rodriguez",
-   "url": "https://researchseminars.org/talk/PotomacPDE/21/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "5bdbd18f1be3",
-   "title": "Polynomial Regression under a Mixture of Classical and Berkson Errors \u2014 Oleksandr Liubimov",
-   "url": "https://researchseminars.org/talk/MalliavinCalculus/173/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "c3366e57b985",
-   "title": "From discrete representation to continuous representations \u2014 Daisie Rock",
-   "url": "https://researchseminars.org/talk/OISTRTS/85/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "e61c3d7105d6",
-   "title": "Illuminating the strong-field regime of gravity \u2014 Hector Okada da Silva",
-   "url": "https://researchseminars.org/talk/UMissPhysAstroColloq/3/",
-   "start_date": "2026-09-08",
-   "end_date": "2026-09-08",
-   "deadline": null,
-   "location": "UIUC",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "physics"
    ]
   },
   {
@@ -883,6 +760,23 @@
    ]
   },
   {
+   "id": "9a9da53f42fc",
+   "title": "The asymptotics of moments of quadratic L-functions over function fields \u2014 Peter Patzt",
+   "url": "https://researchseminars.org/talk/GAATI/20/",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-17",
+   "deadline": null,
+   "location": "University of Oklahoma",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "889df2b707bb",
    "title": "B_h-sets and perturbations in normed vector spaces \u2014 Mel Nathanson",
    "url": "https://researchseminars.org/talk/NYNTS/2/",
@@ -965,6 +859,23 @@
    "score": 70,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "a07955986e51",
+   "title": "Basics of the Bach flow \u2014 Eric Bahuaud",
+   "url": "https://researchseminars.org/talk/CIRGET/167/",
+   "start_date": "2026-09-18",
+   "end_date": "2026-09-18",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
     "math"
    ]
   },
@@ -1060,6 +971,24 @@
    "id": "afc88ccb7085",
    "title": "From Hubbard to Heisenberg at Half Filling \u2014 Tadahiro Miyao",
    "url": "https://researchseminars.org/talk/IAMP_seminars/198/",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "74584669f565",
+   "title": "When (does) a singular integral operator maps atoms to molecules \u2014 Chun Ho Lau",
+   "url": "https://researchseminars.org/talk/Nonlinear_Analysis_Seminar/93/",
    "start_date": "2026-09-22",
    "end_date": "2026-09-22",
    "deadline": null,
@@ -1207,6 +1136,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "4eb67a185b22",
+   "title": "Deux applications algorithmiques des op\u00e9rateurs de Hecke des groupes finis \u2014 Fabrice Etienne",
+   "url": "https://researchseminars.org/talk/GAATI/21/",
+   "start_date": "2026-09-24",
+   "end_date": "2026-09-24",
+   "deadline": null,
+   "location": "UPF",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
@@ -1524,6 +1470,76 @@
    "score": 10,
    "tags": [
     "physics"
+   ]
+  },
+  {
+   "id": "cd1858819e8f",
+   "title": "Targeted Acceleration Strategies for Real-Time Uncertainty-Aware Motion Planning \u2014 Ananya Trivedi",
+   "url": "https://researchseminars.org/talk/IEEECSS_TCSP/14/",
+   "start_date": "2026-09-30",
+   "end_date": "2026-09-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "ed4565ab769e",
+   "title": "Local Lagrangian densities and 3D integrable systems \u2014 Maxim Pavlov",
+   "url": "https://researchseminars.org/talk/GDEq/158/",
+   "start_date": "2026-09-30",
+   "end_date": "2026-09-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "b1ae01700b9f",
+   "title": "Popvox (Civic Tech for Public Servants) \u2014 Marci Harris",
+   "url": "https://researchseminars.org/talk/Metagov/299/",
+   "start_date": "2026-09-30",
+   "end_date": "2026-09-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 17,
+   "tags": [
+    "ai-ml"
+   ]
+  },
+  {
+   "id": "2104f5ed622a",
+   "title": "Contractive Representations and Toeplitz-Type Realizations of the Odometer Semigroup \u2014 Mansi Suryawanshi",
+   "url": "https://researchseminars.org/talk/NYC-NCG/226/",
+   "start_date": "2026-09-30",
+   "end_date": "2026-09-30",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
