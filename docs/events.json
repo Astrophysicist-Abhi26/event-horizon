@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T07:37:11.681981+00:00",
+ "generated": "2026-09-14T08:04:06.211496+00:00",
  "errors": [],
  "events": [
   {
@@ -17,23 +17,6 @@
    "score": 20,
    "tags": [
     "astro"
-   ]
-  },
-  {
-   "id": "d23e8f52e84a",
-   "title": "ICOMP 2026 \u2014 International Conference on Computational Optimization",
-   "url": "https://icomp.cc/",
-   "start_date": "2026-09-11",
-   "end_date": "2026-09-13",
-   "deadline": null,
-   "location": "Yerevan",
-   "country": null,
-   "in_india": false,
-   "type": "Conference",
-   "source": "AI Deadlines",
-   "score": 17,
-   "tags": [
-    "ai-ml"
    ]
   },
   {
@@ -214,24 +197,6 @@
    "tags": [
     "ai-ml",
     "math"
-   ]
-  },
-  {
-   "id": "ce06b7048b14",
-   "title": "Star-Norm Bounds and Total Variation Flow, with Applications to Crystallographic Imaging \u2014 Prashant Athavale",
-   "url": "https://researchseminars.org/talk/Nonlinear_Analysis_Seminar/89/",
-   "start_date": "2026-09-15",
-   "end_date": "2026-09-15",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
    ]
   },
   {
@@ -1315,6 +1280,24 @@
    ]
   },
   {
+   "id": "db9a5a8bb98b",
+   "title": "Realisations of posets and Koszul complexes \u2014 Francesca Tombari",
+   "url": "https://researchseminars.org/talk/TropicalmathandML/46/",
+   "start_date": "2026-09-28",
+   "end_date": "2026-09-28",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 27,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "2d67839c84b1",
    "title": "EUVIP 2026 \u2014 European Conference on Visual Information Processing",
    "url": "https://euvip2026.github.io/",
@@ -1715,6 +1698,57 @@
    ]
   },
   {
+   "id": "f73186022ca7",
+   "title": "RCD geometry; recent developments, applications and open problems (1/3) \u2014 Shouhei Honda",
+   "url": "https://researchseminars.org/talk/Geometric_Structures_SISSA/117/",
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-05",
+   "deadline": null,
+   "location": "The University of Tokyo",
+   "country": "Japan",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "de733db4ec2e",
+   "title": "Free Skew Braces: a construction in the right nilpotent setting \u2014 Silvia Properzi",
+   "url": "https://researchseminars.org/talk/ENAAS/188/",
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-05",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "a90d7ef45d42",
+   "title": "Two Problems in Soccer Analytics \u2014 Tim Swartz",
+   "url": "https://researchseminars.org/talk/UFV-math-stats/33/",
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-05",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "acd8852ad175",
    "title": "COLM 2026 \u2014 Conference on Language Modeling",
    "url": "https://colmweb.org/",
@@ -2056,25 +2090,6 @@
    ]
   },
   {
-   "id": "af2a0e7364f5",
-   "title": "Winter School on Biological Physics",
-   "url": "https://www.icts.res.in/program/wsbp",
-   "start_date": "2026-12-21",
-   "end_date": "2027-01-01",
-   "deadline": null,
-   "location": "ICTS, Bengaluru, India",
-   "country": "India",
-   "in_india": true,
-   "type": "School",
-   "source": "ICTS Bengaluru",
-   "score": 60,
-   "tags": [
-    "astro",
-    "math",
-    "physics"
-   ]
-  },
-  {
    "id": "9a053f1f4527",
    "title": "Geometry of Sparse Sets",
    "url": "https://www.icts.res.in/program/geoss",
@@ -2085,6 +2100,25 @@
    "country": "India",
    "in_india": true,
    "type": "Workshop",
+   "source": "ICTS Bengaluru",
+   "score": 60,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "af2a0e7364f5",
+   "title": "Winter School on Biological Physics",
+   "url": "https://www.icts.res.in/program/wsbp",
+   "start_date": "2026-12-21",
+   "end_date": "2027-01-01",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "School",
    "source": "ICTS Bengaluru",
    "score": 60,
    "tags": [
