@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T07:51:30.289365+00:00",
+ "generated": "2026-09-17T07:56:35.093897+00:00",
  "errors": [],
  "events": [
   {
@@ -73,179 +73,22 @@
    ]
   },
   {
-   "id": "80022b1ce08b",
-   "title": "Statistics Reading Group: Residuals and diagnostics for multinomial regression models \u2014 Bruce Craig",
-   "url": "https://researchseminars.org/talk/mathseminarsnuig/173/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
+   "id": "e2bd6ab574f4",
+   "title": "The Geometry of Relativistic Hydrodynamics \u2014 Nikita Nekrasov",
+   "url": "https://researchseminars.org/talk/HETnyuad/14/",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-17",
    "deadline": null,
-   "location": "Purdue University",
+   "location": "Simons Center for Geometry and Physics",
    "country": null,
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
-   "score": 45,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "1c90cef8e4cb",
-   "title": "Aspects of Integrability in Billiards \u2014 Christoforos Christoforidis",
-   "url": "https://researchseminars.org/talk/AUTH-HEP-TH/46/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Aristotle University of Thessaloniki",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 30,
+   "score": 80,
    "tags": [
     "astro",
-    "physics"
-   ]
-  },
-  {
-   "id": "0ca25f64e83a",
-   "title": "Trustworthy Algorithms for Sustainable Future Mobility \u2014 Chih-Yuan Chiu",
-   "url": "https://researchseminars.org/talk/IEEECSS_TCSP/13/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 27,
-   "tags": [
-    "ai-ml",
-    "math"
-   ]
-  },
-  {
-   "id": "0e9583acaeba",
-   "title": "The Arctan-Tan-G Family of Distributions: Properties and Applications \u2014 Dr. Ievhen Turchyn",
-   "url": "https://researchseminars.org/talk/AMIS/12/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
     "math",
     "physics"
-   ]
-  },
-  {
-   "id": "21a155a517fe",
-   "title": "Finite dimensional reductions of integrable differential-difference equations \u2014 Alexander Mikhailov",
-   "url": "https://researchseminars.org/talk/GDEq/157/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "b3c72449f24a",
-   "title": "The nontrivial kernel of Manturov-Nikonov map from classical braids to virtual braids \u2014 Yangzhou Liu",
-   "url": "https://researchseminars.org/talk/Mos-Bei-top-seminar/160/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 20,
-   "tags": [
-    "math",
-    "physics"
-   ]
-  },
-  {
-   "id": "43ddff54b24d",
-   "title": "Nature-centric governance using The Interspecies Council \u2014 Phoebe Tickell",
-   "url": "https://researchseminars.org/talk/Metagov/296/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 17,
-   "tags": [
-    "ai-ml"
-   ]
-  },
-  {
-   "id": "d0cfaaa8cf3e",
-   "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$ \u2014 Bjorn Poonen",
-   "url": "https://researchseminars.org/talk/HarvardNT/160/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "MIT",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "68c1df46d277",
-   "title": "Overconvergent deformation theory \u2014 Ray Li",
-   "url": "https://researchseminars.org/talk/UtahRTNT/22/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "University of Chicago",
-   "country": null,
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
-   ]
-  },
-  {
-   "id": "d11f7705b220",
-   "title": "Multi-Bubble Isoperimetric Problems \u2014 Emanuel Milman",
-   "url": "https://researchseminars.org/talk/th21/9/",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "deadline": null,
-   "location": "Online",
-   "country": "Online",
-   "in_india": false,
-   "type": "Talk / Seminar",
-   "source": "researchseminars.org",
-   "score": 10,
-   "tags": [
-    "math"
    ]
   },
   {
@@ -287,7 +130,7 @@
   {
    "id": "f2b3408cb1a0",
    "title": "Chapter 6: Quantum versions of classical computations \u2014 Eric Dolores",
-   "url": "https://researchseminars.org/talk/QRB/10/",
+   "url": "https://researchseminars.org/talk/QRB/-10/",
    "start_date": "2026-09-17",
    "end_date": "2026-09-17",
    "deadline": null,
@@ -561,6 +404,24 @@
    ]
   },
   {
+   "id": "fb97576863bb",
+   "title": "Are neural networks a manifold? A work-in-progress answer for shallow tanh networks \u2014 Ivan Bioli",
+   "url": "https://researchseminars.org/talk/AnJunSem/29/",
+   "start_date": "2026-09-21",
+   "end_date": "2026-09-21",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 62,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "86bdc8b8cdeb",
    "title": "Signs in objective linear algebra \u2014 Joachim Kock",
    "url": "https://researchseminars.org/talk/TropicalmathandML/47/",
@@ -678,6 +539,25 @@
    "score": 65,
    "tags": [
     "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "e9e794f178c7",
+   "title": "Open system dynamics",
+   "url": "https://www.icts.res.in/lectures/osd2026",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-22",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
     "physics"
    ]
   },
@@ -910,6 +790,41 @@
    ]
   },
   {
+   "id": "b78a0af090df",
+   "title": "A Lax representation, symmetries, and conservation laws for the three-dimensional Euler-Helmholtz equations \u2014 Oleg Morozov",
+   "url": "https://researchseminars.org/talk/GDEq/159/",
+   "start_date": "2026-09-23",
+   "end_date": "2026-09-23",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "d491d12d231e",
+   "title": "A motivic secondary term for counting $S_3$-cubic extensions \u2014 Sameera Vemulapalli",
+   "url": "https://researchseminars.org/talk/HarvardNT/161/",
+   "start_date": "2026-09-23",
+   "end_date": "2026-09-23",
+   "deadline": null,
+   "location": "Harvard",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "92d99bf14977",
    "title": "Boundary amenability of certain discrete group actions \u2014 Jacopo Bassi",
    "url": "https://researchseminars.org/talk/NYC-NCG/225/",
@@ -973,6 +888,23 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "c0e8b13e3f8b",
+   "title": "Algebraic exceptional sets on surfaces of log general type \u2014 Amos Turchet",
+   "url": "https://researchseminars.org/talk/NTWebSeminar/307/",
+   "start_date": "2026-09-24",
+   "end_date": "2026-09-24",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
    "tags": [
     "math"
    ]
@@ -1503,6 +1435,25 @@
    ]
   },
   {
+   "id": "401d69333974",
+   "title": "Overlaps in spin glasses and models of evolution",
+   "url": "https://www.icts.res.in/lectures/Bernard_Derrida",
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-01",
+   "deadline": null,
+   "location": "ICTS, Bengaluru, India",
+   "country": "India",
+   "in_india": true,
+   "type": "Lecture series",
+   "source": "ICTS Bengaluru",
+   "score": 40,
+   "tags": [
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "cb680e780809",
    "title": "The positive mass theorem in arbitrary dimensions \u2014 Harry Yipeng Wang",
    "url": "https://researchseminars.org/talk/jomarec/53/",
@@ -1591,6 +1542,23 @@
    ]
   },
   {
+   "id": "8cffb8512f6a",
+   "title": "How to build the best marble run \u2026 and brag about it! \u2014 Edvin Martinson",
+   "url": "https://researchseminars.org/talk/gbgphd/59/",
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-01",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "6dc57687952c",
    "title": "AI Methods for Geometric Constructions \u2014 Edward Hirst",
    "url": "https://researchseminars.org/talk/AmSurAmSulGeometry/116/",
@@ -1605,6 +1573,23 @@
    "score": 45,
    "tags": [
     "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "238730ef0f46",
+   "title": "Reduction of singularities in Poisson geometry via weighted blowups \u2014 Boris Zupancic",
+   "url": "https://researchseminars.org/talk/CIRGET/169/",
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-02",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
     "math"
    ]
   },
@@ -1686,6 +1671,23 @@
    "deadline": null,
    "location": "Online",
    "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "bb68546385ba",
+   "title": "Monodromy results in characteristic $p$ \u2014 Tejasi Bhatnagar",
+   "url": "https://researchseminars.org/talk/NTBU/55/",
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-05",
+   "deadline": null,
+   "location": null,
+   "country": null,
    "in_india": false,
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
@@ -1863,6 +1865,93 @@
    "type": "Talk / Seminar",
    "source": "researchseminars.org",
    "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "59ac8d2e283b",
+   "title": "Abelian categories as algebras and simplicial objects \u2014 Dominik Trnka",
+   "url": "https://researchseminars.org/talk/ToposInstituteColloquium/230/",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 47,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
+   "id": "7526bfc10c16",
+   "title": "Chapter 6: Quantum versions of classical computations \u2014 Eric Dolores",
+   "url": "https://researchseminars.org/talk/QRB/10/",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 37,
+   "tags": [
+    "ai-ml",
+    "physics"
+   ]
+  },
+  {
+   "id": "c96a20d906d0",
+   "title": "Microstructural Foundation of Rough Log-Normal Volatility Models \u2014 Ulrich Horst",
+   "url": "https://researchseminars.org/talk/BFSOneWorld/82/",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-08",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "81e4e0d2ad27",
+   "title": "Good reduction of CM abelian varieties \u2014 TBA",
+   "url": "https://researchseminars.org/talk/STAGE/164/",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-08",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "b808ae9b68f8",
+   "title": "Contact: EMIL \u2014 Nhan Nguyen",
+   "url": "https://researchseminars.org/talk/mathseminarsnuig/172/",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-08",
+   "deadline": null,
+   "location": null,
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
    "tags": [
     "math"
    ]
