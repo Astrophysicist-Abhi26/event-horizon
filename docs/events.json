@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T07:53:34.892440+00:00",
+ "generated": "2026-09-21T08:09:12.985917+00:00",
  "errors": [],
  "events": [
   {
@@ -599,6 +599,24 @@
    ]
   },
   {
+   "id": "3e40c8733d00",
+   "title": "An Overview of Agentic Research: I Made an AI Write a Paper\u2014Here\u2019s How It Went! \u2014 Mathis Rost",
+   "url": "https://researchseminars.org/talk/gbgphd/64/",
+   "start_date": "2026-09-24",
+   "end_date": "2026-09-24",
+   "deadline": null,
+   "location": "PhD student",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 45,
+   "tags": [
+    "ai-ml",
+    "math"
+   ]
+  },
+  {
    "id": "e836231bbba2",
    "title": "On the geometry and topology of algebraic double loop spaces. \u2014 Jim Bryan",
    "url": "https://researchseminars.org/talk/SFUQNTAG/170/",
@@ -1091,6 +1109,23 @@
    ]
   },
   {
+   "id": "f003f8c79cd8",
+   "title": "Lifting ethereal Bianchi modular forms \u2014 H\u00e5vard Damm-Johnsen",
+   "url": "https://researchseminars.org/talk/MITNT/143/",
+   "start_date": "2026-09-29",
+   "end_date": "2026-09-29",
+   "deadline": null,
+   "location": "MIT",
+   "country": null,
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
+   ]
+  },
+  {
    "id": "8e9738b9784c",
    "title": "Clusters in a Flow of Coalescing Walsh Brownian Motions on a Star Graph \u2014 Georgii Ryabov",
    "url": "https://researchseminars.org/talk/MalliavinCalculus/176/",
@@ -1139,6 +1174,23 @@
    "score": 10,
    "tags": [
     "physics"
+   ]
+  },
+  {
+   "id": "450de09fcd55",
+   "title": "On dissociated sets, and a lattice counterexample to a conjecture of Erdos \u2014 Thomas Bloom",
+   "url": "https://researchseminars.org/talk/vantage/129/",
+   "start_date": "2026-09-29",
+   "end_date": "2026-09-29",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 10,
+   "tags": [
+    "math"
    ]
   },
   {
@@ -1940,6 +1992,26 @@
    ]
   },
   {
+   "id": "f147ad4df422",
+   "title": "ML4SD: An Active Learning Framework for Boosting DBTL Cycles in Strain Design \u2014 Alvaro Gargantilla Becerra",
+   "url": "https://researchseminars.org/talk/MicroBiotechDBTL/12/",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-12",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 100,
+   "tags": [
+    "ai-ml",
+    "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
    "id": "b5edeebd8963",
    "title": "Phases, Caustics and Chaos: Classical and Quantum Aspects",
    "url": "https://www.icts.res.in/program/PCCCQA",
@@ -1973,6 +2045,41 @@
    "score": 40,
    "tags": [
     "astro",
+    "math",
+    "physics"
+   ]
+  },
+  {
+   "id": "1b57af1400f3",
+   "title": "Pointed Hopf algebras of odd dimension \u2014 Istv\u00e1n Heckenberger",
+   "url": "https://researchseminars.org/talk/ENAAS/166/",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-12",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 30,
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "9c551d89df6f",
+   "title": "Fractal Hasimoto Surfaces \u2014 Ji\u0159\u00ed Minar\u010d\u00edk",
+   "url": "https://researchseminars.org/talk/NSCM/225/",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-12",
+   "deadline": null,
+   "location": "Online",
+   "country": "Online",
+   "in_india": false,
+   "type": "Talk / Seminar",
+   "source": "researchseminars.org",
+   "score": 20,
+   "tags": [
     "math",
     "physics"
    ]
