@@ -1,69 +1,218 @@
-# Indian institute event pages scraped with the generic listing extractor.
+# Event Horizon — institute registry (v5.1)
 #
-# To add a page: copy a block, set `url` to the page that LISTS upcoming
-# events, and push. Each entry appears separately in the site's source-health
-# panel, so a page that stops working (or never worked) is visible at once.
+# One entry = one source = one line in the site's "Source health" panel.
+# Bengaluru first, then the rest of India. Global aggregators (INSPIRE, CADC,
+# DESC, researchseminars.org, AI deadlines) live in sources.py and already
+# cover many Indian conferences; this file is for what they miss.
 #
-#   name:        label shown on the site
-#   url:         the listing page
-#   location:    default location for its events
-#   href_filter: optional regex; only links whose URL matches are considered
-#   type:        optional default event type (conference, seminar, school...)
-#   min_expected: optional; health turns amber if fewer events than this
+# kind:
+#   listing          an HTML page that lists upcoming events
+#                    (generic extractor: keeps a link only if a date sits in the same block)
+#   google_calendar  public Google Calendar(s), by calendar id  — most robust
+#   ical             any public .ics feed                          — most robust
+#   wp_events        WordPress "The Events Calendar" site (REST API, falls back to iCal)
+#   indico           Indico server (JSON export)
+#
+# Other keys:
+#   name, location (default location for the events), type (default event type),
+#   url / urls (may contain {year}), href_filter (regex; only matching links are
+#   candidates), insecure_ok (server ships a broken TLS chain: fetch anyway —
+#   read-only public data), min_expected (health turns amber below this),
+#   enabled: false (parked; `python scraper/doctor.py --all` still tests it),
+#   checked: when a human last confirmed the page layout.
+#
+# Test every entry against the live sites from your own machine with
+#   python scraper/doctor.py            (add --all to include parked entries)
 
-pages:
+sources:
+
+# ═══════════════════════════ BENGALURU ═══════════════════════════════════
+
+  # ── ICTS ─────────────────────────────────────────────────────────────
   - name: ICTS Bengaluru
+    kind: listing
     url: https://www.icts.res.in/programs/upcoming
     location: ICTS, Bengaluru, India
     href_filter: /(program|discussion-meeting|event|lectures|school|summer-course)/
     min_expected: 3
+    checked: 2026-09-23
 
   - name: ICTS Bengaluru (events)
+    kind: listing
     url: https://www.icts.res.in/current-and-upcoming-events
     location: ICTS, Bengaluru, India
     href_filter: /(program|discussion-meeting|event|lectures|school|summer-course)/
+    checked: 2026-09-23
 
-  - name: RRI meetings
-    url: https://www.rri.res.in/meetings
-    location: Raman Research Institute, Bengaluru, India
-    href_filter: /(meetings|events)/
+  # ── IISc ─────────────────────────────────────────────────────────────
+  # The Physics department publishes its seminar/colloquium schedule as nine
+  # public Google Calendars (embedded on physics.iisc.ac.in/calendar). Reading
+  # them directly is the most reliable feed we have for the department,
+  # including astronomy & astrophysics / JAP seminars.
+  - name: IISc Physics (department calendars)
+    kind: google_calendar
+    page: https://physics.iisc.ac.in/calendar/
+    location: Department of Physics, IISc, Bengaluru, India
+    type: seminar
+    calendars:
+      - 8aed84e74907aabcb40f6871b800b277732757852c24de61eda8fc19f78278c5@group.calendar.google.com
+      - physicscalender363@gmail.com
+      - 6819ui7d1n49ijc0gos6rcncsc@group.calendar.google.com
+      - 9rpn3pd81ji0e26i96hcj500vc@group.calendar.google.com
+      - rouanbob03tutbjb5bnolrckk0@group.calendar.google.com
+      - bq47n7a4ot2rmkjuii3rareao0@group.calendar.google.com
+      - nd0ot57ipjnr537em6hqjc22uk@group.calendar.google.com
+      - lcflldk4q1e2kpa9fit67or2to@group.calendar.google.com
+      - 75ei4nftcipm6qe5ugklj6m8fk@group.calendar.google.com
+    checked: 2026-09-24
+
+  - name: IISc Physics (conferences)
+    kind: listing
+    url: https://physics.iisc.ac.in/events-all/conferences/
+    location: Department of Physics, IISc, Bengaluru, India
     type: conference
 
-  - name: RRI colloquia
-    url: https://www.rri.res.in/events/colloquia
-    location: Raman Research Institute, Bengaluru, India
+  - name: IISc Physics (schools)
+    kind: listing
+    url: https://physics.iisc.ac.in/events-all/schools/
+    location: Department of Physics, IISc, Bengaluru, India
+    type: school
+
+  - name: IISc (institute events)
+    kind: listing
+    url: https://www.iisc.ac.in/news-events/events-upcoming/
+    location: IISc, Bengaluru, India
+    href_filter: iisc\.ac\.in/events/
+    checked: 2026-09-24
+
+  - name: IISc Mathematics seminars
+    kind: listing
+    url: https://math.iisc.ac.in/SeminarsByYear/Seminars{year}.html
+    location: Department of Mathematics, IISc, Bengaluru, India
     type: seminar
 
-  - name: IMSc Chennai
-    url: https://www.imsc.res.in
-    location: IMSc, Chennai, India
+  # AI / ML side of IISc (WordPress "The Events Calendar" sites)
+  - name: IISc EE events
+    kind: wp_events
+    base: https://ee.iisc.ac.in
+    location: Department of Electrical Engineering, IISc, Bengaluru, India
+    type: seminar
 
-  - name: ASI announcements (all-India)
-    url: https://www.astron-soc.in/announcement
-    location: India
+  - name: IISc CSA events
+    kind: wp_events
+    base: https://www.csa.iisc.ac.in
+    location: Department of Computer Science and Automation, IISc, Bengaluru, India
+    type: seminar
 
-  - name: IUCAA (events outside IUCAA)
-    url: https://www.iucaa.in/en/iucaa-events/events-outside-iucaa
-    location: India
+  - name: IISc CDS events
+    kind: wp_events
+    base: https://cds.iisc.ac.in
+    location: Department of Computational and Data Sciences, IISc, Bengaluru, India
+    type: seminar
 
-  - name: IUCAA (upcoming at IUCAA)
-    url: https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa
-    location: IUCAA, Pune, India
+  # ── RRI ──────────────────────────────────────────────────────────────
+  # /events is the full talk list (astrophysics seminars, colloquia, special
+  # lectures). v5 only read /events/colloquia, which had no upcoming items.
+  - name: RRI talks
+    kind: listing
+    url: https://www.rri.res.in/events
+    location: Raman Research Institute, Bengaluru, India
+    href_filter: rri\.res\.in/events/[a-z0-9]+(?:-[a-z0-9]+){3,}$|^/events/[a-z0-9]+(?:-[a-z0-9]+){3,}$
+    type: seminar
+    checked: 2026-09-24
 
-# Indico servers (the conference system many Indian institutes run).
-# Category 0 exports every public event on the server. If a server rejects
-# category 0, find the right category id in the Indico web UI (it appears in
-# the URL as /category/<id>/) and put it here.
-indico:
-  - name: NCRA-TIFR (Indico)
-    base: https://conf1.ncra.tifr.res.in
-    category: 0
-    location: NCRA-TIFR, Pune, India
+  - name: RRI meetings
+    kind: listing
+    url: https://www.rri.res.in/meetings
+    location: Raman Research Institute, Bengaluru, India
+    href_filter: /meetings/
+    type: conference
+    checked: 2026-09-24      # correct but often empty: nothing upcoming is announced yet
+
+  # ── IIA ──────────────────────────────────────────────────────────────
   - name: IIA (Indico)
+    kind: indico
     base: https://events.iiap.res.in
     category: 0
     location: Indian Institute of Astrophysics, Bengaluru, India
+    insecure_ok: true        # v5 failed with an SSL error on this server
+    checked: 2026-09-24
+
+  - name: IIA colloquia & seminars
+    kind: listing
+    url: https://www.iiap.res.in/upcoming_colloquium.php
+    location: Indian Institute of Astrophysics, Bengaluru, India
+    type: seminar
+    insecure_ok: true
+
+  # ── JNCASR ───────────────────────────────────────────────────────────
+  - name: JNCASR events
+    kind: listing
+    url: https://www.jncasr.ac.in/all-events
+    location: JNCASR, Jakkur, Bengaluru, India
+    href_filter: /all-events/[a-z0-9-]{12,}
+    checked: 2026-09-24      # table with DD/MM/YYYY dates
+
+  - name: JNCASR Theoretical Sciences Unit
+    kind: listing
+    url: https://www.jncasr.ac.in/research/research-units/theoretical-sciences-unit/events
+    location: JNCASR, Jakkur, Bengaluru, India
+
+  # ── Christ University ────────────────────────────────────────────────
+  # No central events page: each meeting gets its own Google-Sites microsite
+  # (cosmos.christuniversity.in, ram2026.christuniversity.in, ...) or only a
+  # poster + Google Form (Neighbourhood Cosmology Meeting 4). IUCAA-sponsored
+  # ones appear on IUCAA's "events outside IUCAA" page below; everything else
+  # comes in through the watchlist or an "Add event" issue.
+
+# ═══════════════════════════ REST OF INDIA ═══════════════════════════════
+
+  - name: IUCAA (events outside IUCAA)
+    kind: listing
+    url: https://www.iucaa.in/en/iucaa-events/events-outside-iucaa
+    location: India
+    checked: 2026-09-24      # lists IUCAA-sponsored meetings at colleges, incl. Christ
+
+  - name: IUCAA (upcoming at IUCAA)
+    kind: listing
+    url: https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa
+    location: IUCAA, Pune, India
+
+  - name: ASI announcements (all-India)
+    kind: listing
+    url: https://www.astron-soc.in/announcement
+    location: India
+
+  - name: IMSc Chennai
+    kind: listing
+    url: https://www.imsc.res.in
+    location: IMSc, Chennai, India
+
+  - name: TIFR Astronomy & Astrophysics (DAA)
+    kind: listing
+    url: https://www.tifr.res.in/~daa/events.html
+    location: TIFR, Mumbai, India
+    type: seminar
+
   - name: TIFR (Indico)
+    kind: indico
     base: https://indico.tifr.res.in/indico
     category: 0
     location: TIFR, Mumbai, India
+    insecure_ok: true
+
+  - name: NCRA-TIFR (Indico)
+    kind: indico
+    base: https://conf1.ncra.tifr.res.in
+    category: 0
+    location: NCRA-TIFR, Pune, India
+    insecure_ok: true
+
+  # ── Add more here ────────────────────────────────────────────────────
+  # IISER Pune, other IISERs, IITs, ARIES Nainital, PRL, HRI, IIST, S N Bose,
+  # IoP Bhubaneswar ... For each: open the institute's "upcoming events /
+  # seminars" page in a browser, then add a block like the ones above.
+  # Prefer, in this order: a Google Calendar / .ics link, an Indico server,
+  # "Subscribe to calendar" on a WordPress events page (kind: wp_events),
+  # and only then a plain listing page. Run `python scraper/doctor.py` to
+  # confirm it yields events before pushing.

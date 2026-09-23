@@ -15,3 +15,7 @@ node_modules/
 .cache/
 __pycache__/
 *.pyc
+
+# Produced by the Action and deployed straight to Pages; never committed
+docs/events.json
+scraper/cache/
