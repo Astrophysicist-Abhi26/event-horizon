@@ -2,3 +2,6 @@ requests>=2.31
 beautifulsoup4>=4.12
 pyyaml>=6.0
 python-dateutil>=2.8
+numpy>=1.26
+fastembed>=0.4        # Option B: local embedding classifier (CPU, no API key)
+pytest>=8.0

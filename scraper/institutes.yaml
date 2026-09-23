@@ -1,0 +1,69 @@
+# Indian institute event pages scraped with the generic listing extractor.
+#
+# To add a page: copy a block, set `url` to the page that LISTS upcoming
+# events, and push. Each entry appears separately in the site's source-health
+# panel, so a page that stops working (or never worked) is visible at once.
+#
+#   name:        label shown on the site
+#   url:         the listing page
+#   location:    default location for its events
+#   href_filter: optional regex; only links whose URL matches are considered
+#   type:        optional default event type (conference, seminar, school...)
+#   min_expected: optional; health turns amber if fewer events than this
+
+pages:
+  - name: ICTS Bengaluru
+    url: https://www.icts.res.in/programs/upcoming
+    location: ICTS, Bengaluru, India
+    href_filter: /(program|discussion-meeting|event|lectures|school|summer-course)/
+    min_expected: 3
+
+  - name: ICTS Bengaluru (events)
+    url: https://www.icts.res.in/current-and-upcoming-events
+    location: ICTS, Bengaluru, India
+    href_filter: /(program|discussion-meeting|event|lectures|school|summer-course)/
+
+  - name: RRI meetings
+    url: https://www.rri.res.in/meetings
+    location: Raman Research Institute, Bengaluru, India
+    href_filter: /(meetings|events)/
+    type: conference
+
+  - name: RRI colloquia
+    url: https://www.rri.res.in/events/colloquia
+    location: Raman Research Institute, Bengaluru, India
+    type: seminar
+
+  - name: IMSc Chennai
+    url: https://www.imsc.res.in
+    location: IMSc, Chennai, India
+
+  - name: ASI announcements (all-India)
+    url: https://www.astron-soc.in/announcement
+    location: India
+
+  - name: IUCAA (events outside IUCAA)
+    url: https://www.iucaa.in/en/iucaa-events/events-outside-iucaa
+    location: India
+
+  - name: IUCAA (upcoming at IUCAA)
+    url: https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa
+    location: IUCAA, Pune, India
+
+# Indico servers (the conference system many Indian institutes run).
+# Category 0 exports every public event on the server. If a server rejects
+# category 0, find the right category id in the Indico web UI (it appears in
+# the URL as /category/<id>/) and put it here.
+indico:
+  - name: NCRA-TIFR (Indico)
+    base: https://conf1.ncra.tifr.res.in
+    category: 0
+    location: NCRA-TIFR, Pune, India
+  - name: IIA (Indico)
+    base: https://events.iiap.res.in
+    category: 0
+    location: Indian Institute of Astrophysics, Bengaluru, India
+  - name: TIFR (Indico)
+    base: https://indico.tifr.res.in/indico
+    category: 0
+    location: TIFR, Mumbai, India

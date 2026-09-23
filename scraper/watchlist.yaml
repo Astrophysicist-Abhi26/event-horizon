@@ -1,0 +1,30 @@
+# Watchlist — events no scraper can reach (one-off conference microsites,
+# Google Sites, emailed circulars, department notices).
+#
+# Minimum entry is just a URL; the scraper then reads the page title and the
+# first date it finds:
+#
+#   - url: https://sites.google.com/view/some-conference-2027
+#
+# Fuller entries are more reliable (no guessing):
+#
+#   - title: Cosmic Connections 2027 — AI/ML across Cosmic Scales
+#     url: https://sites.google.com/imsc.res.in/cosmic-connections-2
+#     start: 2027-09-06
+#     end: 2027-09-10
+#     deadline: 2027-06-30          # registration / abstract deadline
+#     location: IMSc, Chennai, India
+#     type: conference              # conference | workshop | school | seminar | lecture series
+#     fields: [cosmo.general, ai.science]   # any sub-field ids from scraper/taxonomy.py
+#     notes: Heard about it from the group mailing list
+#
+# Watchlist events are pinned to the top of the site and always notify you.
+# Past events drop off automatically, so you never need to clean this file.
+#
+# Sub-field ids: cosmo.de cosmo.lss cosmo.early cosmo.dm cosmo.general
+#   ai.science ai.theory ai.general  astro.he astro.galactic astro.stellar
+#   astro.general  math.nt math.topology math.algebra math.geometry
+#   math.probability math.mathphys math.analysis math.other  phys.gr
+#   phys.hepth phys.quantum phys.condmat phys.fluids phys.general
+
+events: []

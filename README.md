@@ -1,75 +1,80 @@
 # Event Horizon 🔭
 
-A personal radar for research events — conferences, workshops, schools,
-seminars and lecture series in **astronomy, astrophysics, cosmology, physics,
-mathematics and AI/ML** — so you never again find out about a conference at
-RRI the day before it starts.
+A personal radar for research events — conferences, schools, workshops, seminars and
+webinars in **cosmology**, astrophysics, AI/ML, mathematics and physics — in Bengaluru,
+across India, online and abroad. Collected daily, classified by field, ranked for my research,
+so I never again discover a conference at RRI the day after it starts.
 
-**Live site:** enable GitHub Pages (see step 4 below) and it will be at
-`https://<your-username>.github.io/event-horizon/`
+**Live site:** https://astrophysicist-abhi26.github.io/event-horizon/
 
 ## How it works
 
 ```
-GitHub Actions (daily, 08:00 IST)
-   └── scraper/scrape.py
-        ├── pulls events from every source in scraper/sources.py
-        ├── scores each event 0–100 against your interest profile
-        ├── writes docs/events.json  (the website's database)
-        └── if NEW events score ≥ 30 → opens a GitHub Issue
-                                       → GitHub emails you automatically
-GitHub Pages
-   └── serves docs/index.html — date range, event type, field,
-       India/abroad, country, source, relevance and search filters
+GitHub Actions (daily 08:00 IST)
+ ├─ tests                      offline regression tests; a failure stops the run,
+ │                             so the site keeps yesterday's good data
+ ├─ scraper/scrape.py
+ │   ├─ ~20 sources            each isolated: one broken site never kills the run
+ │   ├─ normalise              drop past + undated events, detect Bengaluru/India/online/abroad
+ │   ├─ de-duplicate           same event from several sources -> one card, sources merged
+ │   ├─ classify               1 declared subject codes (arXiv / INSPIRE / tags)
+ │   │                         2 word-bounded keyword rules (title + abstract)
+ │   │                         3 [B] local embedding classifier, self-calibrating (free)
+ │   │                         4 [C] Claude classifier, optional (needs API key)
+ │   └─ score                  relevance to my research, cosmology weighted highest
+ └─ notifications (GitHub Issues -> email)
+     urgent   very relevant or Bengaluru events, the day they appear
+     digest   every Monday: new relevant events + deadlines in the next 3 weeks
+     health   only when a source newly breaks
 ```
 
-## Sources currently wired in
+## Sources
 
-| Source | Coverage | Status |
-|---|---|---|
-| huggingface/ai-deadlines | All major AI/ML conferences + deadlines | ✅ tested live |
-| CADC International Astronomy Meetings | Worldwide astronomy meetings (via official iCal/RSS feeds) | ✅ parser tested on real feed data |
-| ICTS Bengaluru | Programs, schools, discussion meetings, lecture series | ✅ parser tested on real page structure |
-| researchseminars.org | Seminars & talks worldwide (math/physics/CS/stat), 3-week window | ✅ parser tested on API schema |
-| `scraper/manual_events.yaml` | Anything you add by hand | ✅ tested |
+| Source | What it covers |
+|---|---|
+| DESC Cosmology Meetings | curated, cosmology-only calendar (LSST DESC) |
+| CADC Astronomy Meetings | worldwide astronomy meetings (via the cadc2ical mirror + CADC RSS) |
+| INSPIRE conferences / seminars | HEP, GR, cosmology, astro — with subject categories |
+| researchseminars.org talks / conferences | math, physics, CS/stats talks worldwide, with arXiv-style topic codes and abstracts |
+| AI Deadlines | allow-listed ML venues (NeurIPS, ICML, ICLR, COLT, AISTATS, UAI …) |
+| ICTS, RRI, IMSc, ASI, IUCAA pages | Indian institutes, via one generic listing extractor |
+| NCRA / IIA / TIFR Indico | Indian Indico servers (JSON API) |
+| Watchlist | anything added by hand (`scraper/watchlist.yaml`) |
 
-CADC's HTML pages are JavaScript-rendered, so the scraper uses CADC's
-official structured feeds instead (complete iCal, falling back to RSS) —
-far more robust than HTML parsing. Every scraper runs inside `try/except`,
-so one broken site never kills the pipeline.
+The **Source health** panel at the bottom of the site shows, for every source, whether it
+worked on the last run and how many events it contributed.
 
-## Customizing
+## Fields
 
-- **Your interests** → edit `INTERESTS` (keywords + weights) and
-  `COMBO_BONUS` in `scraper/scrape.py`.
-- **Add an institute** → write one function in `scraper/sources.py`
-  returning the standard dict, register it in `SOURCES`. IUCAA, IISc APC,
-  TIFR, IMSc, ARIES, PRL all follow the same pattern as the ICTS example.
-- **Add a one-off event** (poster, email, circular) →
-  append to `scraper/manual_events.yaml`.
-- **Notification threshold** → the `e["score"] >= 30` line in `scrape.py`.
+Cosmology (dark energy · large-scale structure · CMB & early universe · dark matter) ·
+Astrophysics · AI/ML (ML for science · ML theory · general) · Mathematics (number theory ·
+topology · algebra · geometry · probability & statistics · mathematical physics · analysis) ·
+Physics (GR · high-energy theory · quantum · condensed matter · fluids & plasma).
 
-## Running locally
+On the site, **fields decide what you see; relevance only ranks and trims.**
+
+## Customising
+
+| I want to… | Edit |
+|---|---|
+| add a one-off conference | `scraper/watchlist.yaml` (a URL is enough) |
+| add an institute's events page | `scraper/institutes.yaml` |
+| change what matters to me | weights and bonuses at the top of `scraper/taxonomy.py` |
+| fix a mislabelled event | add `["its title", correct.subfield]` to `scraper/labels.yaml` — used by tests and to calibrate the embedding classifier |
+| add vocabulary | `RULES` in `scraper/taxonomy.py` (then run the tests) |
+
+## Optional: Claude classification (Option C)
+
+Repository **Settings → Secrets and variables → Actions → New repository secret**,
+name `ANTHROPIC_API_KEY`. Each event is classified once and cached in
+`scraper/cache/llm_labels.json`; at most 300 new events per run. Remove the secret to switch it off.
+
+## Run locally
 
 ```bash
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python scraper/scrape.py
-cd docs && python -m http.server 8000   # open http://localhost:8000
+python -m pytest -q tests                  # ~1 s, offline
+EH_NO_EMBED=1 python scraper/scrape.py      # skip the embedding model for a quick run
+cd docs && python3 -m http.server           # open http://localhost:8000
 ```
-
-## Background
-
-Use the **Appearance** control in the filter rail: Cosmic poster (default,
-`docs/bg-cosmos.svg` — spacetime grid, black hole, galaxy, supernova,
-satellite, and landmark equations of Einstein, Friedmann, Schrödinger,
-Hardy–Ramanujan, FLRW and CPL), Starfield only, **My own image** (picked
-from your device, stored locally in your browser only — never uploaded),
-or Plain dark. To change the default poster, edit/replace `docs/bg-cosmos.svg`.
-
-## Install as an app (Android / iOS / desktop)
-
-The site is a PWA. On Android Chrome: open the site → ⋮ menu →
-**Add to Home screen** → Install. It opens fullscreen with the black-hole
-icon and works offline with the last fetched events. For a real `.apk`
-(like DG Lab), feed the site URL to https://www.pwabuilder.com → Android
-→ download the generated package.

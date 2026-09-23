@@ -2,42 +2,71 @@ name: Update events
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # daily at 08:00 IST
-  workflow_dispatch:        # lets you run it manually from the Actions tab
+    - cron: "30 2 * * *"      # daily at 08:00 IST (the weekly digest goes out on Mondays)
+  workflow_dispatch:          # run manually from the Actions tab
+    inputs:
+      digest:
+        description: "Also send the weekly digest now"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: update-events
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+
+      - name: Cache embedding model (Option B)
+        uses: actions/cache@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-bge-small-en-v1.5
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper
+      # Offline unit tests. If the parsing/classification logic is broken the
+      # job stops here and the site keeps yesterday's (good) data.
+      - name: Run tests
+        run: python -m pytest -q tests
+
+      - name: Scrape, classify and score
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional (Option C)
+          EH_DIGEST: ${{ inputs.digest && '1' || '' }}
         run: python scraper/scrape.py
 
-      - name: Commit updated events.json
+      - name: Commit updated data
         run: |
           git config user.name "event-horizon-bot"
           git config user.email "actions@github.com"
           git add docs/events.json
+          [ -f scraper/cache/llm_labels.json ] && git add scraper/cache/llm_labels.json || true
           git diff --cached --quiet || git commit -m "Update events $(date -u +%F)"
           git push
 
-      - name: Notify about new events (opens an Issue -> GitHub emails you)
-        if: ${{ hashFiles('new_events.md') != '' }}
+      - name: Notify (opens Issues -> GitHub emails you)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue create \
-            --title "New events found — $(date -u +%F)" \
-            --body-file new_events.md
+          gh label create urgent  --color D93F0B --force >/dev/null 2>&1 || true
+          gh label create digest  --color 0E8A16 --force >/dev/null 2>&1 || true
+          gh label create health  --color FBCA04 --force >/dev/null 2>&1 || true
+          d=$(date -u +%F)
+          [ -f notify/urgent.md ] && gh issue create --label urgent --title "New events you should see — $d" --body-file notify/urgent.md || true
+          [ -f notify/digest.md ] && gh issue create --label digest --title "Weekly digest — $d" --body-file notify/digest.md || true
+          [ -f notify/health.md ] && gh issue create --label health --title "Source health alert — $d" --body-file notify/health.md || true

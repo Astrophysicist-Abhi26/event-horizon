@@ -1,5 +1,17 @@
 __pycache__/
 *.pyc
-new_events.md
+.cache/
+notify/
 node_modules/
 *.zip
+.pytest_cache/
+
+.venv/
+
+# Local macOS / Python / model-cache files
+.DS_Store
+.venv/
+.pytest_cache/
+.cache/
+__pycache__/
+*.pyc
