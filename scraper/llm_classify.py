@@ -6,7 +6,7 @@ Settings -> Secrets and variables -> Actions -> New repository secret).
 Without it, this module does nothing and costs nothing.
 
 Each event is classified once: results are cached in
-scraper/cache/llm_labels.json (committed by the Action), keyed by a hash of
+scraper/cache/llm_labels.json (kept between runs by the Action cache), keyed by a hash of
 title + description, so the daily run only sends events it has never seen.
 MAX_NEW_PER_RUN bounds the worst-case spend of a single run.
 """

@@ -9,7 +9,7 @@ and a block that contains several event links is treated as a list container
 """
 
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
@@ -34,9 +34,16 @@ def _strip_chrome(soup):
         tag.decompose()
 
 
+def _same_site(href, base_host):
+    host = urlparse(href).netloc.lower()
+    return not host or host.endswith(base_host) or base_host.endswith(host)
+
+
 def extract_listing(url, source, default_location, href_filter=None,
-                    min_title=10, raw_type=None, html=None):
-    soup = BeautifulSoup(html if html is not None else get(url).text, "html.parser")
+                    min_title=10, raw_type=None, html=None, insecure_ok=False):
+    soup = BeautifulSoup(html if html is not None else get(url, insecure_ok=insecure_ok).text,
+                         "html.parser")
+    base_host = urlparse(url).netloc.lower().removeprefix("www.")
     _strip_chrome(soup)
     hf = re.compile(href_filter, re.I) if href_filter else None
     out, seen = [], set()
@@ -57,9 +64,14 @@ def extract_listing(url, source, default_location, href_filter=None,
             text = clean(node.get_text(" "))
             if len(text) > MAX_BLOCK_CHARS:
                 break
+            # Only links that could themselves be events count towards "this is a
+            # list container": a YouTube / Zoom / registration link sitting in
+            # the same row as the event (RRI talks do this) must not hide it.
             links = [x for x in node.find_all("a", href=True)
-                     if (not hf or hf.search(x["href"])) and len(clean(x.get_text(" "))) >= min_title]
-            if len({x["href"] for x in links}) > 1:
+                     if (not hf or hf.search(x["href"])) and _same_site(x["href"], base_host)
+                     and len(clean(x.get_text(" "))) >= min_title
+                     and not NAV_WORDS.match(clean(x.get_text(" ")))]
+            if len({urljoin(url, x["href"]) for x in links}) > 1:
                 break  # reached a list container
             start, end = parse_date_range(text)
             if start:

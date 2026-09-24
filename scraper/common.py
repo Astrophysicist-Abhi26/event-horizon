@@ -34,9 +34,35 @@ def session():
 HTTP = session()
 
 
-def get(url, **kw):
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+_BROWSER_HEADERS = {"User-Agent": BROWSER_UA,
+                    "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+                    "Accept-Language": "en-IN,en;q=0.9"}
+
+
+def get(url, insecure_ok=False, **kw):
+    """GET with retries. Two fallbacks, both needed by Indian institute sites:
+    * 403/406 with our honest bot UA -> retry once with a browser UA
+      (several .res.in / .ac.in firewalls reject unknown agents outright);
+    * TLS certificate-chain error -> retry without verification, but ONLY
+      for sources marked `insecure_ok: true` in institutes.yaml (read-only
+      public pages whose servers ship an incomplete certificate chain).
+    """
     kw.setdefault("timeout", TIMEOUT)
-    r = HTTP.get(url, **kw)
+    headers = kw.pop("headers", None) or {}
+    verify = True
+    try:
+        r = HTTP.get(url, headers=headers, **kw)
+    except requests.exceptions.SSLError:
+        if not insecure_ok:
+            raise
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        verify = False
+        r = HTTP.get(url, headers=headers, verify=False, **kw)
+    if r.status_code in (403, 406):
+        r = HTTP.get(url, headers={**headers, **_BROWSER_HEADERS}, verify=verify, **kw)
     r.raise_for_status()
     return r
 
@@ -96,9 +122,14 @@ _RANGE_PATTERNS = [
     re.compile(rf"({_M})\s+(\d{{1,2}}){_SEP}(\d{{1,2}}),?\s+(\d{{4}})", re.I),
     # ISO range 2026-09-07 to 2026-09-11
     re.compile(rf"(\d{{4}}-\d{{2}}-\d{{2}}){_SEP}(\d{{4}}-\d{{2}}-\d{{2}})"),
+    # Indian numeric, day first: 01/02/2027 - 05/02/2027 (also "01/02/2027 05/02/2027"
+    # when a table puts start and end in adjacent cells)
+    re.compile(r"\b(\d{1,2}[/.]\d{1,2}[/.]\d{4})(?:\s*(?:-|–|—|to|until|till)\s*|\s+)"
+               r"(\d{1,2}[/.]\d{1,2}[/.]\d{4})\b"),
 ]
 _SINGLE_PATTERNS = [
     re.compile(r"(\d{4}-\d{2}-\d{2})"),
+    re.compile(r"\b(\d{1,2}[/.]\d{1,2}[/.]\d{4})\b"),
     re.compile(rf"(\d{{1,2}}(?:st|nd|rd|th)?,?\s+{_M},?\s+\d{{4}})", re.I),
     re.compile(rf"({_M}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+\d{{4}})", re.I),
 ]
@@ -141,6 +172,18 @@ def iso(value, dayfirst=True):
     return a.date().isoformat()
 
 
+def _dmy(s):
+    """'01/02/2027' -> '2027-02-01' (Indian convention: day first). Rejects
+    impossible dates instead of guessing."""
+    m = re.fullmatch(r"(\d{1,2})[/.](\d{1,2})[/.](\d{4})", s.strip())
+    if not m:
+        return None
+    try:
+        return dt.date(int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
 def parse_date_range(text):
     """Find the first date or date range in free text -> (start, end)."""
     if not text:
@@ -153,6 +196,8 @@ def parse_date_range(text):
         g = m.groups()
         if i in (0, 1, 6):
             a, b = iso(g[0]), iso(g[1])
+        elif i == 7:
+            a, b = _dmy(g[0]), _dmy(g[1])
         elif i in (2, 3):
             a, b = iso(f"{g[0]} {g[2]}"), iso(g[1])
         elif i == 4:
@@ -169,7 +214,8 @@ def parse_date_range(text):
     for pat in _SINGLE_PATTERNS:
         m = pat.search(t)
         if m:
-            d = iso(m.group(1))
+            d = _dmy(m.group(1)) if re.fullmatch(r"\d{1,2}[/.]\d{1,2}[/.]\d{4}", m.group(1)) \
+                else iso(m.group(1))
             if d:
                 return d, d
     return None, None

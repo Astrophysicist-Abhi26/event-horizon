@@ -1,0 +1,67 @@
+name: Add event
+description: Put an event on Event Horizon (from an email, poster, WhatsApp...). It appears on the site within a few minutes; close the issue to remove it.
+title: "[Event] "
+labels: ["add-event"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Event name
+      placeholder: Fourth Neighbourhood Cosmology Meeting
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Event page or registration form. Leave empty for poster-only events (attach the poster in Notes; the card will link to this issue).
+  - type: input
+    id: start
+    attributes:
+      label: Start date
+      description: Any format — 2026-11-17, 17 Nov 2026, 17/11/2026
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: End date
+  - type: input
+    id: deadline
+    attributes:
+      label: Registration / abstract deadline
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      placeholder: CHRIST University, Bengaluru   (or "Online")
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Conference, Workshop, School, Seminar / talk, Lecture series, Webinar]
+  - type: checkboxes
+    id: fields
+    attributes:
+      label: Research fields
+      options:
+        - label: Dark energy & expansion
+        - label: Large-scale structure & surveys
+        - label: CMB & early universe
+        - label: Dark matter
+        - label: Cosmology (general)
+        - label: Astrophysics
+        - label: Gravitational waves & compact objects
+        - label: ML for science
+        - label: ML theory
+        - label: Machine learning (general)
+        - label: Mathematics
+        - label: General relativity
+        - label: High-energy theory / QFT
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything useful — who announced it, speakers, paste the poster image here.

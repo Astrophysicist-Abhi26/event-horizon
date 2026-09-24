@@ -13,6 +13,7 @@ BENGALURU = [
     r"\brri\b", "indian institute of astrophysics", r"\biia\b", "ncbs", "jncasr",
     "isro satellite", "ursc", r"\bnias\b", "iiit bangalore", "isi bangalore",
     "azim premji", "koramangala", "hesaraghatta", "sadashivanagar", "hebbal",
+    "christ university", r"christ \(deemed", "jakkur", "st\\.? joseph'?s", "iiit-b",
 ]
 INDIA = [
     "india", "mumbai", "pune", "delhi", "chennai", "kolkata", "hyderabad",

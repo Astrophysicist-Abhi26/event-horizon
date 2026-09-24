@@ -25,7 +25,7 @@ from classify import classify                             # noqa: E402
 from common import clean, norm_title, today               # noqa: E402
 from geo import locate                                     # noqa: E402
 import sources as G                                        # noqa: E402
-from sources_india import india_sources, scrape_watchlist  # noqa: E402
+from sources_india import india_sources, scrape_issue_intake, scrape_watchlist  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVENTS = os.path.join(ROOT, "docs", "events.json")
@@ -44,7 +44,8 @@ GLOBAL_SOURCES = [
 ]
 
 # Earlier source = preferred copy when the same event appears twice
-SOURCE_PRIORITY = ["Watchlist", "DESC Cosmology Meetings"]
+SOURCE_PRIORITY = ["Added by you", "Watchlist", "DESC Cosmology Meetings"]
+MANUAL = {"Watchlist", "Added by you"}
 
 TYPE_RULES = [
     (r"\bschools?\b", "School"), (r"summer course|winter course|refresher course", "School"),
@@ -82,7 +83,8 @@ def load_previous():
 
 # ---------------------------------------------------------------------------
 def run_sources(prev_health):
-    registry = GLOBAL_SOURCES + india_sources() + [("Watchlist", scrape_watchlist, 0)]
+    registry = GLOBAL_SOURCES + india_sources() + [("Watchlist", scrape_watchlist, 0),
+                                                  ("Added by you", scrape_issue_intake, 0)]
     raw, health = [], []
     prev = {h["name"]: h for h in prev_health or []}
     for name, fn, min_exp in registry:
@@ -90,7 +92,7 @@ def run_sources(prev_health):
         try:
             batch = fn() or []
             status = "ok" if len(batch) >= max(1, min_exp) else ("low" if batch else "empty")
-            if name == "Watchlist" and not batch:
+            if name in MANUAL and not batch:
                 status = "ok"
             msg = ""
         except Exception as exc:
@@ -103,7 +105,7 @@ def run_sources(prev_health):
                            previous=prev.get(name, {}).get("status")))
         print(f"[{status:5s}] {name}: {len(batch)} raw ({secs}s) {msg}")
         for e in batch:
-            e["source"] = name if name != "Watchlist" else "Watchlist"
+            e["source"] = name
         raw.extend(batch)
     return raw, health
 
@@ -295,7 +297,7 @@ def main():
     events.sort(key=lambda e: (not e["priority"], e["start_date"] or "9999", -e["score"]))
     os.makedirs(os.path.dirname(EVENTS), exist_ok=True)
     with open(EVENTS, "w") as f:
-        json.dump({"version": 5,
+        json.dump({"version": 5.1,
                    "generated": dt.datetime.now(dt.timezone.utc).isoformat(),
                    "taxonomy": T.export_for_frontend(),
                    "health": health, "classifiers": status,
