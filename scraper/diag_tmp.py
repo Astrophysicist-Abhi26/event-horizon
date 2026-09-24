@@ -99,17 +99,22 @@ def body(url, insecure=False, n=2500, nl=60):
             if k >= nl:
                 break
 
+import base64, gzip
+
 if __name__ == "__main__":
-    for u in ["https://physics.iisc.ac.in/events-all/conferences/",
-              "https://physics.iisc.ac.in/events-all/schools/",
-              "https://ee.iisc.ac.in/event-directory/",
-              "https://www.csa.iisc.ac.in/",
-              "https://cds.iisc.ac.in/events/",
-              "https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa",
-              "https://www.astron-soc.in/announcement",
-              "https://www.tifr.res.in/~daa/events.html",
-              "https://conf1.ncra.tifr.res.in/"]:
-        body(u)
-    for n in ["JNCASR Theoretical Sciences Unit", "IUCAA (events outside IUCAA)",
-              "IISc Mathematics seminars", "IISc Physics (department calendars)", "RRI talks"]:
-        listing(n)
+    for name, u in [
+        ("iisc_phys_conf", "https://physics.iisc.ac.in/events-all/conferences/"),
+        ("iisc_phys_schools", "https://physics.iisc.ac.in/events-all/schools/"),
+        ("iucaa_upcoming", "https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa"),
+        ("asi_announce", "https://www.astron-soc.in/announcement"),
+        ("ee_eventdir", "https://ee.iisc.ac.in/event-directory/"),
+        ("csa_home", "https://www.csa.iisc.ac.in/"),
+        ("tifr_daa_list", "https://www.tifr.res.in/~daa/events_list.html"),
+        ("tifr_daa_sched", "https://www.tifr.res.in/~daa/events_scheduled.html"),
+        ("iia_cat6", "https://events.iiap.res.in/category/6/events.ics"),
+    ]:
+        r = fetch(u, verify=not u.startswith("https://events.iiap"))
+        if r is None:
+            print("HTMLB64", name, "FAILED"); continue
+        b = base64.b64encode(gzip.compress(r.content, 9)).decode()
+        print("HTMLB64", name, r.status_code, b, flush=True)
