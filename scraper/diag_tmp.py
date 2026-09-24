@@ -76,29 +76,40 @@ def captured(fn, *a, **k):
             print("   !! crashed", e)
     return buf.getvalue()
 
+from listing import _strip_chrome
+
+def body(url, insecure=False, n=2500, nl=60):
+    print("\n" + "=" * 100 + f"\n### BODY {url}")
+    r = fetch(url, verify=not insecure)
+    if r is None:
+        return
+    print(f"   status={r.status_code} len={len(r.text)}")
+    soup = BeautifulSoup(r.text, "html.parser")
+    for t in soup(["script", "style", "noscript"]):
+        t.decompose()
+    _strip_chrome(soup)
+    main = soup.find("main") or soup.find(id=re.compile("content|main", re.I)) or soup.body or soup
+    print("   BODY:", clean(main.get_text(" "))[:n])
+    k = 0
+    for a in main.find_all("a", href=True):
+        txt = clean(a.get_text(" "))[:90]
+        if len(txt) >= 6:
+            print(f"   A: {txt} -> {a['href'][:120]}")
+            k += 1
+            if k >= nl:
+                break
+
 if __name__ == "__main__":
-    URLS = [
-        "https://events.iiap.res.in/category/6/events.ics",
-        "https://events.iiap.res.in/category/3/events.ics",
-        "https://events.iiap.res.in/category/6/",
-        "https://events.iiap.res.in/event/471/",
-        "https://conf1.ncra.tifr.res.in/category/0/events.ics",
-        "https://conf1.ncra.tifr.res.in/",
-        "https://physics.iisc.ac.in/events-all/conferences/",
-        "https://physics.iisc.ac.in/events-all/schools/",
-        "https://ee.iisc.ac.in/event-directory/",
-        "https://www.csa.iisc.ac.in/",
-        "https://www.csa.iisc.ac.in/events/",
-        "https://www.csa.iisc.ac.in/seminars/",
-        "https://cds.iisc.ac.in/events/",
-        "https://www.tifr.res.in/~daa/events.html",
-        "https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa",
-        "https://www.astron-soc.in/announcement",
-        "https://www.jncasr.ac.in/research/research-units/theoretical-sciences-unit/events",
-        "https://www.rri.res.in/meetings",
-    ]
-    for u in URLS:
-        show(u, n_links=70)
-    for n in ["RRI meetings", "RRI talks", "JNCASR Theoretical Sciences Unit", "IUCAA (events outside IUCAA)",
-              "IISc Mathematics seminars", "IISc Physics (department calendars)"]:
+    for u in ["https://physics.iisc.ac.in/events-all/conferences/",
+              "https://physics.iisc.ac.in/events-all/schools/",
+              "https://ee.iisc.ac.in/event-directory/",
+              "https://www.csa.iisc.ac.in/",
+              "https://cds.iisc.ac.in/events/",
+              "https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa",
+              "https://www.astron-soc.in/announcement",
+              "https://www.tifr.res.in/~daa/events.html",
+              "https://conf1.ncra.tifr.res.in/"]:
+        body(u)
+    for n in ["JNCASR Theoretical Sciences Unit", "IUCAA (events outside IUCAA)",
+              "IISc Mathematics seminars", "IISc Physics (department calendars)", "RRI talks"]:
         listing(n)
