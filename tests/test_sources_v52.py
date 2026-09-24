@@ -68,3 +68,30 @@ def test_feed_sources_may_be_empty_without_alarm():
     names = SI.empty_ok_names()
     assert "IIA seminars & colloquia" in names and "IISc EE events" in names
     assert "RRI talks" not in names                 # an empty HTML listing may mean breakage
+
+
+def test_researchseminars_conferences_filtered_locally(monkeypatch):
+    import datetime as _d
+    import sources as G
+    soon = (_d.date.today() + _d.timedelta(days=20)).isoformat()
+    past = (_d.date.today() - _d.timedelta(days=20)).isoformat()
+    seen = {}
+
+    class R:
+        def json(self):
+            return {"results": [
+                {"name": "Cosmology on the Beach", "shortname": "cob", "topics": ["astro_CO"],
+                 "start_date": soon, "end_date": soon},
+                {"name": "Old meeting", "shortname": "old", "topics": ["astro_CO"],
+                 "start_date": past, "end_date": past},
+                {"name": "Botany days", "shortname": "bot", "topics": ["bio_PE"],
+                 "start_date": soon, "end_date": soon}]}
+
+    def fake_get(url, params=None, **kw):
+        seen.update(params or {})
+        return R()
+
+    monkeypatch.setattr(G, "get", fake_get)
+    evs = G.scrape_researchseminars_conferences()
+    assert [e["title"] for e in evs] == ["Cosmology on the Beach"]
+    assert not any(k in seen for k in ("end_date", "start_date"))   # no server-side date filter

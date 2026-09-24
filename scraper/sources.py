@@ -332,13 +332,17 @@ def scrape_researchseminars():
 
 
 def scrape_researchseminars_conferences():
-    q = {"is_conference": "true", "visibility": "2",
-         "end_date": json.dumps({"$gte": today().isoformat()})}
+    # Since Sep 2026 the API answers HTTP 500 to any date filter on /search/series
+    # ({"$gte": ...}); the unfiltered query works (~900 series), so filter here.
+    q = {"is_conference": "true", "visibility": "2"}
     results = get(f"{RS}/search/series", params=q, timeout=90).json().get("results", [])
+    t = today().isoformat()
     out = []
     for s in results:
         if not _rs_relevant(s.get("topics")):
             continue
+        if (iso(s.get("end_date")) or iso(s.get("start_date")) or "") < t:
+            continue                                  # past (or undated) conference
         inst = ", ".join(s.get("institutions") or [])
         out.append(ev(
             title=clean(s.get("name")),
