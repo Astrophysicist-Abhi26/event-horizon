@@ -83,7 +83,40 @@ def load_previous():
 
 
 # ---------------------------------------------------------------------------
-def run_sources(prev_health):
+CARRY_MAX_DAYS = 14   # how long a broken source may keep showing its last good events
+
+
+def carry_forward(name, prev_events, last_ok):
+    """A source that fails today (server down, 502s, page suddenly unreadable)
+    keeps its still-upcoming events from the last deployed events.json, for at
+    most CARRY_MAX_DAYS after its last successful run. Returned in raw form so
+    they go through normalise / dedupe / classify like fresh events."""
+    if not last_ok:
+        return []
+    try:
+        age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(last_ok)
+    except (TypeError, ValueError):
+        return []
+    if age > dt.timedelta(days=CARRY_MAX_DAYS):
+        return []
+    t = today().isoformat()
+    out = []
+    for e in prev_events or []:
+        if name not in (e.get("sources") or [e.get("source")]):
+            continue
+        if (e.get("end_date") or e.get("start_date") or "") < t or not e.get("url"):
+            continue
+        out.append(dict(title=e.get("title"), url=e["url"], start_date=e.get("start_date"),
+                        end_date=e.get("end_date"), deadline=e.get("deadline"),
+                        location=e.get("location"), country=e.get("country"),
+                        online=bool(e.get("online")), tz=None,
+                        description=e.get("description") or "", speaker=e.get("speaker"),
+                        source=name, raw_type=e.get("type"), declared=[],
+                        priority=bool(e.get("priority"))))
+    return out
+
+
+def run_sources(prev_health, prev_events=None):
     registry = GLOBAL_SOURCES + india_sources() + [("Watchlist", scrape_watchlist, 0),
                                                   ("Added by you", scrape_issue_intake, 0)]
     raw, health = [], []
@@ -91,6 +124,7 @@ def run_sources(prev_health):
     quiet_ok = MANUAL | empty_ok_names()
     for name, fn, min_exp in registry:
         t0 = time.time()
+        p = prev.get(name, {})
         try:
             batch = fn() or []
             status = "ok" if len(batch) >= max(1, min_exp) else ("low" if batch else "empty")
@@ -101,10 +135,19 @@ def run_sources(prev_health):
             batch, status, msg = [], "error", f"{exc.__class__.__name__}: {exc}"[:300]
         secs = round(time.time() - t0, 1)
         last_ok = dt.datetime.now(dt.timezone.utc).isoformat() if status == "ok" \
-            else prev.get(name, {}).get("last_ok")
+            else p.get("last_ok")
+        # A page that answered with items last time and suddenly yields none is
+        # as broken as one that errors: keep yesterday's events rather than lose them.
+        if status == "error" or (status == "empty" and (p.get("raw") or 0) > 0):
+            kept = carry_forward(name, prev_events, last_ok)
+            if kept:
+                why = msg or "page returned no recognisable events"
+                status, batch = "stale", kept
+                msg = (f"{why[:200]} — showing {len(kept)} upcoming event(s) from the last "
+                       f"good run ({(last_ok or '')[:10]})")
         health.append(dict(name=name, status=status, raw=len(batch), kept=0,
                            message=msg, seconds=secs, last_ok=last_ok,
-                           previous=prev.get(name, {}).get("status")))
+                           previous=p.get("status")))
         print(f"[{status:5s}] {name}: {len(batch)} raw ({secs}s) {msg}")
         for e in batch:
             e["source"] = name
@@ -269,8 +312,8 @@ def notifications(events, prev_ids, health):
                 f.write("\n\n".join(parts))
 
     # source health: only when something newly breaks (no daily nagging)
-    broken = [h for h in health if h["status"] in ("error", "empty")
-              and h.get("previous") not in ("error", "empty")]
+    broken = [h for h in health if h["status"] in ("error", "empty", "stale")
+              and h.get("previous") not in ("error", "empty", "stale")]
     if broken:
         with open(os.path.join(NOTIFY_DIR, "health.md"), "w") as f:
             f.write("These sources stopped returning events:\n\n" + "\n".join(
@@ -280,7 +323,7 @@ def notifications(events, prev_ids, health):
 def main():
     prev = load_previous()
     prev_events = {e["id"]: e for e in prev.get("events", []) if "id" in e}
-    raw, health = run_sources(prev.get("health"))
+    raw, health = run_sources(prev.get("health"), prev.get("events"))
     events = dedupe(normalise(raw))
     status = classify_all(events)
 
