@@ -97,6 +97,8 @@ sources:
     base: https://ee.iisc.ac.in
     location: Department of Electrical Engineering, IISc, Bengaluru, India
     type: seminar
+    enabled: false           # site returns a WordPress "Database Error" (HTTP 500) for its event
+    checked: 2026-09-24      # feeds, and the calendar had 0 events even when it worked
 
   - name: IISc CSA events
     kind: wp_events
