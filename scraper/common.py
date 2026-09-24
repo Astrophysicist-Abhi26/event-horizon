@@ -112,12 +112,12 @@ _RANGE_PATTERNS = [
     re.compile(rf"(\d{{1,2}},?\s+{_M},?\s+\d{{4}}){_SEP}{_WD}(\d{{1,2}},?\s+{_M},?\s+\d{{4}})", re.I),
     # November 30, 2025 - December 7, 2025
     re.compile(rf"({_M}\s+\d{{1,2}},?\s+\d{{4}}){_SEP}({_M}\s+\d{{1,2}},?\s+\d{{4}})", re.I),
-    # 30 Nov - 4 Dec 2026
-    re.compile(rf"(\d{{1,2}}\s+{_M}){_SEP}(\d{{1,2}}\s+{_M}\s+(\d{{4}}))", re.I),
+    # 30 Nov - 4 Dec 2026 / 30 Nov - 4 Dec, 2026
+    re.compile(rf"(\d{{1,2}}\s+{_M}){_SEP}(\d{{1,2}}\s+{_M},?\s+(\d{{4}}))", re.I),
     # November 30 - December 7, 2025
     re.compile(rf"({_M}\s+\d{{1,2}}){_SEP}({_M}\s+\d{{1,2}},?\s+(\d{{4}}))", re.I),
-    # 7-11 September 2026 / 7 – 11 Sep 2026
-    re.compile(rf"(\d{{1,2}}){_SEP}(\d{{1,2}})\s+({_M})\s+(\d{{4}})", re.I),
+    # 7-11 September 2026 / 7 – 11 Sep 2026 / 13 – 17 December, 2025
+    re.compile(rf"(\d{{1,2}}){_SEP}(\d{{1,2}})\s+({_M}),?\s+(\d{{4}})", re.I),
     # September 7-11, 2026
     re.compile(rf"({_M})\s+(\d{{1,2}}){_SEP}(\d{{1,2}}),?\s+(\d{{4}})", re.I),
     # ISO range 2026-09-07 to 2026-09-11

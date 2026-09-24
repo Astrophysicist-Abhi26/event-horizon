@@ -186,17 +186,28 @@ def _wp_events(cfg):
 # indico
 # ---------------------------------------------------------------------------
 def _indico(cfg):
+    """JSON export first; many servers (IIA, since 2026) now demand an API key
+    for it, so fall back to the category's public iCal feed, which does not."""
     frm = today().isoformat()
     to = (today() + dt.timedelta(days=INDICO_HORIZON_DAYS)).isoformat()
     cats = cfg.get("categories") or [cfg.get("category", 0)]
+    base = cfg["base"].rstrip("/")
+    insecure = bool(cfg.get("insecure_ok"))
     out = []
     for cat in cats:
-        url = f"{cfg['base'].rstrip('/')}/export/categ/{cat}.json"
-        data = get(url, params={"from": frm, "to": to, "limit": 500},
-                   insecure_ok=bool(cfg.get("insecure_ok"))).json()
-        for e in data.get("results", []) if isinstance(data, dict) else []:
+        try:
+            data = get(f"{base}/export/categ/{cat}.json",
+                       params={"from": frm, "to": to, "limit": 500},
+                       insecure_ok=insecure).json()
+            if not isinstance(data, dict) or "results" not in data:
+                raise ValueError("no results in Indico export")
+        except Exception:
+            text = get(f"{base}/category/{cat}/events.ics", insecure_ok=insecure).text
+            out += ical_events(dict(cfg, page=f"{base}/category/{cat}/"), text)
+            continue
+        for e in data["results"]:
             start = iso(e.get("startDate"))
-            out.append(_event(cfg, e.get("title"), e.get("url") or cfg["base"], start,
+            out.append(_event(cfg, e.get("title"), e.get("url") or base, start,
                               iso(e.get("endDate")),
                               clean(e.get("location") or e.get("room") or ""),
                               description=e.get("description") or "",
@@ -217,6 +228,15 @@ def _registry(include_disabled=False):
     if not include_disabled:
         entries = [e for e in entries if e.get("enabled", True)]
     return entries
+
+
+FEED_KINDS = {"ical", "google_calendar", "wp_events", "indico"}
+
+
+def empty_ok_names():
+    """Structured feeds answer authoritatively: zero upcoming events from a feed
+    that responded means "nothing announced", not "scraper broken"."""
+    return {e["name"] for e in _registry(True) if e.get("kind", "listing") in FEED_KINDS}
 
 
 def india_sources(include_disabled=False):

@@ -25,7 +25,8 @@ from classify import classify                             # noqa: E402
 from common import clean, norm_title, today               # noqa: E402
 from geo import locate                                     # noqa: E402
 import sources as G                                        # noqa: E402
-from sources_india import india_sources, scrape_issue_intake, scrape_watchlist  # noqa: E402
+from sources_india import (empty_ok_names, india_sources, scrape_issue_intake,  # noqa: E402
+                           scrape_watchlist)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVENTS = os.path.join(ROOT, "docs", "events.json")
@@ -87,12 +88,13 @@ def run_sources(prev_health):
                                                   ("Added by you", scrape_issue_intake, 0)]
     raw, health = [], []
     prev = {h["name"]: h for h in prev_health or []}
+    quiet_ok = MANUAL | empty_ok_names()
     for name, fn, min_exp in registry:
         t0 = time.time()
         try:
             batch = fn() or []
             status = "ok" if len(batch) >= max(1, min_exp) else ("low" if batch else "empty")
-            if name in MANUAL and not batch:
+            if name in quiet_ok and not batch:
                 status = "ok"
             msg = ""
         except Exception as exc:

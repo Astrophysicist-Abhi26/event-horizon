@@ -51,8 +51,9 @@ Indian institutes are listed in `scraper/institutes.yaml`; each entry picks an a
 
 | Region | Institutes |
 |---|---|
-| Bengaluru | ICTS · IISc (Physics calendars, conferences, schools; Mathematics seminars; EE / CSA / CDS) · RRI (talks, meetings) · IIA (Indico, colloquia) · JNCASR (events, TSU) |
-| Rest of India | IUCAA · ASI · IMSc · TIFR DAA · NCRA / TIFR Indico |
+| Bengaluru | ICTS · IISc (Physics calendars, conferences, schools; Mathematics seminars; EE / CDS) · RRI (talks, meetings) · IIA (Indico seminars & meetings, via iCal) · JNCASR (events, TSU) |
+| Rest of India | IUCAA · ASI announcements · TIFR DAA (events list + seminar calendar) · NCRA Indico |
+| Parked (`enabled: false`) | IMSc (Cloudflare bot wall) · TIFR Indico (host unreachable) · IISc CSA (JavaScript-only page) |
 
 Check every institute source from your own (Indian) network with `python scraper/doctor.py`.
 
