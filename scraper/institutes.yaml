@@ -200,11 +200,17 @@ sources:
 
   - name: TIFR Astronomy & Astrophysics (DAA)
     kind: listing
-    urls:                    # events.html is only an index page
-      - https://www.tifr.res.in/~daa/events_list.html
-      - https://www.tifr.res.in/~daa/events_scheduled.html
+    url: https://www.tifr.res.in/~daa/events_list.html   # events.html is only an index page
+    location: TIFR, Mumbai, India
+    checked: 2026-09-24      # conferences / workshops / schools
+
+  - name: TIFR DAA seminars
+    kind: google_calendar    # the calendar embedded on ~daa/events_scheduled.html
+    page: https://www.tifr.res.in/~daa/events_scheduled.html
+    calendar: bsnfr66t6k67q6iefp9tf39c4g@group.calendar.google.com
     location: TIFR, Mumbai, India
     type: seminar
+    checked: 2026-09-24
 
   - name: TIFR (Indico)
     kind: indico
