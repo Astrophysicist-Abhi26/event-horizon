@@ -1,0 +1,18 @@
+name: Source diagnostics (temporary)
+# Runs only on Claude's working branch; never on main, never deploys, never commits.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["scraper/diag_tmp.py", ".github/workflows/diag-tmp.yml"]
+permissions:
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python scraper/diag_tmp.py
