@@ -1,7 +1,7 @@
 /* Event Horizon service worker.
    Static assets: cache-first. Pages + events.json: network-first with
    cache fallback, so the app opens offline with the last known events. */
-const VERSION = "eh-v5.1";
+const VERSION = "eh-v5.3";
 const SHELL = ["./", "index.html", "bg-cosmos.svg", "bg-cosmos-light.svg", "manifest.webmanifest",
                "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
