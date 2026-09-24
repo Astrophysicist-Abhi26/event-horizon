@@ -1,0 +1,21 @@
+name: Source diagnostics (temporary)
+# Runs only on Claude's working branch; never on main, never deploys, never commits.
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["scraper/diag_tmp.py", ".github/workflows/diag-tmp.yml"]
+concurrency:
+  group: diag-tmp
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests beautifulsoup4 python-dateutil pyyaml
+      - run: python -u scraper/diag_tmp.py
