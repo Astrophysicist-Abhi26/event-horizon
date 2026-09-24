@@ -103,6 +103,8 @@ sources:
     base: https://www.csa.iisc.ac.in
     location: Department of Computer Science and Automation, IISc, Bengaluru, India
     type: seminar
+    enabled: false           # not a "The Events Calendar" site (REST route 404); events are rendered by JavaScript
+    checked: 2026-09-24
 
   - name: IISc CDS events
     kind: wp_events
@@ -130,20 +132,26 @@ sources:
     checked: 2026-09-24      # correct but often empty: nothing upcoming is announced yet
 
   # ── IIA ──────────────────────────────────────────────────────────────
-  - name: IIA (Indico)
-    kind: indico
-    base: https://events.iiap.res.in
-    category: 0
-    location: Indian Institute of Astrophysics, Bengaluru, India
-    insecure_ok: true        # v5 failed with an SSL error on this server
-    checked: 2026-09-24
-
-  - name: IIA colloquia & seminars
-    kind: listing
-    url: https://www.iiap.res.in/upcoming_colloquium.php
+  # All IIA talks and meetings live on its Indico server. Since 2026 its JSON
+  # export needs an API key, so read the categories' public iCal feeds.
+  # (The old www.iiap.res.in/upcoming_colloquium.php page is gone: 404.)
+  - name: IIA seminars & colloquia
+    kind: ical
+    url: https://events.iiap.res.in/category/6/events.ics
+    page: https://events.iiap.res.in/category/6/
     location: Indian Institute of Astrophysics, Bengaluru, India
     type: seminar
+    insecure_ok: true        # server ships an incomplete TLS chain
+    checked: 2026-09-24
+
+  - name: IIA meetings & conferences
+    kind: ical
+    url: https://events.iiap.res.in/category/3/events.ics
+    page: https://events.iiap.res.in/category/3/
+    location: Indian Institute of Astrophysics, Bengaluru, India
+    type: conference
     insecure_ok: true
+    checked: 2026-09-24
 
   # ── JNCASR ───────────────────────────────────────────────────────────
   - name: JNCASR events
@@ -187,10 +195,14 @@ sources:
     kind: listing
     url: https://www.imsc.res.in
     location: IMSc, Chennai, India
+    enabled: false           # behind a Cloudflare bot challenge ("Just a moment..."): unscrapable
+    checked: 2026-09-24
 
   - name: TIFR Astronomy & Astrophysics (DAA)
     kind: listing
-    url: https://www.tifr.res.in/~daa/events.html
+    urls:                    # events.html is only an index page
+      - https://www.tifr.res.in/~daa/events_list.html
+      - https://www.tifr.res.in/~daa/events_scheduled.html
     location: TIFR, Mumbai, India
     type: seminar
 
@@ -200,6 +212,7 @@ sources:
     category: 0
     location: TIFR, Mumbai, India
     insecure_ok: true
+    enabled: false           # host unreachable from GitHub (connection refused), 2026-09-24
 
   - name: NCRA-TIFR (Indico)
     kind: indico

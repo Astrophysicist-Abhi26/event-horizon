@@ -230,6 +230,15 @@ def _registry(include_disabled=False):
     return entries
 
 
+FEED_KINDS = {"ical", "google_calendar", "wp_events", "indico"}
+
+
+def empty_ok_names():
+    """Structured feeds answer authoritatively: zero upcoming events from a feed
+    that responded means "nothing announced", not "scraper broken"."""
+    return {e["name"] for e in _registry(True) if e.get("kind", "listing") in FEED_KINDS}
+
+
 def india_sources(include_disabled=False):
     """-> list of (name, fn, min_expected)"""
     out = []
