@@ -8,9 +8,16 @@ import sources_india as SI
 
 PAGES = sys.argv[1:] or []
 
+import requests
+from concurrent.futures import ThreadPoolExecutor
+import io, contextlib
+import urllib3
+urllib3.disable_warnings()
+
 def fetch(url, browser=False, verify=True):
     try:
-        r = HTTP.get(url, timeout=30, verify=verify, headers=_BROWSER_HEADERS if browser else {})
+        r = requests.get(url, timeout=(10, 20), verify=verify,
+                         headers=_BROWSER_HEADERS if browser else {"User-Agent": HTTP.headers["User-Agent"]})
         return r
     except Exception as e:
         print(f"   !! {e.__class__.__name__}: {str(e)[:200]}")
@@ -60,8 +67,17 @@ def listing(name):
     except Exception as e:
         print("   !!", e.__class__.__name__, str(e)[:300])
 
+def captured(fn, *a, **k):
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        try:
+            fn(*a, **k)
+        except Exception as e:
+            print("   !! crashed", e)
+    return buf.getvalue()
+
 if __name__ == "__main__":
-    for u in [
+    URLS = [
         "https://www.iiap.res.in/",
         "https://www.iiap.res.in/upcoming_colloquium.php",
         "https://events.iiap.res.in/",
@@ -89,10 +105,12 @@ if __name__ == "__main__":
         "https://www.rri.res.in/meetings",
         "https://www.jncasr.ac.in/research/research-units/theoretical-sciences-unit/events",
         "https://researchseminars.org/api/0/search/series?is_conference=true&visibility=2",
-    ]:
-        show(u)
-    show("https://www.imsc.res.in/", browser=True)
-    for n in ["RRI meetings", "RRI talks", "JNCASR Theoretical Sciences Unit", "JNCASR events",
+    ]
+    jobs = [(show, (u,), {}) for u in URLS] + [(show, ("https://www.imsc.res.in/",), {"browser": True})]
+    NAMES = ["RRI meetings", "RRI talks", "JNCASR Theoretical Sciences Unit", "JNCASR events",
               "IUCAA (events outside IUCAA)", "IISc Mathematics seminars", "IISc (institute events)",
-              "IISc Physics (department calendars)"]:
-        listing(n)
+              "IISc Physics (department calendars)"]
+    jobs += [(listing, (n,), {}) for n in NAMES]
+    with ThreadPoolExecutor(12) as ex:
+        for out in ex.map(lambda j: captured(j[0], *j[1], **j[2]), jobs):
+            print(out, flush=True)
