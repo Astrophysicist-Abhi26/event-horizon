@@ -16,7 +16,7 @@ urllib3.disable_warnings()
 
 def fetch(url, browser=False, verify=True):
     try:
-        r = requests.get(url, timeout=(10, 20), verify=verify,
+        r = requests.get(url, timeout=(6, 15), verify=verify,
                          headers=_BROWSER_HEADERS if browser else {"User-Agent": HTTP.headers["User-Agent"]})
         return r
     except Exception as e:
@@ -78,39 +78,27 @@ def captured(fn, *a, **k):
 
 if __name__ == "__main__":
     URLS = [
-        "https://www.iiap.res.in/",
-        "https://www.iiap.res.in/upcoming_colloquium.php",
-        "https://events.iiap.res.in/",
-        "https://events.iiap.res.in/export/categ/0.json?from=today&to=+400d",
-        "https://events.iiap.res.in/indico/",
+        "https://events.iiap.res.in/category/6/events.ics",
+        "https://events.iiap.res.in/category/3/events.ics",
+        "https://events.iiap.res.in/category/6/",
+        "https://events.iiap.res.in/event/471/",
+        "https://conf1.ncra.tifr.res.in/category/0/events.ics",
+        "https://conf1.ncra.tifr.res.in/",
         "https://physics.iisc.ac.in/events-all/conferences/",
         "https://physics.iisc.ac.in/events-all/schools/",
-        "https://physics.iisc.ac.in/events-all/",
-        "https://ee.iisc.ac.in/wp-json/tribe/events/v1/events",
-        "https://ee.iisc.ac.in/events/?ical=1",
-        "https://ee.iisc.ac.in/",
-        "https://www.csa.iisc.ac.in/wp-json/tribe/events/v1/events",
-        "https://www.csa.iisc.ac.in/events/?ical=1",
+        "https://ee.iisc.ac.in/event-directory/",
         "https://www.csa.iisc.ac.in/",
-        "https://www.imsc.res.in/",
+        "https://www.csa.iisc.ac.in/events/",
+        "https://www.csa.iisc.ac.in/seminars/",
+        "https://cds.iisc.ac.in/events/",
         "https://www.tifr.res.in/~daa/events.html",
-        "https://www.tifr.res.in/~daa/",
-        "https://indico.tifr.res.in/",
-        "https://indico.tifr.res.in/indico/",
-        "https://conf1.ncra.tifr.res.in/",
-        "https://conf1.ncra.tifr.res.in/export/categ/0.json?from=today&to=+400d",
         "https://www.iucaa.in/en/other-info/9-upcoming-events-at-iucaa",
-        "https://www.iucaa.in/en/iucaa-events/events-outside-iucaa",
         "https://www.astron-soc.in/announcement",
-        "https://www.rri.res.in/meetings",
         "https://www.jncasr.ac.in/research/research-units/theoretical-sciences-unit/events",
-        "https://researchseminars.org/api/0/search/series?is_conference=true&visibility=2",
+        "https://www.rri.res.in/meetings",
     ]
-    jobs = [(show, (u,), {}) for u in URLS] + [(show, ("https://www.imsc.res.in/",), {"browser": True})]
-    NAMES = ["RRI meetings", "RRI talks", "JNCASR Theoretical Sciences Unit", "JNCASR events",
-              "IUCAA (events outside IUCAA)", "IISc Mathematics seminars", "IISc (institute events)",
-              "IISc Physics (department calendars)"]
-    jobs += [(listing, (n,), {}) for n in NAMES]
-    with ThreadPoolExecutor(12) as ex:
-        for out in ex.map(lambda j: captured(j[0], *j[1], **j[2]), jobs):
-            print(out, flush=True)
+    for u in URLS:
+        show(u, n_links=70)
+    for n in ["RRI meetings", "RRI talks", "JNCASR Theoretical Sciences Unit", "IUCAA (events outside IUCAA)",
+              "IISc Mathematics seminars", "IISc Physics (department calendars)"]:
+        listing(n)
